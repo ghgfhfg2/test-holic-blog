@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const testId = window.TEST_ID;
   const resultsPath = window.RESULTS_PATH || '/';
+  const dataPath = window.DATA_PATH || '/data/';
 
   if(!testId) return; // Only execute if test data is indicated
 
@@ -16,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const totalQSpan = document.getElementById("total-q");
 
   // Load questions data from JSON endpoint
-  fetch(`/data/${testId}.json`)
+  fetch(`${dataPath}${testId}.json`)
     .then(res => {
       if(!res.ok) throw new Error("Network error");
       return res.json();

@@ -25,4 +25,4 @@ layout: default
   window.RESULTS_PATH = "{{ '/animal-test/result/' | relative_url }}"; // Defaults to animal-test for now, will be dynamic
   window.DATA_PATH = "{{ '/data/' | relative_url }}";
 </script>
-<script src="{{ '/assets/js/test_engine.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/test_engine.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

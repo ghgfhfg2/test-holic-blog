@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="test-container" id="test-app">
+  <div class="test-header">
+    <h1 class="test-title">{{ page.title }}</h1>
+    <div class="progress-bar-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div class="progress-text"><span id="current-q">1</span> / <span id="total-q">?</span></div>
+  </div>
+
+  <div class="question-container">
+    <h2 id="question-text">질문이 이곳에 표시됩니다.</h2>
+  </div>
+
+  <div class="options-container" id="options-container">
+    <!-- Options injected by JS -->
+  </div>
+</div>
+
+<!-- Load Quiz Data (JSON parsed to JS object) -->
+<script>
+  window.TEST_ID = "{{ page.test_id }}";
+  window.RESULTS_PATH = "{{ '/animal-test/result/' | relative_url }}"; // Defaults to animal-test for now, will be dynamic
+</script>
+<script src="{{ '/assets/js/test_engine.js' | relative_url }}"></script>

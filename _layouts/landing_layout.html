@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="landing-container">
+  <h1>{{ page.title }}</h1>
+  
+  <div class="landing-image">
+    {{ page.landing_emoji | default: "✨" }}
+  </div>
+  
+  <div class="landing-desc content-area">
+    {{ content }}
+  </div>
+  
+  <!-- We assume the active test engine file is play.html relative to this dir -->
+  <a href="play.html" class="btn btn-primary">테스트 시작하기</a>
+</div>

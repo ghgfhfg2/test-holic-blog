@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       // Redirect to the assigned outcome page based on type
-      window.location.href = `${resultsPath}${maxType}/`;
+      window.location.href = `${resultsPath}${maxType}.html`;
     }, 400); // Wait for progress bar animation to hit 100%
   }
 });

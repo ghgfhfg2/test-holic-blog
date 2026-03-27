@@ -22,7 +22,7 @@ layout: default
 <!-- Load Quiz Data (JSON parsed to JS object) -->
 <script>
   window.TEST_ID = "{{ page.test_id }}";
-  window.RESULTS_PATH = "{{ '/animal-test/result/' | relative_url }}"; // Defaults to animal-test for now, will be dynamic
+  window.RESULTS_PATH = "{{ page.results_path | default: page.test_id | prepend: '/' | append: '/result/' | relative_url }}";
   window.DATA_PATH = "{{ '/data/' | relative_url }}";
 </script>
 <script src="{{ '/assets/js/test_engine.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

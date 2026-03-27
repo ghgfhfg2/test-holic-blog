@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "text": "처음 간 모임에 도착한 당신, 가장 먼저 보이는 모습은?",
+      "options": [
+        { "text": "근처 사람에게 먼저 가볍게 말을 건다", "type": "cheerful", "value": 2 },
+        { "text": "조용히 전체 분위기를 한번 훑어본다", "type": "trust", "value": 2 },
+        { "text": "자연스럽게 웃으며 눈인사를 건넨다", "type": "warm", "value": 2 },
+        { "text": "깔끔하게 자리 잡고 여유 있게 주변을 본다", "type": "chic", "value": 2 }
+      ]
+    },
+    {
+      "text": "처음 보는 사람과 대화가 시작되면 나는?",
+      "options": [
+        { "text": "상대가 편해지도록 리액션을 크게 해준다", "type": "warm", "value": 2 },
+        { "text": "핵심을 잘 짚는 질문으로 대화를 이어간다", "type": "trust", "value": 2 },
+        { "text": "분위기가 가벼워지도록 농담을 섞는다", "type": "cheerful", "value": 2 },
+        { "text": "말수를 아끼지만 한마디 한마디가 또렷하다", "type": "chic", "value": 2 }
+      ]
+    },
+    {
+      "text": "약속 장소에 갈 때 내 스타일에 더 가까운 것은?",
+      "options": [
+        { "text": "편안하지만 부드러운 인상의 옷차림", "type": "warm", "value": 2 },
+        { "text": "과하지 않게 정돈된 단정한 룩", "type": "trust", "value": 2 },
+        { "text": "작은 포인트가 살아 있는 센스 있는 룩", "type": "chic", "value": 2 },
+        { "text": "움직이기 편하고 밝은 에너지의 캐주얼 룩", "type": "cheerful", "value": 2 }
+      ]
+    },
+    {
+      "text": "사람들이 내게 가장 자주 하는 첫 반응은?",
+      "options": [
+        { "text": "생각보다 되게 편안한 사람이네요", "type": "warm", "value": 2 },
+        { "text": "엄청 똑 부러져 보이세요", "type": "trust", "value": 2 },
+        { "text": "차분한데 분위기가 세련됐어요", "type": "chic", "value": 2 },
+        { "text": "같이 있으면 재밌을 것 같아요", "type": "cheerful", "value": 2 }
+      ]
+    },
+    {
+      "text": "낯선 환경에서 실수했을 때 나는?",
+      "options": [
+        { "text": "민망해도 웃으며 자연스럽게 넘긴다", "type": "cheerful", "value": 2 },
+        { "text": "차분히 정리하고 바로 수습한다", "type": "trust", "value": 2 },
+        { "text": "괜찮다고 말하며 주변 사람부터 챙긴다", "type": "warm", "value": 2 },
+        { "text": "티 나지 않게 빠르게 정돈한다", "type": "chic", "value": 2 }
+      ]
+    },
+    {
+      "text": "처음 만나는 사람과 사진을 찍게 된다면?",
+      "options": [
+        { "text": "다 같이 편하게 웃을 수 있게 분위기를 띄운다", "type": "cheerful", "value": 2 },
+        { "text": "어색한 사람 없게 자연스럽게 배려한다", "type": "warm", "value": 2 },
+        { "text": "구도나 표정이 깔끔하게 나오도록 맞춘다", "type": "chic", "value": 2 },
+        { "text": "흐트러지지 않게 차분히 자리부터 정리한다", "type": "trust", "value": 2 }
+      ]
+    },
+    {
+      "text": "새로운 팀플이나 프로젝트에서 나는 보통?",
+      "options": [
+        { "text": "처음 어색함을 깨는 아이스브레이커 역할", "type": "cheerful", "value": 2 },
+        { "text": "전체 흐름을 파악하고 기준을 세우는 역할", "type": "trust", "value": 2 },
+        { "text": "사람들 사이 온도를 맞추는 연결 역할", "type": "warm", "value": 2 },
+        { "text": "결과물의 완성도를 끌어올리는 감각 담당", "type": "chic", "value": 2 }
+      ]
+    },
+    {
+      "text": "처음 본 사람이 나를 오래 기억하는 이유는?",
+      "options": [
+        { "text": "이상하게 같이 있으면 마음이 놓여서", "type": "warm", "value": 2 },
+        { "text": "믿고 맡길 수 있을 것 같은 안정감 때문에", "type": "trust", "value": 2 },
+        { "text": "말투와 분위기에서 감각적인 인상이 남아서", "type": "chic", "value": 2 },
+        { "text": "에너지가 밝고 재미있어서", "type": "cheerful", "value": 2 }
+      ]
+    }
+  ]
+}

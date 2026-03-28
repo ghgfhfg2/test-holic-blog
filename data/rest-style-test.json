@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "text": "유난히 지친 하루 끝, 가장 먼저 하고 싶은 건?",
+      "options": [
+        { "text": "아무 말 없이 혼자 조용히 쉬기", "type": "quiet-reset", "value": 2 },
+        { "text": "친한 사람에게 연락해서 수다 떨기", "type": "social-recharge", "value": 2 },
+        { "text": "내일 일정부터 정리하고 마음을 비우기", "type": "planned-reboot", "value": 2 },
+        { "text": "좋아하는 향·음악·간식으로 기분 전환하기", "type": "sensory-escape", "value": 2 }
+      ]
+    },
+    {
+      "text": "주말에 갑자기 시간이 비면 당신은?",
+      "options": [
+        { "text": "혼자만의 루틴으로 천천히 회복한다", "type": "quiet-reset", "value": 2 },
+        { "text": "만날 사람을 찾아 바로 약속을 잡는다", "type": "social-recharge", "value": 2 },
+        { "text": "밀린 일과 해야 할 일을 먼저 끝낸다", "type": "planned-reboot", "value": 2 },
+        { "text": "카페, 드라이브, 쇼핑처럼 분위기 좋은 곳으로 간다", "type": "sensory-escape", "value": 2 }
+      ]
+    },
+    {
+      "text": "스트레스가 쌓였을 때 제일 예민해지는 포인트는?",
+      "options": [
+        { "text": "혼자 생각할 시간이 없을 때", "type": "quiet-reset", "value": 2 },
+        { "text": "마음을 털어놓을 사람이 없을 때", "type": "social-recharge", "value": 2 },
+        { "text": "할 일이 정리되지 않고 엉켜 있을 때", "type": "planned-reboot", "value": 2 },
+        { "text": "공간 분위기나 컨디션이 답답할 때", "type": "sensory-escape", "value": 2 }
+      ]
+    },
+    {
+      "text": "나를 가장 빨리 회복시키는 말은?",
+      "options": [
+        { "text": "지금은 그냥 쉬어도 괜찮아", "type": "quiet-reset", "value": 2 },
+        { "text": "같이 밥 먹으면서 얘기하자", "type": "social-recharge", "value": 2 },
+        { "text": "하나씩 정리하면 금방 괜찮아질 거야", "type": "planned-reboot", "value": 2 },
+        { "text": "좋아하는 거 하면서 기분부터 풀자", "type": "sensory-escape", "value": 2 }
+      ]
+    },
+    {
+      "text": "쉬는 날 당신이 더 끌리는 선택은?",
+      "options": [
+        { "text": "불 끄고 이불 속에서 푹 쉬기", "type": "quiet-reset", "value": 2 },
+        { "text": "좋아하는 사람들과 브런치나 수다 타임", "type": "social-recharge", "value": 2 },
+        { "text": "청소·정리·계획 세우기로 생활 리셋", "type": "planned-reboot", "value": 2 },
+        { "text": "새로운 장소에서 기분 좋은 자극 받기", "type": "sensory-escape", "value": 2 }
+      ]
+    },
+    {
+      "text": "갑자기 약속이 취소됐다면 속마음은?",
+      "options": [
+        { "text": "오히려 좋아, 혼자 쉴 시간이 생겼네", "type": "quiet-reset", "value": 2 },
+        { "text": "아쉽다, 다른 사람이라도 만나고 싶다", "type": "social-recharge", "value": 2 },
+        { "text": "비는 시간에 할 일을 채워 넣는다", "type": "planned-reboot", "value": 2 },
+        { "text": "그럼 혼자라도 기분 전환하러 나간다", "type": "sensory-escape", "value": 2 }
+      ]
+    },
+    {
+      "text": "기분이 바닥일 때 가장 믿게 되는 것은?",
+      "options": [
+        { "text": "침묵과 휴식이 결국 날 살린다", "type": "quiet-reset", "value": 2 },
+        { "text": "사람이 주는 온기가 제일 큰 힘이다", "type": "social-recharge", "value": 2 },
+        { "text": "질서를 되찾으면 마음도 따라온다", "type": "planned-reboot", "value": 2 },
+        { "text": "작은 즐거움이 생각보다 크게 회복시킨다", "type": "sensory-escape", "value": 2 }
+      ]
+    },
+    {
+      "text": "지금 당신에게 가장 필요한 휴식은?",
+      "options": [
+        { "text": "혼자만의 고요한 충전 시간", "type": "quiet-reset", "value": 2 },
+        { "text": "좋아하는 사람들과의 따뜻한 연결", "type": "social-recharge", "value": 2 },
+        { "text": "삶을 다시 정돈하는 계획형 리셋", "type": "planned-reboot", "value": 2 },
+        { "text": "감각을 깨우는 기분 좋은 탈출", "type": "sensory-escape", "value": 2 }
+      ]
+    }
+  ]
+}

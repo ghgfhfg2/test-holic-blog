@@ -4,35 +4,74 @@ title: 재미있는 심리테스트 모음
 description: 내 안의 진짜 모습을 발견하는 다양한 성격/심리 테스트를 즐겨보세요!
 # deploy retrigger: 2026-03-27 11:05 KST
 ---
+{% assign all_tests = site.html_pages | where: 'layout', 'landing_layout' | sort: 'published_at' | reverse %}
+{% assign featured_tests = all_tests | slice: 0, 5 %}
 <div class="home-wrapper">
-  <section class="hero">
-    <h1>어떤 테스트를 찾으시나요?</h1>
-    <p>나를 알아가는 가장 재밌는 방법!</p>
+  <section class="hero hero-home">
+    <span class="eyebrow">PSYCHOLOGY TEST COLLECTION</span>
+    <h1>지금 해보기 좋은 테스트만 먼저 보여드릴게요</h1>
+    <p>홈은 짧고 가볍게, 전체 목록은 따로 보는 구조로 정리했어요.</p>
   </section>
-  
-  <section class="test-list">
-    <a href="{{ '/animal-test/' | relative_url }}" class="test-card">
-      <div class="test-thumb">🐶</div>
-      <div class="test-info">
-        <h3>내 안에 숨겨진 동물 찾기</h3>
-        <p>4문항으로 빠르게 알아보는 나의 찐 성격 유형!</p>
-      </div>
-    </a>
 
-    <a href="{{ '/first-impression-test/' | relative_url }}" class="test-card">
-      <div class="test-thumb">✨</div>
-      <div class="test-info">
-        <h3>처음 만난 사람은 왜 나를 기억할까?</h3>
-        <p>8문항으로 알아보는 내가 풍기는 첫인상 무드 테스트</p>
+  <section class="home-section">
+    <div class="section-heading">
+      <div>
+        <h2>지금 인기/최신 테스트</h2>
+        <p>먼저 해보기 좋은 테스트만 골라서 보여줘요</p>
       </div>
-    </a>
+      <span class="section-count">{{ all_tests | size }}개 테스트</span>
+    </div>
 
-    <a href="{{ '/rest-style-test/' | relative_url }}" class="test-card">
-      <div class="test-thumb">🌙</div>
-      <div class="test-info">
-        <h3>지금 내 마음이 진짜 원하는 휴식은?</h3>
-        <p>8문항으로 알아보는 나의 회복 방식 테스트</p>
+    <div class="test-list">
+      {% for test in featured_tests %}
+      <a href="{{ test.url | relative_url }}" class="test-card">
+        <div class="test-thumb">{{ test.landing_emoji | default: '🧠' }}</div>
+        <div class="test-info">
+          <div class="test-meta-row">
+            {% if forloop.first %}<span class="chip chip-primary">NEW</span>{% endif %}
+            {% if test.published_at %}<span class="chip">{{ test.published_at | date: "%m.%d" }}</span>{% endif %}
+          </div>
+          <h3>{{ test.title }}</h3>
+          <p>{{ test.summary | default: test.description }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="home-section summary-panel">
+    <div class="summary-card">
+      <strong>{{ all_tests | size }}</strong>
+      <span>전체 테스트</span>
+    </div>
+    <div class="summary-card">
+      <strong>{{ featured_tests | size }}</strong>
+      <span>홈 노출 개수</span>
+    </div>
+    <div class="summary-card summary-card-wide">
+      <strong>전체 목록은 따로 보기</strong>
+      <span>스크롤이 길어지지 않도록 아카이브 페이지로 분리했어요</span>
+    </div>
+  </section>
+
+  <section class="home-section archive-preview">
+    <div class="section-heading">
+      <div>
+        <h2>전체 테스트 보관함</h2>
+        <p>모든 테스트는 별도 목록에서 한 번에 찾을 수 있어요</p>
       </div>
-    </a>
+    </div>
+
+    <div class="archive-list compact-list">
+      {% for test in all_tests limit:3 %}
+      <a href="{{ test.url | relative_url }}" class="archive-item">
+        <span class="archive-emoji">{{ test.landing_emoji | default: '🧠' }}</span>
+        <span class="archive-title">{{ test.title }}</span>
+        <span class="archive-arrow">→</span>
+      </a>
+      {% endfor %}
+    </div>
+
+    <a href="{{ '/tests/' | relative_url }}" class="btn btn-secondary">전체 테스트 목록 보기</a>
   </section>
 </div>

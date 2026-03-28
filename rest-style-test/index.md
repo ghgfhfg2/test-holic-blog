@@ -3,6 +3,8 @@ layout: landing_layout
 title: 지금 내 마음이 진짜 원하는 휴식은?
 landing_emoji: 🌙
 description: 지친 순간마다 내가 진짜 회복되는 방식이 무엇인지 8문항으로 알아보는 휴식 성향 테스트
+published_at: 2026-03-28
+summary: 8문항으로 알아보는 나의 회복 방식 테스트
 ---
 괜히 아무거나 쉬어도 피로가 안 풀릴 때가 있죠.
 

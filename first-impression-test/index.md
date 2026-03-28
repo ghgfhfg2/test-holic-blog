@@ -3,6 +3,8 @@ layout: landing_layout
 title: 처음 만난 사람은 왜 나를 기억할까?
 landing_emoji: ✨
 description: 첫 대면에서 내가 어떤 분위기로 남는지 8문항으로 알아보는 첫인상 무드 테스트
+published_at: 2026-03-27
+summary: 8문항으로 알아보는 내가 풍기는 첫인상 무드 테스트
 ---
 가볍게 시작했는데 은근 정확하다는 그 느낌.
 

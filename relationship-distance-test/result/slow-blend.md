@@ -1,10 +1,10 @@
 ---
 layout: result_layout
 test_title: 관계 거리감 테스트
-result_name: 천천히 스며드는형
+result_name: 천천히 가까워지는형
 result_emoji: 🌿
 result_image: ""
-title: "관계 거리감 테스트 결과 - 천천히 스며드는형"
+title: "관계 거리감 테스트 결과 - 천천히 가까워지는형"
 description: "당신은 서두르지 않고 자연스럽게 가까워질 때 가장 편안한 천천히 가까워지는형입니다."
 ---
 ### 속도보다 흐름이 중요한 사람

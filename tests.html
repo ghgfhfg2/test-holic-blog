@@ -25,7 +25,7 @@ permalink: /tests/
           <strong>{{ test.title }}</strong>
           <small>{{ test.summary | default: test.description }}</small>
         </span>
-        {% if test.published_at %}<span class="archive-date">{{ test.published_at | date: "%Y.%m.%d" }}</span>{% endif %}
+
       </a>
       {% endfor %}
     </div>

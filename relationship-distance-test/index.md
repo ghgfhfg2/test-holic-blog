@@ -3,7 +3,7 @@ layout: landing_layout
 title: 요즘 내가 편한 인간관계 거리감은?
 landing_emoji: 🫧
 description: 사람과 가까워지는 속도와 선호하는 관계 온도를 8문항으로 알아보는 관계 거리감 테스트
-published_at: 2026-03-30
+published_at: 2026-03-29
 summary: 8문항으로 알아보는 내 인간관계 거리감 성향 테스트
 ---
 가까운 게 무조건 편한 것도, 적당한 거리가 무조건 차가운 것도 아니죠.

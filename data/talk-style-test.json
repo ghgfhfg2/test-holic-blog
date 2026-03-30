@@ -1,75 +1,75 @@
 {
   "questions": [
     {
-      "text": "좋아하는 사람에게 처음 연락할 때 나는?",
+      "text": "좋아하는 사람과 DM 창을 열었을 때, 첫 문장으로 가장 나오기 쉬운 건?",
       "options": [
-        { "text": "장난스럽게 가볍게 말을 건다", "type": "playful-crush", "value": 2 },
-        { "text": "반응을 조금 보다가 천천히 시작한다", "type": "slow-open", "value": 2 },
-        { "text": "보고 싶었던 듯 자연스럽게 먼저 말을 건다", "type": "direct-warm", "value": 2 },
-        { "text": "부담 없게 조심스럽게 안부부터 묻는다", "type": "quiet-care", "value": 2 }
+        { "text": "갑자기 웃긴 밈이나 장난 한마디부터 보낸다", "type": "playful-crush", "value": 2 },
+        { "text": "괜히 여러 번 썼다 지우고, 무난한 말로 시작한다", "type": "slow-open", "value": 2 },
+        { "text": "생각보다 별 망설임 없이 다정하게 안부를 묻는다", "type": "direct-warm", "value": 2 },
+        { "text": "상대가 부담 없을 만한 톤인지 먼저 조심스럽게 고른다", "type": "quiet-care", "value": 2 }
       ]
     },
     {
-      "text": "상대가 다정하게 답장하면 내 반응은?",
+      "text": "상대 답장이 평소보다 조금 다정하면 내 텐션은?",
       "options": [
-        { "text": "상대 기분을 살피며 조곤조곤 이어간다", "type": "quiet-care", "value": 2 },
-        { "text": "나도 바로 따뜻하게 받아친다", "type": "direct-warm", "value": 2 },
-        { "text": "좋지만 티는 조금만 내며 천천히 맞춘다", "type": "slow-open", "value": 2 },
-        { "text": "괜히 더 웃기게 답해서 분위기를 띄운다", "type": "playful-crush", "value": 2 }
+        { "text": "혹시 부담스러울까 싶어 말투를 더 부드럽게 맞춘다", "type": "quiet-care", "value": 2 },
+        { "text": "나도 바로 온도를 맞춰서 더 다정해진다", "type": "direct-warm", "value": 2 },
+        { "text": "좋긴 한데 티는 줄이고 흐름부터 더 지켜본다", "type": "slow-open", "value": 2 },
+        { "text": "괜히 더 놀리거나 농담하면서 설렘을 숨긴다", "type": "playful-crush", "value": 2 }
       ]
     },
     {
-      "text": "호감이 생겼을 때 대화에서 가장 신경 쓰는 건?",
+      "text": "대화가 끊길 듯할 때 내가 더 자주 쓰는 방식은?",
       "options": [
-        { "text": "너무 급하지 않은 흐름인지", "type": "slow-open", "value": 2 },
-        { "text": "둘 사이 분위기가 재밌는지", "type": "playful-crush", "value": 2 },
-        { "text": "상대가 편안하게 느끼는지", "type": "quiet-care", "value": 2 },
-        { "text": "내 마음이 잘 전달되는지", "type": "direct-warm", "value": 2 }
+        { "text": "급하게 이어가기보다 다음 대화 타이밍을 기다린다", "type": "slow-open", "value": 2 },
+        { "text": "짤이나 농담으로 다시 분위기를 띄운다", "type": "playful-crush", "value": 2 },
+        { "text": "상대가 편하게 이어갈 수 있는 질문을 던진다", "type": "quiet-care", "value": 2 },
+        { "text": "내 얘기나 감정을 조금 더 꺼내며 문을 연다", "type": "direct-warm", "value": 2 }
       ]
     },
     {
-      "text": "좋아하는 사람이 힘들어 보일 때 나는?",
+      "text": "좋아하는 사람이 힘들어 보일 때 가장 먼저 나오는 반응은?",
       "options": [
-        { "text": "부담되지 않게 옆에 머물며 반응을 본다", "type": "slow-open", "value": 2 },
-        { "text": "기분 풀리게 웃긴 얘기를 꺼낸다", "type": "playful-crush", "value": 2 },
-        { "text": "직접적으로 걱정된다고 표현한다", "type": "direct-warm", "value": 2 },
-        { "text": "필요한 게 있는지 조용히 챙긴다", "type": "quiet-care", "value": 2 }
+        { "text": "바로 위로를 쏟기보다 옆에 있어도 되는지부터 본다", "type": "slow-open", "value": 2 },
+        { "text": "조금이라도 웃게 만들고 싶어서 가볍게 말을 건다", "type": "playful-crush", "value": 2 },
+        { "text": "걱정된다는 말을 분명하게 전하고 챙긴다", "type": "direct-warm", "value": 2 },
+        { "text": "필요한 게 있는지 조용히 묻고 세세하게 살핀다", "type": "quiet-care", "value": 2 }
       ]
     },
     {
-      "text": "둘만 대화할 때 내가 편한 텐션은?",
+      "text": "둘이 대화할 때 내가 은근히 중요하게 보는 건?",
       "options": [
-        { "text": "잔잔하고 따뜻한 대화", "type": "quiet-care", "value": 2 },
-        { "text": "장난과 플러팅이 섞인 대화", "type": "playful-crush", "value": 2 },
-        { "text": "조금씩 가까워지는 탐색형 대화", "type": "slow-open", "value": 2 },
-        { "text": "솔직하고 다정한 대화", "type": "direct-warm", "value": 2 }
+        { "text": "상대가 편안해서 말이 잘 풀리는지", "type": "quiet-care", "value": 2 },
+        { "text": "티키타카가 살아 있고 웃음이 있는지", "type": "playful-crush", "value": 2 },
+        { "text": "갑자기 빨라지지 않고 자연스럽게 가까워지는지", "type": "slow-open", "value": 2 },
+        { "text": "내 호감이 너무 숨겨지진 않는지", "type": "direct-warm", "value": 2 }
       ]
     },
     {
-      "text": "상대가 내 말투를 떠올린다면 가장 가까운 이미지는?",
+      "text": "좋아하는 사람이 내 대화를 떠올린다면 어떤 느낌에 가까울까?",
       "options": [
-        { "text": "천천히 스며드는 사람", "type": "slow-open", "value": 2 },
-        { "text": "편안하고 세심한 사람", "type": "quiet-care", "value": 2 },
-        { "text": "자꾸 웃게 만드는 사람", "type": "playful-crush", "value": 2 },
-        { "text": "다정하고 표현을 아끼지 않는 사람", "type": "direct-warm", "value": 2 }
+        { "text": "처음엔 조용한데 갈수록 진심이 보이는 느낌", "type": "slow-open", "value": 2 },
+        { "text": "말 한마디 한마디에 배려가 들어 있는 느낌", "type": "quiet-care", "value": 2 },
+        { "text": "자꾸 피식 웃게 되는 재밌는 느낌", "type": "playful-crush", "value": 2 },
+        { "text": "생각보다 따뜻하고 솔직한 느낌", "type": "direct-warm", "value": 2 }
       ]
     },
     {
-      "text": "호감 있는 사람과의 대화가 오래 가는 이유는 보통?",
+      "text": "호감 있는 사람과 대화가 오래 이어지는 순간은 보통 언제야?",
       "options": [
-        { "text": "가볍고 재밌는 분위기를 만들기 때문", "type": "playful-crush", "value": 2 },
-        { "text": "상대가 편히 말할 수 있게 들어주기 때문", "type": "quiet-care", "value": 2 },
-        { "text": "조심스럽지만 꾸준히 흐름을 이어가기 때문", "type": "slow-open", "value": 2 },
-        { "text": "내가 먼저 따뜻하게 문을 열기 때문", "type": "direct-warm", "value": 2 }
+        { "text": "장난 한마디가 잘 먹혀서 분위기가 편해졌을 때", "type": "playful-crush", "value": 2 },
+        { "text": "상대가 편하게 자기 얘기를 꺼내기 시작할 때", "type": "quiet-care", "value": 2 },
+        { "text": "조금 느려도 꾸준히 이어지면서 서로 익숙해질 때", "type": "slow-open", "value": 2 },
+        { "text": "서로 호감 섞인 다정함을 자연스럽게 주고받을 때", "type": "direct-warm", "value": 2 }
       ]
     },
     {
-      "text": "좋아하는 사람 앞에서 내 말투 한 줄 요약은?",
+      "text": "결국 좋아하는 사람 앞에서 내 말투를 제일 잘 설명하는 건?",
       "options": [
-        { "text": "크게 티 안 내도 배려가 묻어난다", "type": "quiet-care", "value": 2 },
-        { "text": "생각보다 꽤 다정하고 솔직하다", "type": "direct-warm", "value": 2 },
-        { "text": "쉽게 열리진 않지만 점점 진심이 보인다", "type": "slow-open", "value": 2 },
-        { "text": "장난인 척하지만 호감이 다 묻어난다", "type": "playful-crush", "value": 2 }
+        { "text": "크게 드러내지 않아도 챙김이 은근히 묻어난다", "type": "quiet-care", "value": 2 },
+        { "text": "생각보다 감정 표현이 빠르고 솔직한 편이다", "type": "direct-warm", "value": 2 },
+        { "text": "조심스럽지만 시간 지나면 진심이 또렷해진다", "type": "slow-open", "value": 2 },
+        { "text": "장난처럼 보여도 사실 호감이 제일 많이 새어 나온다", "type": "playful-crush", "value": 2 }
       ]
     }
   ]

@@ -1,75 +1,39 @@
 {
   "questions": [
     {
-      "text": "친구와 만나자는 얘기가 나왔을 때 가장 먼저 드는 생각은?",
+      "text": "단톡에서 \"우리 언제 한 번 보자\"가 나오면 네 반응은?",
       "options": [
-        { "text": "일단 날짜부터 빠르게 잡고 보자", "type": "quick-push", "value": 2 },
-        { "text": "어디서 만나야 이동이 편할지부터 본다", "type": "route-planner", "value": 2 },
-        { "text": "상대가 편한 시간대를 먼저 물어본다", "type": "soft-coordinator", "value": 2 },
-        { "text": "확실히 정해질 때까지 괜히 마음이 붕 뜬다", "type": "confirm-lover", "value": 2 }
+        { "text": "날짜 몇 개 바로 던지면서 일단 판부터 깐다", "type": "quick-push", "value": 2 },
+        { "text": "누가 어디쯤 사는지부터 떠올리면서 동선을 계산한다", "type": "route-planner", "value": 2 },
+        { "text": "다들 진짜 되는 시간인지 눈치 보며 반응을 살핀다", "type": "soft-coordinator", "value": 2 },
+        { "text": "애매하게 끝날까 봐 확정 멘트가 나올 때까지 신경 쓰인다", "type": "confirm-lover", "value": 2 }
       ]
     },
     {
-      "text": "약속 장소를 고를 때 내가 더 신경 쓰는 건?",
+      "text": "친구가 \"아무 데나 괜찮아\"라고 하면 속으로 드는 생각은?",
       "options": [
-        { "text": "분위기보다 빨리 정할 수 있는지", "type": "quick-push", "value": 2 },
-        { "text": "동선, 대기 시간, 이동 효율", "type": "route-planner", "value": 2 },
-        { "text": "누가 더 편하고 부담 없을지", "type": "soft-coordinator", "value": 2 },
-        { "text": "예약이나 자리 확보가 확실한지", "type": "confirm-lover", "value": 2 }
+        { "text": "좋아, 그럼 내가 빠르게 후보 정리해서 끝낸다", "type": "quick-push", "value": 2 },
+        { "text": "아무 데나가 제일 어렵다… 중간지점부터 다시 본다", "type": "route-planner", "value": 2 },
+        { "text": "진짜 괜찮은 건지 한 번 더 확인하고 싶다", "type": "soft-coordinator", "value": 2 },
+        { "text": "예약 가능한 곳으로 확정해야 마음이 편하다", "type": "confirm-lover", "value": 2 }
       ]
     },
     {
-      "text": "상대가 \"아무 데나 좋아\"라고 하면 나는?",
+      "text": "약속 전날 카톡방에서 네가 제일 자주 하는 행동은?",
       "options": [
-        { "text": "그럼 내가 몇 개 바로 던지고 정리한다", "type": "quick-push", "value": 2 },
-        { "text": "중간 지점과 이동 편한 곳을 추려본다", "type": "route-planner", "value": 2 },
-        { "text": "진짜 괜찮은지 한 번 더 물어본다", "type": "soft-coordinator", "value": 2 },
-        { "text": "헷갈리니까 예약 가능한 곳으로 빨리 확정한다", "type": "confirm-lover", "value": 2 }
+        { "text": "시간만 맞으면 됐지 싶어서 크게 다시 안 본다", "type": "quick-push", "value": 2 },
+        { "text": "가는 길, 소요 시간, 만나서 움직일 루트까지 다시 본다", "type": "route-planner", "value": 2 },
+        { "text": "혹시 불편한 사람 없을지 조용히 분위기를 살핀다", "type": "soft-coordinator", "value": 2 },
+        { "text": "시간·장소·예약 여부를 다시 확인해야 잠이 온다", "type": "confirm-lover", "value": 2 }
       ]
     },
     {
-      "text": "약속 시간이 애매하게 안 맞을 때 내 방식은?",
+      "text": "결국 사람들이 느끼는 네 약속 잡는 스타일은?",
       "options": [
-        { "text": "되는 시간 하나를 정해서 제안한다", "type": "quick-push", "value": 2 },
-        { "text": "이동 시간까지 계산해서 최적안을 찾는다", "type": "route-planner", "value": 2 },
-        { "text": "서로 무리 없는 선에서 조용히 맞춘다", "type": "soft-coordinator", "value": 2 },
-        { "text": "확정될 때까지 몇 번이고 다시 체크한다", "type": "confirm-lover", "value": 2 }
-      ]
-    },
-    {
-      "text": "약속 전날 내 모습에 더 가까운 건?",
-      "options": [
-        { "text": "시간만 기억하면 됐지, 크게 신경 안 쓴다", "type": "quick-push", "value": 2 },
-        { "text": "가는 길이나 소요 시간을 한 번 더 본다", "type": "route-planner", "value": 2 },
-        { "text": "상대 컨디션이나 일정 변동이 없는지 살핀다", "type": "soft-coordinator", "value": 2 },
-        { "text": "장소·시간·예약 여부를 다시 확인해야 마음이 놓인다", "type": "confirm-lover", "value": 2 }
-      ]
-    },
-    {
-      "text": "모임 약속을 잡을 때 내가 자연스럽게 맡는 역할은?",
-      "options": [
-        { "text": "결정이 느리면 판을 앞으로 밀어주는 역할", "type": "quick-push", "value": 2 },
-        { "text": "장소와 시간표를 깔끔하게 짜는 역할", "type": "route-planner", "value": 2 },
-        { "text": "각자 의견을 듣고 온도를 맞추는 역할", "type": "soft-coordinator", "value": 2 },
-        { "text": "빠진 정보 없이 확정 공지를 챙기는 역할", "type": "confirm-lover", "value": 2 }
-      ]
-    },
-    {
-      "text": "약속 직전에 변수가 생기면 가장 먼저 하는 반응은?",
-      "options": [
-        { "text": "오케이, 그럼 다른 대안으로 바로 바꾸자", "type": "quick-push", "value": 2 },
-        { "text": "어느 선택이 제일 덜 꼬일지 계산한다", "type": "route-planner", "value": 2 },
-        { "text": "상대가 불편하지 않게 말하는 방식을 먼저 고른다", "type": "soft-coordinator", "value": 2 },
-        { "text": "변경 사항을 다시 또렷하게 확정하고 싶어진다", "type": "confirm-lover", "value": 2 }
-      ]
-    },
-    {
-      "text": "결국 약속을 잡는 내 스타일을 한 줄로 말하면?",
-      "options": [
-        { "text": "일단 움직여야 약속이 성사된다고 믿는다", "type": "quick-push", "value": 2 },
-        { "text": "편한 약속은 동선부터 좋아야 한다고 본다", "type": "route-planner", "value": 2 },
-        { "text": "좋은 약속은 서로 편해야 오래 간다고 생각한다", "type": "soft-coordinator", "value": 2 },
-        { "text": "확실하게 정리돼야 진짜 약속 같다고 느낀다", "type": "confirm-lover", "value": 2 }
+        { "text": "답답한 흐름을 끝내고 일단 만나게 만드는 사람", "type": "quick-push", "value": 2 },
+        { "text": "은근히 다 챙겨서 제일 편한 코스를 짜는 사람", "type": "route-planner", "value": 2 },
+        { "text": "티는 안 나도 모두가 덜 불편하게 맞추는 사람", "type": "soft-coordinator", "value": 2 },
+        { "text": "확답 없으면 계속 생각나는 사람", "type": "confirm-lover", "value": 2 }
       ]
     }
   ]

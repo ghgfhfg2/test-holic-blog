@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "text": "호감 있는 사람이 내 스토리에 별말 없이 좋아요만 눌렀다. 나는 보통?",
+      "options": [
+        { "text": "괜히 아무 일 없는 척 다음 스토리 하나 더 올려본다", "type": "quiet-hook", "value": 2 },
+        { "text": "바로 DM으로 자연스럽게 이어질 만한 말을 붙인다", "type": "tempo-heart", "value": 2 },
+        { "text": "단답 대신 장난 섞인 반응으로 먼저 분위기를 건드린다", "type": "playful-hook", "value": 2 },
+        { "text": "티는 안 내지만 그 사람이 또 볼 만한 포인트를 슬쩍 깐다", "type": "lowkey-plotter", "value": 2 }
+      ]
+    },
+    {
+      "text": "둘이 카톡하다가 대화가 끝날 듯 말 듯 애매하게 늘어질 때, 내 쪽에 더 가까운 건?",
+      "options": [
+        { "text": "굳이 끝내지 않고 한마디 더 붙일 핑곗거리를 만든다", "type": "lowkey-plotter", "value": 2 },
+        { "text": "괜히 장난 한 줄 던져서 다시 웃게 만든다", "type": "playful-hook", "value": 2 },
+        { "text": "답장은 바로 안 해도 텐션 좋은 타이밍에 맞춰 다시 들어간다", "type": "tempo-heart", "value": 2 },
+        { "text": "짧게 끝내도 여운 남는 말로 마무리한다", "type": "quiet-hook", "value": 2 }
+      ]
+    },
+    {
+      "text": "여럿이 있는 자리에서 그 사람이랑 대화가 겹치면 나는?",
+      "options": [
+        { "text": "다 같이 웃을 만한 장난으로 둘 사이 공기를 먼저 푼다", "type": "playful-hook", "value": 2 },
+        { "text": "직접 티 내진 않지만 그 사람 반응은 제일 먼저 체크한다", "type": "quiet-hook", "value": 2 },
+        { "text": "말은 담백한데 이상하게 그 사람 쪽으로만 리액션이 더 간다", "type": "tempo-heart", "value": 2 },
+        { "text": "같이 엮일 작은 상황을 슬쩍 만들어 대화선을 이어둔다", "type": "lowkey-plotter", "value": 2 }
+      ]
+    },
+    {
+      "text": "읽고 바로 답할 수 있는데도 카톡 답장을 살짝 고를 때가 있다. 이유는?",
+      "options": [
+        { "text": "너무 들이대 보이긴 싫어서, 적당히 여운 남길 말로 바꾸려고", "type": "quiet-hook", "value": 2 },
+        { "text": "대화가 더 재밌어질 흐름이 떠오를 때까지 한 번 굴려보려고", "type": "playful-hook", "value": 2 },
+        { "text": "지금 바로보다 상대가 제일 반갑게 볼 타이밍을 재는 편이라", "type": "tempo-heart", "value": 2 },
+        { "text": "한 번 이어지면 길어질 걸 알아서 다음 수까지 생각해두려고", "type": "lowkey-plotter", "value": 2 }
+      ]
+    },
+    {
+      "text": "친구가 \"너 그 사람한테 은근 티 난다\"고 찔렀을 때, 내 실제 반응은?",
+      "options": [
+        { "text": "아닌 척 넘기지만 속으로는 어디서 들켰는지 바로 복기한다", "type": "quiet-hook", "value": 2 },
+        { "text": "웃기네 하고 넘기는데 다음엔 더 자연스럽게 판을 짜본다", "type": "lowkey-plotter", "value": 2 },
+        { "text": "에이 하면서도 괜히 더 장난스럽게 굴어버린다", "type": "playful-hook", "value": 2 },
+        { "text": "들킨 김에 그냥 좀 더 편하게 다정해진다", "type": "tempo-heart", "value": 2 }
+      ]
+    },
+    {
+      "text": "DM이나 카톡으로 사진 한 장 보내도 될 상황이다. 나는 보통 어떻게 보내는 편?",
+      "options": [
+        { "text": "의미 없는 척 보내지만 캡션 한 줄에 은근한 포인트를 넣는다", "type": "quiet-hook", "value": 2 },
+        { "text": "이거 너 생각나서 보냄 같은 말로 생각보다 다정하게 간다", "type": "tempo-heart", "value": 2 },
+        { "text": "사진보다 멘트가 더 웃기게 도착하게 만든다", "type": "playful-hook", "value": 2 },
+        { "text": "사진 하나로 안 끝나게, 이어질 얘깃거리까지 같이 던진다", "type": "lowkey-plotter", "value": 2 }
+      ]
+    },
+    {
+      "text": "좋아하는 사람이 갑자기 약속 취소를 했다. 내 반응에 더 가까운 건?",
+      "options": [
+        { "text": "아쉽지만 쿨하게 넘기고, 다음에 다시 이어질 틈을 남긴다", "type": "lowkey-plotter", "value": 2 },
+        { "text": "괜찮다고 하면서도 서운함보다 다정함이 먼저 나간다", "type": "tempo-heart", "value": 2 },
+        { "text": "대놓고 아쉽단 말 대신 가볍게 놀리면서 분위기를 살린다", "type": "playful-hook", "value": 2 },
+        { "text": "별말 안 해도 아쉬운 기분이 묘하게 전달되게 답한다", "type": "quiet-hook", "value": 2 }
+      ]
+    },
+    {
+      "text": "결국 사람들이 내 플러팅에서 제일 먼저 눈치채는 건?",
+      "options": [
+        { "text": "안 친한 척하는데 이상하게 계속 연결 포인트가 생기는 것", "type": "lowkey-plotter", "value": 2 },
+        { "text": "말은 담백한데 한마디 한마디가 유난히 오래 남는 것", "type": "quiet-hook", "value": 2 },
+        { "text": "대화 텐션과 답장 타이밍이 은근히 설레게 맞춰지는 것", "type": "tempo-heart", "value": 2 },
+        { "text": "친한 척 아닌 척 웃기게 치고 들어오는데 자꾸 생각나는 것", "type": "playful-hook", "value": 2 }
+      ]
+    }
+  ]
+}

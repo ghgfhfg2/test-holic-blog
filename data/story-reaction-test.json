@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "text": "스토리에 올릴 사진이 두 장 남았다. 하나는 무난하게 잘 나왔고, 하나는 분위기는 미쳤는데 살짝 애매하다. 내가 고르는 쪽은?",
+      "options": [
+        { "text": "댓글 달릴 포인트가 있는 쪽으로 올린다. 애매해도 반응 오면 그게 더 재밌다", "type": "bait-master", "value": 2 },
+        { "text": "나만 아는 웃긴 포인트 있는 사진으로 올린다. 친한 애들 반응 오는 게 제일 재밌다", "type": "inside-joke-core", "value": 2 },
+        { "text": "톤, 색감, 분위기까지 맞는 사진으로 고른다. 한 장이어도 무드가 중요하다", "type": "mood-collector", "value": 2 },
+        { "text": "대놓고 꾸민 느낌보다 은근히 사람 멈추게 하는 사진으로 간다", "type": "silent-heartshot", "value": 2 }
+      ]
+    },
+    {
+      "text": "내 스토리를 본 사람이 갑자기 DM으로 \"이거 뭐야 ㅋㅋ\" 하고 반응했다. 내 실제 답장은?",
+      "options": [
+        { "text": "기다렸다는 듯 바로 받는다. 대화 길어질 만한 말까지 같이 던진다", "type": "bait-master", "value": 2 },
+        { "text": "별거 아닌 척 짧게 답하는데, 말끝이 은근히 계속 생각나게 간다", "type": "silent-heartshot", "value": 2 },
+        { "text": "그 사람만 알아들을 밈이나 드립으로 받아친다", "type": "inside-joke-core", "value": 2 },
+        { "text": "왜 반응했는지 알 것 같아서, 분위기 이어지는 답장으로 맞춘다", "type": "mood-collector", "value": 2 }
+      ]
+    },
+    {
+      "text": "친구들이 단톡에서 \"너 스토리 진짜 너답다\"라고 말할 때, 가장 가까운 장면은?",
+      "options": [
+        { "text": "대체 왜 웃긴지 모르겠는데 친구들끼리만 유독 터진다", "type": "inside-joke-core", "value": 2 },
+        { "text": "별말 안 써도 분위기 하나로 \"이건 너다\" 소리 듣는다", "type": "mood-collector", "value": 2 },
+        { "text": "한 줄 문구나 사진 선택이 묘하게 사람들 답장을 부른다", "type": "bait-master", "value": 2 },
+        { "text": "무심하게 올렸는데 누가 꼭 \"너 이런 느낌 있었냐\" 하고 들어온다", "type": "silent-heartshot", "value": 2 }
+      ]
+    },
+    {
+      "text": "하루 지나서도 은근히 반응이 남는 내 SNS 포인트를 고르면?",
+      "options": [
+        { "text": "한 번 답장 시작하면 대화가 생각보다 오래 이어진다", "type": "bait-master", "value": 2 },
+        { "text": "친한 사람들은 캡처까지 하면서 다시 놀린다", "type": "inside-joke-core", "value": 2 },
+        { "text": "사진보다 전체 분위기가 머릿속에 남았다고 한다", "type": "mood-collector", "value": 2 },
+        { "text": "별거 아닌데 괜히 다시 보게 된다는 말을 자주 듣는다", "type": "silent-heartshot", "value": 2 }
+      ]
+    }
+  ]
+}

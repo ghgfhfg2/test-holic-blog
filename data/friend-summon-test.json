@@ -1,0 +1,79 @@
+{
+  "resultMode": "mbti16",
+  "resultMap": {
+    "ESTJ": "all-set-captain",
+    "ESTP": "instant-playmaker",
+    "ESFJ": "warm-notice-hub",
+    "ESFP": "mood-booster",
+    "ENTJ": "scene-director",
+    "ENTP": "chaos-idea-dealer",
+    "ENFJ": "heart-link-leader",
+    "ENFP": "dopamine-connector",
+    "ISTJ": "steady-anchor",
+    "ISTP": "silent-fixer",
+    "ISFJ": "soft-safehouse",
+    "ISFP": "mood-keepsake",
+    "INTJ": "quiet-strategist",
+    "INTP": "sharp-observer",
+    "INFJ": "midnight-listener",
+    "INFP": "soft-afterglow"
+  },
+  "questions": [
+    {
+      "dimension": "EI",
+      "text": "금요일 저녁, 단톡에 \"지금 나와서 커피라도 마실 사람?\" 이 뜬다. 내가 더 자주 하는 쪽은?",
+      "options": [
+        {
+          "text": "일단 분위기 살릴 만한 말부터 던진다. 나갈 사람 더 모이면 재밌어지니까",
+          "axis": "E"
+        },
+        {
+          "text": "갈 마음은 있어도 먼저 1:1로 슬쩍 물어본다. 몇 명 오는지 보고 움직이는 편이다",
+          "axis": "I"
+        }
+      ]
+    },
+    {
+      "dimension": "SN",
+      "text": "친구가 DM으로 \"나 오늘 좀 현타 와\"라고 보냈다. 내 반응은?",
+      "options": [
+        {
+          "text": "무슨 일 있었는지 차근차근 묻고, 지금 당장 뭐부터 풀면 좋을지 같이 본다",
+          "axis": "S"
+        },
+        {
+          "text": "몇 줄만 봐도 왜 그런 기분인지 감이 와서, 그 마음의 결부터 짚어준다",
+          "axis": "N"
+        }
+      ]
+    },
+    {
+      "dimension": "TF",
+      "text": "친구가 단톡에 소개팅 망한 썰을 길게 올렸다. 내가 먼저 꺼내는 말은?",
+      "options": [
+        {
+          "text": "상대가 왜 그렇게 보였는지 정리해주고, 다음엔 어떤 사람을 거르면 좋을지 말해준다",
+          "axis": "T"
+        },
+        {
+          "text": "일단 네 기분부터 이해된다고 한다. 오늘은 같이 욕해주는 쪽이 더 필요해 보인다",
+          "axis": "F"
+        }
+      ]
+    },
+    {
+      "dimension": "PJ",
+      "text": "당일 약속 장소가 갑자기 두 번이나 바뀌었다. 이럴 때 나는?",
+      "options": [
+        {
+          "text": "어차피 흐름 탄 김에 바로 갈아탄다. 그날 재밌으면 된 거라 생각한다",
+          "axis": "P"
+        },
+        {
+          "text": "헷갈리는 애들 없게 시간, 장소, 동선 다시 한 번에 정리해서 올린다",
+          "axis": "J"
+        }
+      ]
+    }
+  ]
+}

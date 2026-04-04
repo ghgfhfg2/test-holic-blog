@@ -1,0 +1,79 @@
+{
+  "resultMode": "mbti16",
+  "resultMap": {
+    "ESTJ": "pace-setter-lead",
+    "ESTP": "spark-chaser",
+    "ESFJ": "mood-host",
+    "ESFP": "flirty-scene-maker",
+    "ENTJ": "tension-director",
+    "ENTP": "banter-instigator",
+    "ENFJ": "heart-signal-reader",
+    "ENFP": "butterfly-plotter",
+    "ISTJ": "slow-certainty-builder",
+    "ISTP": "cool-reply-sniper",
+    "ISFJ": "soft-routine-maker",
+    "ISFP": "lowkey-heartfilter",
+    "INTJ": "silent-blueprint",
+    "INTP": "gap-catching-analyst",
+    "INFJ": "late-night-vibe-reader",
+    "INFP": "playlist-confession-core"
+  },
+  "questions": [
+    {
+      "dimension": "EI",
+      "text": "좋아하는 사람이 있는 모임이 끝난 뒤, 새 단톡이 만들어졌다. 내가 더 자주 하는 쪽은?",
+      "options": [
+        {
+          "text": "집 가는 길부터 사진 한 장, 한마디 농담으로 분위기 이어 붙인다. 그 흐름이 끊기면 아쉬우니까",
+          "axis": "E"
+        },
+        {
+          "text": "단톡에선 잠깐 조용히 있다가, 더 궁금한 사람한테만 1:1로 말을 건다. 괜히 티 나는 건 싫다",
+          "axis": "I"
+        }
+      ]
+    },
+    {
+      "dimension": "SN",
+      "text": "그 사람이 스토리에 짧게 노래 한 곡만 올렸다. 이때 내 머릿속은?",
+      "options": [
+        {
+          "text": "어떤 노래인지, 지금 어디쯤인지부터 본다. 보이는 단서로 감 잡는 편이다",
+          "axis": "S"
+        },
+        {
+          "text": "이 타이밍에 이 노래 올린 이유부터 상상한다. 왠지 분위기 메시지처럼 느껴진다",
+          "axis": "N"
+        }
+      ]
+    },
+    {
+      "dimension": "TF",
+      "text": "좋아하는 사람이 답장이 늦었다가 \"미안 오늘 너무 정신없었어\"라고 보냈다. 내가 먼저 보내는 톤은?",
+      "options": [
+        {
+          "text": "괜찮다고 하고 자연스럽게 다음 얘기로 넘긴다. 괜히 감정 확인전 만들고 싶진 않다",
+          "axis": "T"
+        },
+        {
+          "text": "오늘 진짜 바빴겠다 싶어서, 일단 고생했겠다고 한마디 얹는다. 텐션은 안 식히고 싶다",
+          "axis": "F"
+        }
+      ]
+    },
+    {
+      "dimension": "PJ",
+      "text": "겨우 잡은 둘만의 약속, 상대가 당일에 시간을 살짝 바꾸자고 한다. 나는?",
+      "options": [
+        {
+          "text": "오히려 좋다. 흐름 맞는 쪽으로 바꾸고 그날 분위기에 맞춰 즉흥으로 탄다",
+          "axis": "P"
+        },
+        {
+          "text": "가능한 시간대랑 동선 다시 맞춰본다. 설레는 약속일수록 안 꼬이게 만들고 싶다",
+          "axis": "J"
+        }
+      ]
+    }
+  ]
+}

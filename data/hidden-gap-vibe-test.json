@@ -1,0 +1,79 @@
+{
+  "resultMode": "mbti16",
+  "resultMap": {
+    "ESTJ": "scene-commander",
+    "ESTP": "instant-spark-dealer",
+    "ESFJ": "warm-rollcaller",
+    "ESFP": "mood-flip-firecracker",
+    "ENTJ": "chemistry-driver",
+    "ENTP": "gap-banter-engine",
+    "ENFJ": "heart-open-switch",
+    "ENFP": "chaos-cupid-core",
+    "ISTJ": "steady-detail-keeper",
+    "ISTP": "dry-one-liner-ace",
+    "ISFJ": "soft-safezone-maker",
+    "ISFP": "lowkey-heart-stealer",
+    "INTJ": "quiet-master-key",
+    "INTP": "late-bloom-plotter",
+    "INFJ": "midnight-understander",
+    "INFP": "hidden-mood-poet"
+  },
+  "questions": [
+    {
+      "dimension": "EI",
+      "text": "처음 만난 사람들끼리 있던 모임이 끝나고 새 단톡이 생겼다. 내가 더 자주 하는 쪽은?",
+      "options": [
+        {
+          "text": "집 가는 길에 오늘 웃겼던 포인트 하나 던져서 다시 텐션 붙인다. 어색함은 빨리 깨야 편하다",
+          "axis": "E"
+        },
+        {
+          "text": "단톡은 잠깐 보고 있다가, 유독 말 잘 통했던 사람한테만 따로 DM으로 한마디 건넨다. 나는 그쪽이 덜 소모된다",
+          "axis": "I"
+        }
+      ]
+    },
+    {
+      "dimension": "SN",
+      "text": "친해지고 싶은 사람이 스토리에 짧게 의미심장한 한 줄만 올렸다. 내 머릿속은 먼저 어디로 간다?",
+      "options": [
+        {
+          "text": "문장보다 배경, 시간, 같이 찍힌 것부터 본다. 보이는 단서가 생각보다 많다",
+          "axis": "S"
+        },
+        {
+          "text": "굳이 이 타이밍에 이 문장을 올린 이유부터 궁금해진다. 뭔가 숨은 분위기 메시지 같아 보인다",
+          "axis": "N"
+        }
+      ]
+    },
+    {
+      "dimension": "TF",
+      "text": "친구가 \"나 오늘 괜히 말실수한 것 같아\" 하고 카톡을 보냈다. 내가 먼저 보내는 답장은?",
+      "options": [
+        {
+          "text": "누가 있었고 어떤 말이 오갔는지부터 물어본다. 상황 정리돼야 같이 판단해줄 수 있다",
+          "axis": "T"
+        },
+        {
+          "text": "일단 그 장면에서 얼마나 민망했을지부터 공감해준다. 지금은 분석보다 편 들어주는 게 먼저다",
+          "axis": "F"
+        }
+      ]
+    },
+    {
+      "dimension": "PJ",
+      "text": "이제 막 친해지기 시작한 사람들이랑 주말에 보기로 했다. 약속 전날 내 모습은?",
+      "options": [
+        {
+          "text": "그날 분위기 봐서 1차만 가볍게 정하고, 재밌으면 즉흥으로 흐름을 탄다. 친해지는 건 약간 변수가 있어야 재밌다",
+          "axis": "P"
+        },
+        {
+          "text": "시간, 장소, 만나서 뭐 할지까지 미리 감 잡아둔다. 애매하면 오히려 텐션이 죽어서 준비가 필요하다",
+          "axis": "J"
+        }
+      ]
+    }
+  ]
+}

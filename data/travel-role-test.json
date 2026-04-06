@@ -1,0 +1,79 @@
+{
+  "resultMode": "mbti16",
+  "resultMap": {
+    "ESTJ": "checkin-chief",
+    "ESTP": "tempo-spark",
+    "ESFJ": "care-captain",
+    "ESFP": "mood-firework",
+    "ENTJ": "route-director",
+    "ENTP": "detour-dealer",
+    "ENFJ": "memory-host",
+    "ENFP": "scene-collector",
+    "ISTJ": "plan-safecracker",
+    "ISTP": "silent-fix-button",
+    "ISFJ": "backpack-safezone",
+    "ISFP": "photo-vibe-keeper",
+    "INTJ": "itinerary-architect",
+    "INTP": "spot-radar",
+    "INFJ": "dawn-walk-curator",
+    "INFP": "postcard-recorder"
+  },
+  "questions": [
+    {
+      "dimension": "EI",
+      "text": "여행 날짜가 정해지자마자 단톡이 열렸다. 내가 더 자주 하는 쪽은?",
+      "options": [
+        {
+          "text": "일단 밈 하나, 투표 하나 던져서 방 분위기부터 살린다. 여행 전부터 텐션 붙어야 진짜다",
+          "axis": "E"
+        },
+        {
+          "text": "방은 조용히 보고 있다가, 필요한 사람한테만 따로 DM으로 일정이랑 챙길 거 슬쩍 확인한다",
+          "axis": "I"
+        }
+      ]
+    },
+    {
+      "dimension": "SN",
+      "text": "친구가 여행지 릴스 몇 개를 보내며 어디가 좋을지 묻는다. 내 눈이 먼저 가는 건?",
+      "options": [
+        {
+          "text": "동선, 가격, 후기, 실제 거리감. 예뻐 보여도 움직이기 불편하면 바로 티 난다",
+          "axis": "S"
+        },
+        {
+          "text": "이 여행이 어떤 장면으로 기억될지. 딱 한 컷만 봐도 어떤 분위기일지 상상부터 간다",
+          "axis": "N"
+        }
+      ]
+    },
+    {
+      "dimension": "TF",
+      "text": "여행 하루 전, 친구 한 명이 \"일정 너무 빡센 것 같아\"라고 톡했다. 내가 먼저 하는 반응은?",
+      "options": [
+        {
+          "text": "그럼 바로 빼도 되는 코스부터 추린다. 덜 중요하면 과감히 줄여야 다 같이 안 지친다",
+          "axis": "T"
+        },
+        {
+          "text": "왜 벌써 숨 막히는지부터 들어본다. 이 여행에서 꼭 남기고 싶은 기분이 뭔지 맞춰주고 싶다",
+          "axis": "F"
+        }
+      ]
+    },
+    {
+      "dimension": "PJ",
+      "text": "출발 당일, 예약한 카페가 갑자기 휴무라는 걸 알았다. 이때 나는?",
+      "options": [
+        {
+          "text": "오히려 좋다. 근처 골목이나 새로 뜬 곳으로 바로 틀고, 그날 흐름 좋은 쪽으로 탄다",
+          "axis": "P"
+        },
+        {
+          "text": "비슷한 후보를 바로 다시 찾고 시간표를 재정리한다. 여행일수록 꼬인 건 빨리 봉합해야 편하다",
+          "axis": "J"
+        }
+      ]
+    }
+  ]
+}

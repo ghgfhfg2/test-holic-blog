@@ -1,0 +1,79 @@
+{
+  "resultMode": "mbti16",
+  "resultMap": {
+    "ESTJ": "first-text-captain",
+    "ESTP": "icebreak-booster",
+    "ESFJ": "guard-down-leader",
+    "ESFP": "instant-bestie-spark",
+    "ENTJ": "scene-opening-main",
+    "ENTP": "awkwardness-hacker",
+    "ENFJ": "secret-talk-switch",
+    "ENFP": "dm-afterparty-maker",
+    "ISTJ": "quiet-trust-anchor",
+    "ISTP": "cool-reply-magnet",
+    "ISFJ": "comfort-temperature-keeper",
+    "ISFP": "soft-curiosity-trigger",
+    "INTJ": "distance-design-aura",
+    "INTP": "one-line-afterimage",
+    "INFJ": "seen-through-whisperer",
+    "INFP": "mood-afterglow-core"
+  },
+  "questions": [
+    {
+      "dimension": "EI",
+      "text": "처음 같이 있던 자리 끝나고 단톡이 생겼다. 내가 더 자주 하는 쪽은?",
+      "options": [
+        {
+          "text": "집 가는 길에 오늘 웃겼던 포인트 하나 더 던진다. 어색함은 내가 먼저 깨면 편하다",
+          "axis": "E"
+        },
+        {
+          "text": "단톡은 잠깐 보고 있다가, 유독 말 통했던 사람한테만 따로 한마디 보낸다. 나는 그쪽이 덜 피곤하다",
+          "axis": "I"
+        }
+      ]
+    },
+    {
+      "dimension": "SN",
+      "text": "안 친한 사람이 스토리에 짧게 사진 한 장만 올렸다. 내 눈이 먼저 가는 건?",
+      "options": [
+        {
+          "text": "배경, 시간, 같이 찍힌 물건 같은 디테일이다. 보이는 단서가 생각보다 많다",
+          "axis": "S"
+        },
+        {
+          "text": "굳이 이 사진을 올린 기분과 숨은 의도다. 분위기엔 늘 말 안 한 정보가 있다",
+          "axis": "N"
+        }
+      ]
+    },
+    {
+      "dimension": "TF",
+      "text": "아직 안 친한 사람이 DM으로 \"나 오늘 괜히 오바했나 봐\" 하고 보냈다. 내가 먼저 보내는 답장은?",
+      "options": [
+        {
+          "text": "무슨 상황이었는지부터 묻는다. 장면이 보여야 뭐가 과했는지 같이 판단할 수 있다",
+          "axis": "T"
+        },
+        {
+          "text": "그 말 보내기까지도 좀 신경 쓰였겠다 싶어서, 일단 민망했겠다고 먼저 받아준다",
+          "axis": "F"
+        }
+      ]
+    },
+    {
+      "dimension": "PJ",
+      "text": "분위기 좋았던 사람이 \"다음에 또 보자\" 하고 지나갔다. 그 다음 내 스타일은?",
+      "options": [
+        {
+          "text": "굳이 바로 못 박진 않는다. 흐름 살아 있을 때 자연스럽게 다시 이어 붙이는 편이다",
+          "axis": "P"
+        },
+        {
+          "text": "기억 사라지기 전에 날짜나 핑계를 가볍게라도 잡아둔다. 좋았던 텐션은 연결해야 한다",
+          "axis": "J"
+        }
+      ]
+    }
+  ]
+}

@@ -265,6 +265,17 @@ footer {
 .options-container {
   display: flex; flex-direction: column; gap: 14px; margin-bottom: 20px;
 }
+.test-actions {
+  margin-top: auto;
+}
+.btn-back {
+  box-shadow: none;
+}
+.btn-back:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
 
 .option-btn {
   padding: 18px 24px; border-radius: 16px;

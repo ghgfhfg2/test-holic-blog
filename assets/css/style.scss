@@ -215,6 +215,26 @@ footer {
   font-size: 0.82rem;
   white-space: nowrap;
 }
+.seo-copy-block {
+  margin-top: 28px;
+  padding: 20px;
+  border-radius: 18px;
+  background: #fafbff;
+  border: 1px solid rgba(108, 92, 231, 0.08);
+  text-align: left;
+}
+.seo-copy-block h2 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.seo-copy-block p {
+  margin: 0 0 10px;
+  color: var(--text-light);
+  font-size: 0.94rem;
+}
+.seo-copy-block p:last-child {
+  margin-bottom: 0;
+}
 
 /* Landing Template */
 .landing-container { text-align: center; padding: 20px 0; }

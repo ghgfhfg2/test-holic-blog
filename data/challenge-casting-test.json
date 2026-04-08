@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "text": "친구가 \"요즘 그 챌린지 우리도 찍자\" 하고 카메라를 켰다. 시작 10초 안에 내가 먼저 하는 건?",
+      "options": [
+        { "text": "일단 중앙 자리를 슬쩍 먹고, 첫 박자 어디서 터뜨릴지 몸으로 먼저 보여준다", "type": "ending-fairy-center", "value": 2 },
+        { "text": "이걸 그냥 찍으면 묻힌다고 생각해서, 자막이나 표정 포인트부터 떠올린다", "type": "meme-caption-maker", "value": 2 },
+        { "text": "누가 어디 서야 안 꼬일지부터 정리한다. 이건 텐션보다 세팅이 먼저다", "type": "rehearsal-captain", "value": 2 },
+        { "text": "굳이 앞에 안 서도 된다. 대신 한 컷으로 다들 뒤돌아보게 만들 장면을 노린다", "type": "scene-stealer", "value": 2 }
+      ]
+    },
+    {
+      "text": "리허설 한 번 돌렸는데 다들 \"뭔가 심심한데?\" 한다. 이때 내 입에서 먼저 나오는 말은?",
+      "options": [
+        { "text": "후렴 들어갈 때 표정이랑 손동작 더 세게 가자. 킬포는 애매하면 안 산다", "type": "ending-fairy-center", "value": 2 },
+        { "text": "여기서 한 명이 뜬금없이 딴짓하는 컷 넣자. 그게 댓글 포인트 된다", "type": "meme-caption-maker", "value": 2 },
+        { "text": "박자 맞는 애 둘을 앞에 두고 나머지 동선 다시 짜보자. 살리는 건 구조다", "type": "rehearsal-captain", "value": 2 },
+        { "text": "처음은 무난하게 가고, 마지막 2초에 시선 다 뺏는 한 방 넣자", "type": "scene-stealer", "value": 2 }
+      ]
+    },
+    {
+      "text": "촬영 직전, 다들 입을 모아 \"누가 제일 잘 나와야 이 영상 산다\"고 한다. 내 반응은?",
+      "options": [
+        { "text": "그럼 내가 정면 받을게. 대신 다 같이 살아 보이게 흐름은 내가 끌어간다", "type": "ending-fairy-center", "value": 2 },
+        { "text": "잘 나오는 사람보다 밈 되는 사람이 필요하다. 댓글창은 내가 책임질 수 있다", "type": "meme-caption-maker", "value": 2 },
+        { "text": "누가 튀느냐보다 전체 합이 맞아야 한다. 무너지면 아무도 안 남는다", "type": "rehearsal-captain", "value": 2 },
+        { "text": "정면은 양보해도 된다. 대신 마지막에 내 컷 하나면 다 기억할 걸 안다", "type": "scene-stealer", "value": 2 }
+      ]
+    },
+    {
+      "text": "찍은 영상을 돌려보는데, 친구가 \"이 장면은 캡처 돌아다닐 것 같다\"고 한다. 가장 가까운 건?",
+      "options": [
+        { "text": "표정이랑 시선이 딱 박혀서 썸네일처럼 남는 순간이다", "type": "ending-fairy-center", "value": 2 },
+        { "text": "진지한 와중에 이상하게 웃긴 포인트가 살아서 짤로 퍼질 각이다", "type": "meme-caption-maker", "value": 2 },
+        { "text": "다들 박자랑 합이 신기하게 맞아서 \"이 팀 뭐냐\" 소리 듣는 장면이다", "type": "rehearsal-captain", "value": 2 },
+        { "text": "한 명만 봐도 되는 짧은 킬포 컷인데, 그게 이상하게 계속 다시 보인다", "type": "scene-stealer", "value": 2 }
+      ]
+    },
+    {
+      "text": "업로드 직전 캡션을 정해야 한다. 내가 제일 끌리는 방향은?",
+      "options": [
+        { "text": "굳이 설명 안 해도 분위기로 눌러버리는 짧은 한 줄", "type": "ending-fairy-center", "value": 1 },
+        { "text": "댓글창에서 바로 드립 붙을 만한 장난기 있는 한 줄", "type": "meme-caption-maker", "value": 1 },
+        { "text": "팀 케미가 보여서 같이 찍은 애들 전부 태그하고 싶은 한 줄", "type": "rehearsal-captain", "value": 1 },
+        { "text": "보다가 마지막에 한 번 더 보게 만드는 여운형 한 줄", "type": "scene-stealer", "value": 1 }
+      ]
+    },
+    {
+      "text": "영상이 올라가고 친구들이 단톡에서 결과를 평가한다. 내가 제일 많이 듣는 말은?",
+      "options": [
+        { "text": "너 때문에 화면이 갑자기 확 살아난다. 센터 안 서도 존재감이 센데, 서면 더하다", "type": "ending-fairy-center", "value": 1 },
+        { "text": "결국 사람들 댓글은 너 얘기부터 한다. 웃긴 포인트를 너무 잘 안다", "type": "meme-caption-maker", "value": 1 },
+        { "text": "네가 없었으면 이거 절대 안 맞았다. 보이지 않게 판 짜는 힘이 있다", "type": "rehearsal-captain", "value": 1 },
+        { "text": "분량 많지 않은데 이상하게 네 장면만 계속 생각난다", "type": "scene-stealer", "value": 1 }
+      ]
+    }
+  ]
+}

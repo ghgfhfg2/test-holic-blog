@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "text": "밤 11시 반, 편의점 문 열고 들어간 순간 제일 먼저 눈이 가는 코너는?",
+      "options": [
+        { "text": "삼각김밥, 라면, 핫바처럼 바로 배 채워주는 쪽", "type": "dopamine-nightmate", "value": 2 },
+        { "text": "요거트, 샐러드, 두유처럼 은근히 균형 챙기는 쪽", "type": "soft-care-keeper", "value": 2 },
+        { "text": "신상 젤리, 한정 과자, 신기한 음료처럼 호기심 생기는 쪽", "type": "curiosity-spark", "value": 2 },
+        { "text": "커피, 얼음컵, 무난한 스낵처럼 조용히 실패 없는 쪽", "type": "afterimage-mood", "value": 2 }
+      ]
+    },
+    {
+      "text": "친구가 \"아무거나 하나만 추천해줘\" 하고 장바구니를 내밀었다. 내 손은?",
+      "options": [
+        { "text": "일단 제일 맛 보장 조합부터 바로 완성해준다", "type": "dopamine-nightmate", "value": 2 },
+        { "text": "그 친구 오늘 상태 떠올리면서 속 편한 걸로 골라준다", "type": "soft-care-keeper", "value": 2 },
+        { "text": "평소 안 먹어봤을 것 같은 걸 슬쩍 섞어본다", "type": "curiosity-spark", "value": 2 },
+        { "text": "무난하지만 계속 손 가는 조합으로 정리한다", "type": "afterimage-mood", "value": 2 }
+      ]
+    },
+    {
+      "text": "계산대 앞에서 딱 하나만 추가할 수 있다면 더 끌리는 건?",
+      "options": [
+        { "text": "매운 과자나 탄산처럼 분위기 확 올리는 한 방", "type": "dopamine-nightmate", "value": 2 },
+        { "text": "따뜻한 음료나 작은 디저트처럼 기분 풀리는 것", "type": "soft-care-keeper", "value": 2 },
+        { "text": "패키지부터 궁금한 신상 하나", "type": "curiosity-spark", "value": 2 },
+        { "text": "늘 먹던 거지만 이상하게 또 집게 되는 것", "type": "afterimage-mood", "value": 2 }
+      ]
+    },
+    {
+      "text": "새벽에 편의점 같이 갈 사람을 고를 때, 내가 더 원하는 분위기는?",
+      "options": [
+        { "text": "들어가는 순간부터 웃기고 텐션 맞는 사람", "type": "dopamine-nightmate", "value": 2 },
+        { "text": "오늘 어땠는지 자연스럽게 얘기하게 되는 사람", "type": "soft-care-keeper", "value": 2 },
+        { "text": "이거 왜 먹냐 저거 왜 끌리냐 하며 취향 얘기 재밌는 사람", "type": "curiosity-spark", "value": 2 },
+        { "text": "말 많지 않아도 옆에 있으면 묘하게 편한 사람", "type": "afterimage-mood", "value": 2 }
+      ]
+    },
+    {
+      "text": "봉지 들고 편의점 앞 테이블에 앉았다. 내가 먼저 여는 건?",
+      "options": [
+        { "text": "지금 제일 맛있어 보이는 메인 메뉴부터 바로 깐다", "type": "dopamine-nightmate", "value": 2 },
+        { "text": "상대 먹기 편한 것부터 나눌 수 있게 정리한다", "type": "soft-care-keeper", "value": 2 },
+        { "text": "이 조합 의외로 괜찮을지 실험부터 해본다", "type": "curiosity-spark", "value": 2 },
+        { "text": "물이나 음료부터 열고 천천히 분위기 잡는다", "type": "afterimage-mood", "value": 2 }
+      ]
+    },
+    {
+      "text": "친구가 네 장바구니를 보고 \"와 이거 완전 너다\" 할 때, 제일 가까운 말은?",
+      "options": [
+        { "text": "네 옆에 있으면 원래 계획보다 더 재밌어져", "type": "dopamine-nightmate", "value": 2 },
+        { "text": "너는 별말 안 해도 은근 사람 챙기는 티가 난다", "type": "soft-care-keeper", "value": 2 },
+        { "text": "너는 취향이 진짜 심심할 틈이 없다", "type": "curiosity-spark", "value": 2 },
+        { "text": "너는 조용한데 이상하게 계속 생각나", "type": "afterimage-mood", "value": 2 }
+      ]
+    },
+    {
+      "text": "같이 편의점 다녀온 사람이 집 가서 제일 먼저 떠올리는 네 포인트는?",
+      "options": [
+        { "text": "별거 아닌데 같이 있으니 밤이 더 재밌어졌던 텐션", "type": "dopamine-nightmate", "value": 2 },
+        { "text": "나도 모르게 마음이 좀 풀렸던 안정감", "type": "soft-care-keeper", "value": 2 },
+        { "text": "생각보다 취향 얘기가 오래 남는 신선함", "type": "curiosity-spark", "value": 2 },
+        { "text": "크게 튀진 않았는데 잔잔하게 남는 분위기", "type": "afterimage-mood", "value": 2 }
+      ]
+    },
+    {
+      "text": "결국 네 편의점 취향이 사람들에게 주는 느낌은 어느 쪽에 가깝다?",
+      "options": [
+        { "text": "같이 있으면 소소한 밤도 이벤트처럼 커진다", "type": "dopamine-nightmate", "value": 2 },
+        { "text": "긴 말 없어도 챙김이 묻어나서 편해진다", "type": "soft-care-keeper", "value": 2 },
+        { "text": "평범한 순간도 새로워 보이게 만드는 맛이 있다", "type": "curiosity-spark", "value": 2 },
+        { "text": "조용히 스며드는데 그게 더 오래 간다", "type": "afterimage-mood", "value": 2 }
+      ]
+    }
+  ]
+}

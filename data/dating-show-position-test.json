@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "text": "연애예능 첫 입주 날, 다 같이 거실에 모였다. 내가 제일 먼저 만드는 장면은?",
+      "options": [
+        { "text": "어색한 공기 길어지기 전에 먼저 말 걸고 흐름을 연다. 첫 분위기는 내가 잡는 편이다", "type": "first-glance-main-character", "value": 2 },
+        { "text": "누가 누구를 의식하는지 조용히 보고 있다가, 결정적일 때 한마디로 판을 흔든다", "type": "tension-switch-plotter", "value": 2 },
+        { "text": "처음부터 튀기보다 한 사람씩 편하게 만들면서 뒤늦게 존재감이 커지는 쪽이다", "type": "late-game-reversal-card", "value": 2 },
+        { "text": "말 수는 많지 않아도 이상하게 카메라에 남는 분위기를 만든다. 잔상이 오래 가는 편이다", "type": "after-credit-heartline", "value": 2 }
+      ]
+    },
+    {
+      "text": "밤에 익명 문자 한 통만 보낼 수 있다. 내가 더 끌리는 방식은?",
+      "options": [
+        { "text": "헷갈릴 여지 없이 \"오늘 제일 궁금했던 사람\"처럼 직진 느낌으로 보낸다", "type": "first-glance-main-character", "value": 2 },
+        { "text": "대놓고는 아닌데 받는 사람 머릿속에 오래 남을 문장으로 던진다", "type": "after-credit-heartline", "value": 2 },
+        { "text": "상대가 \"이거 나 맞나?\" 하고 뒤집어 생각하게 되는 여지를 남긴다", "type": "tension-switch-plotter", "value": 2 },
+        { "text": "당장 불붙이기보다 다음 대화가 더 편해지게 온도를 맞춘다", "type": "late-game-reversal-card", "value": 2 }
+      ]
+    },
+    {
+      "text": "첫 데이트 상대를 고르는 시간, 내 마음이 움직이는 포인트는?",
+      "options": [
+        { "text": "지금 제일 끌리는 사람에게 바로 간다. 애매하게 돌리는 건 재미없다", "type": "first-glance-main-character", "value": 2 },
+        { "text": "남들이 예상 안 한 조합이 더 궁금하다. 그게 서사를 만든다", "type": "tension-switch-plotter", "value": 2 },
+        { "text": "짧게 봐도 편해지는 사람이 있다. 오래 가는 건 그런 쪽이다", "type": "late-game-reversal-card", "value": 2 },
+        { "text": "말은 많이 안 했는데 묘하게 계속 생각나는 사람을 고른다", "type": "after-credit-heartline", "value": 2 }
+      ]
+    },
+    {
+      "text": "데이트 끝나고 숙소로 돌아왔을 때, 사람들이 제일 궁금해하는 내 포인트는?",
+      "options": [
+        { "text": "오늘 누구랑 제일 텐션이 붙었는지, 화면으로도 티가 났는지", "type": "first-glance-main-character", "value": 1 },
+        { "text": "아무렇지 않은 척했는데 왜 내가 한 말 한마디가 자꾸 언급되는지", "type": "after-credit-heartline", "value": 1 },
+        { "text": "내가 은근히 다른 사람들의 구도를 바꿔놓은 건 아닌지", "type": "tension-switch-plotter", "value": 1 },
+        { "text": "조용했는데 왜 갈수록 내 쪽으로 마음이 쏠리는 사람이 생기는지", "type": "late-game-reversal-card", "value": 1 }
+      ]
+    },
+    {
+      "text": "합숙 중간쯤, 친구가 \"너는 진짜 편집본 나오면 더 세겠다\" 한다. 가장 가까운 이유는?",
+      "options": [
+        { "text": "눈 마주치는 순간들만 모아도 메인 장면이 계속 나온다", "type": "first-glance-main-character", "value": 2 },
+        { "text": "앞에서는 조용했는데 뒤로 갈수록 판을 바꾼 장면이 쌓여 있다", "type": "tension-switch-plotter", "value": 2 },
+        { "text": "처음엔 잔잔했는데 회차 지날수록 응원하게 되는 흐름이 있다", "type": "late-game-reversal-card", "value": 2 },
+        { "text": "큰 사건보다도 표정, 말투, 공기 같은 여운 컷이 강하다", "type": "after-credit-heartline", "value": 2 }
+      ]
+    },
+    {
+      "text": "누군가 내 이름을 단톡에서 슬쩍 꺼냈다. 사람들이 가장 많이 붙일 반응은?",
+      "options": [
+        { "text": "\"쟤는 시작부터 메인 느낌 있었지\" 하고 바로 납득한다", "type": "first-glance-main-character", "value": 1 },
+        { "text": "\"근데 쟤가 은근 핵심이야\" 하면서 내 장면을 다시 짚는다", "type": "tension-switch-plotter", "value": 1 },
+        { "text": "\"처음엔 몰랐는데 갈수록 제일 궁금해졌어\" 쪽으로 말이 모인다", "type": "late-game-reversal-card", "value": 1 },
+        { "text": "\"끝나고도 제일 생각나는 건 쟤였어\" 같은 여운형 반응이 붙는다", "type": "after-credit-heartline", "value": 1 }
+      ]
+    },
+    {
+      "text": "결국 연애예능 속 나는 어떤 서사로 회자될 가능성이 높을까?",
+      "options": [
+        { "text": "첫 등장부터 시선 모으고 중심 장면을 계속 만들어내는 메인 서사", "type": "first-glance-main-character", "value": 2 },
+        { "text": "조용히 흐름 읽다가 예상 밖 선택으로 판도까지 흔드는 변수 서사", "type": "tension-switch-plotter", "value": 2 },
+        { "text": "갈수록 응원 붙고 후반부에 확 치고 올라오는 역전 서사", "type": "late-game-reversal-card", "value": 2 },
+        { "text": "끝난 뒤에 더 길게 얘기 나오는 잔상 강한 여운 서사", "type": "after-credit-heartline", "value": 2 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "text": "친구 생일파티 단톡이 열렸다. 장소 링크 올라오자마자 내가 제일 먼저 움직이는 건?",
+      "options": [
+        { "text": "이날 텐션 살릴 짤, 드레스코드, 게임거리부터 던진다. 파티는 시작 전부터 달궈야 재밌다", "type": "spark-plug-party-starter", "value": 2 },
+        { "text": "누가 누구랑 어색한지 보고 자연스럽게 섞일 판부터 그린다. 재밌으려면 사람 궁합이 먼저다", "type": "table-link-mixer", "value": 2 },
+        { "text": "케이크, 포토존, 조명 같은 장면이 먼저 떠오른다. 이날은 남는 컷이 있어야 한다", "type": "highlight-scene-director", "value": 2 },
+        { "text": "시간 안 꼬이게 공지 정리하고 필요한 사람 챙길 것부터 체크한다. 결국 매끈해야 다들 편하다", "type": "last-train-care-boss", "value": 2 }
+      ]
+    },
+    {
+      "text": "파티 시작 15분 전, 현장 분위기가 아직 애매하다. 이때 내 손이 먼저 가는 쪽은?",
+      "options": [
+        { "text": "스피커 연결하고 첫 곡부터 분위기 올릴 준비를 한다. 어색한 침묵은 길어지면 손해다", "type": "spark-plug-party-starter", "value": 2 },
+        { "text": "혼자 있는 사람 옆에 자연스럽게 붙을 핑계를 만든다. 처음 공기만 풀리면 그다음은 쉽다", "type": "table-link-mixer", "value": 2 },
+        { "text": "조명 각도랑 케이크 놓을 자리부터 본다. 한 번 예쁘게 잡히면 이날 기억이 달라진다", "type": "highlight-scene-director", "value": 2 },
+        { "text": "예약 시간, 음식 도착, 생일자 동선부터 다시 확인한다. 작은 꼬임이 나중에 제일 커진다", "type": "last-train-care-boss", "value": 2 }
+      ]
+    },
+    {
+      "text": "다 같이 건배 타이밍이 왔는데 생각보다 반응이 약하다. 내가 더 자주 만드는 장면은?",
+      "options": [
+        { "text": "한마디 웃긴 멘트로 바로 판을 띄운다. 억지 텐션 말고 순간 불 붙이는 쪽이 빠르다", "type": "spark-plug-party-starter", "value": 2 },
+        { "text": "테이블 사이에 공통 화제 하나 던져서 다 같이 끼게 만든다. 따로 노는 파티는 재미없다", "type": "table-link-mixer", "value": 2 },
+        { "text": "지금 건배 장면 예쁘게 남기자며 폰부터 든다. 나중에 돌려볼 포인트가 필요하다", "type": "highlight-scene-director", "value": 2 },
+        { "text": "흐름 끊기지 않게 음식, 잔, 자리 상태부터 정리한다. 불편함 없애면 분위기는 따라온다", "type": "last-train-care-boss", "value": 2 }
+      ]
+    },
+    {
+      "text": "생일자가 갑자기 '나 오늘 너무 정신없다' 하고 웃는다. 내 반응으로 더 가까운 건?",
+      "options": [
+        { "text": "그러니까 지금부터는 내가 분위기 끌게 한다. 오늘만큼은 주인공이 그냥 즐겨야 한다", "type": "spark-plug-party-starter", "value": 1 },
+        { "text": "제일 편한 사람들이 옆에 붙게 슬쩍 자리 흐름을 바꾼다. 사람이 맞아야 표정이 풀린다", "type": "table-link-mixer", "value": 1 },
+        { "text": "오늘 표정 예쁜 순간 놓치지 않게 사진이나 영상 포인트를 더 챙긴다", "type": "highlight-scene-director", "value": 1 },
+        { "text": "케이크 타이밍, 이동, 계산 같은 부담이 안 가게 뒤에서 바로 받쳐준다", "type": "last-train-care-boss", "value": 1 }
+      ]
+    },
+    {
+      "text": "파티 사진이 단톡에 쏟아진다. 사람들이 내 이름 붙이며 제일 많이 하는 말은?",
+      "options": [
+        { "text": "'너 없었으면 초반 공기 진짜 안 살았을 것 같아' 같은 말", "type": "spark-plug-party-starter", "value": 1 },
+        { "text": "'신기하게 어색한 사람들끼리도 다 말 트게 만들더라' 같은 말", "type": "table-link-mixer", "value": 1 },
+        { "text": "'결국 제일 남는 사진은 네가 만든 장면이더라' 같은 말", "type": "highlight-scene-director", "value": 1 },
+        { "text": "'다들 논 줄만 알았는데 뒤에서 제일 많이 챙긴 건 너였네' 같은 말", "type": "last-train-care-boss", "value": 1 }
+      ]
+    },
+    {
+      "text": "파티 끝나고 집 가는 길, 친구들이 가장 오래 기억하는 네 역할은 결국 어느 쪽일까?",
+      "options": [
+        { "text": "처음 어색하던 자리를 오늘 제일 웃긴 밤으로 바꾼 시동 버튼", "type": "spark-plug-party-starter", "value": 2 },
+        { "text": "사람과 사람 사이 간격을 줄여서 테이블 분위기를 묶은 연결 포지션", "type": "table-link-mixer", "value": 2 },
+        { "text": "오늘의 하이라이트를 장면으로 남겨서 파티 서사를 만든 연출 포지션", "type": "highlight-scene-director", "value": 2 },
+        { "text": "끝까지 무너지지 않게 챙겨서 다들 편하게 웃고 가게 만든 운영 포지션", "type": "last-train-care-boss", "value": 2 }
+      ]
+    }
+  ]
+}

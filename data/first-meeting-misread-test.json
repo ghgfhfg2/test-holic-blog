@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "text": "처음 보는 사람들끼리 모인 자리, 자기소개 끝나고 공기가 애매하다. 네가 더 끌리는 쪽은?",
+      "options": [
+        { "text": "내 얘기를 크게 풀진 않아도, 옆 사람 반응 보면서 필요한 순간 한마디씩 얹는다", "type": "soft-firewall-warm-core", "value": 2 },
+        { "text": "굳이 많이 안 해도 된다. 대신 한마디를 던질 때 제대로 기억 남는 쪽이 좋다", "type": "afterimage-spotlight-slasher", "value": 2 }
+      ]
+    },
+    {
+      "text": "처음 만난 사람이 너를 보고 제일 헷갈려하는 포인트를 하나만 고르면?",
+      "options": [
+        { "text": "차가워 보이는데 막상 말 걸면 생각보다 너무 다정하다", "type": "cold-face-kind-ending", "value": 2 },
+        { "text": "장난기 있어 보이는데 어느 순간 훅 들어오는 진심이 있다", "type": "playful-face-heart-attack", "value": 2 }
+      ]
+    },
+    {
+      "text": "모임 끝나고 단톡이 열렸다. 네 이름이 다시 나올 때 더 자주 붙는 반응은?",
+      "options": [
+        { "text": "처음엔 벽 있는 줄 알았는데, 같이 있으면 제일 편해지는 타입 같아", "type": "soft-firewall-warm-core", "value": 2 },
+        { "text": "말 많은 편은 아닌데 이상하게 제일 기억난다", "type": "afterimage-spotlight-slasher", "value": 2 }
+      ]
+    },
+    {
+      "text": "누군가 네 첫인상을 친구에게 설명해야 한다. 둘 중 더 가까운 문장은?",
+      "options": [
+        { "text": "표정은 쿨한데 챙김이 너무 생활밀착형이라 금방 반전 온다", "type": "cold-face-kind-ending", "value": 2 },
+        { "text": "처음엔 가볍고 웃긴데, 나중에 생각나는 건 묘하게 설레는 쪽이다", "type": "playful-face-heart-attack", "value": 2 }
+      ]
+    },
+    {
+      "text": "처음 본 사람이 너한테 다시 말 걸 핑계를 찾는 이유는 어느 쪽에 더 가깝나?",
+      "options": [
+        { "text": "생각보다 편하고 따뜻해서, 한 번 더 붙어 있으면 더 풀릴 것 같아서", "type": "soft-firewall-warm-core", "value": 1 },
+        { "text": "대화 길진 않았는데 한 장면처럼 남아서, 다시 확인하고 싶어서", "type": "afterimage-spotlight-slasher", "value": 1 }
+      ]
+    },
+    {
+      "text": "결국 네 첫인상 오해는 어떤 식으로 가장 많이 뒤집히는 편일까?",
+      "options": [
+        { "text": "무심해 보여도 가까워질수록 다정함이 계속 튀어나오는 반전", "type": "cold-face-kind-ending", "value": 1 },
+        { "text": "장난스러워 보여도 결정적 순간엔 심장에 바로 꽂히는 반전", "type": "playful-face-heart-attack", "value": 1 }
+      ]
+    }
+  ]
+}

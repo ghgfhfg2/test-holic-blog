@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "text": "친구가 웃긴 밈을 발견했다. 여러 사람 중 네 연락처를 다시 누르게 되는 순간은?",
+      "options": [
+        {
+          "text": "이건 너만 이해할 것 같아서 바로 보낸다. 웃긴 포인트를 제일 빨리 같이 잡는 사람이다",
+          "type": "meme-delivery-center",
+          "value": 2
+        },
+        {
+          "text": "반응이 늦어도 꼭 올 것 같아서 보낸다. 한번 오면 길게 남는 답장이 오는 사람이다",
+          "type": "reply-open-loop",
+          "value": 2
+        },
+        {
+          "text": "새벽이어도 부담 없이 보낼 수 있다. 시간 상관없이 가장 편한 사람이다",
+          "type": "late-night-favorite-pin",
+          "value": 2
+        },
+        {
+          "text": "이거 보면 상황 정리까지 해줄 것 같아서 보낸다. 웃기든 진지하든 결론을 잘 내는 사람이다",
+          "type": "calm-rescue-contact",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "단톡이 조용해졌는데 갑자기 누가 한마디 툭 던진다. 네가 자주 만드는 장면은?",
+      "options": [
+        {
+          "text": "짤 하나로 단톡 온도부터 올린다. 분위기 전환이 빠르다",
+          "type": "meme-delivery-center",
+          "value": 1
+        },
+        {
+          "text": "짧게 말해도 이상하게 그 다음 대화가 계속 이어진다",
+          "type": "reply-open-loop",
+          "value": 1
+        },
+        {
+          "text": "누구 하나 뻘쭘하지 않게 자연스럽게 말을 받아준다",
+          "type": "late-night-favorite-pin",
+          "value": 1
+        },
+        {
+          "text": "흐름이 꼬일 때 핵심만 딱 짚어서 판을 정리한다",
+          "type": "calm-rescue-contact",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "친구가 약간 민망한 부탁을 해야 하는데, 제일 먼저 네 채팅창을 여는 이유는?",
+      "options": [
+        {
+          "text": "부탁하기 전에도 웃기게 풀 수 있어서, 분위기 안 무겁게 넘길 수 있다",
+          "type": "meme-delivery-center",
+          "value": 2
+        },
+        {
+          "text": "거절하더라도 말이 예쁘게 남는다. 그래서 다시 찾게 된다",
+          "type": "reply-open-loop",
+          "value": 2
+        },
+        {
+          "text": "부탁 자체보다 먼저 마음부터 편해진다. 괜히 덜 긴장된다",
+          "type": "late-night-favorite-pin",
+          "value": 2
+        },
+        {
+          "text": "현실적으로 제일 도움 되는 답을 줄 것 같아서다",
+          "type": "calm-rescue-contact",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "알림창에 네 이름이 뜨면 사람들이 제일 자주 기대하는 건 어느 쪽일까?",
+      "options": [
+        {
+          "text": "아, 또 재밌는 거 왔겠네. 지금 눌러야 한다",
+          "type": "meme-delivery-center",
+          "value": 2
+        },
+        {
+          "text": "뭐라고 왔는지 은근 궁금하다. 짧아도 여운이 남는다",
+          "type": "reply-open-loop",
+          "value": 2
+        },
+        {
+          "text": "일단 편하다. 지금 열어도 부담 없는 사람이다",
+          "type": "late-night-favorite-pin",
+          "value": 2
+        },
+        {
+          "text": "이건 확인하면 문제 하나는 풀리겠다 싶다",
+          "type": "calm-rescue-contact",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "친구가 폰에서 연락처 이름을 슬쩍 바꿔 저장한다면, 네 쪽에 더 가까운 메모는?",
+      "options": [
+        {
+          "text": "재밌는 거 생기면 제일 먼저 보내야 하는 애",
+          "type": "meme-delivery-center",
+          "value": 1
+        },
+        {
+          "text": "답장 한 줄도 괜히 오래 생각나는 애",
+          "type": "reply-open-loop",
+          "value": 1
+        },
+        {
+          "text": "새벽에도 괜히 눌러도 되는 애",
+          "type": "late-night-favorite-pin",
+          "value": 1
+        },
+        {
+          "text": "일 터지면 바로 찾게 되는 애",
+          "type": "calm-rescue-contact",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "결국 친구 폰 속 네 연락처가 가장 오래 살아남는 이유는 뭘까?",
+      "options": [
+        {
+          "text": "심심한 순간을 제일 빠르게 웃긴 장면으로 바꿔주는 사람이라서",
+          "type": "meme-delivery-center",
+          "value": 2
+        },
+        {
+          "text": "대화가 끝난 뒤에도 이상하게 한 번 더 떠오르는 사람이라서",
+          "type": "reply-open-loop",
+          "value": 2
+        },
+        {
+          "text": "별일 없어도 눌러보고 싶은 편안한 온도가 있어서",
+          "type": "late-night-favorite-pin",
+          "value": 2
+        },
+        {
+          "text": "막상 필요할 때 가장 믿고 찾게 되는 사람이라서",
+          "type": "calm-rescue-contact",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

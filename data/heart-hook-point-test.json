@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "text": "썸 분위기 생긴 사람과 처음 단둘이 앉았다. 주문 기다리는 3분 동안 내가 더 자주 만드는 공기는?",
+      "options": [
+        { "text": "별거 아닌 농담도 둘만의 코드처럼 만들어서, 상대가 금방 긴장 풀리게 한다", "type": "inside-joke-dealer", "value": 2 },
+        { "text": "말을 길게 안 해도 눈빛이랑 표정으로 묘하게 더 보게 만든다", "type": "low-temp-heart-thief", "value": 2 }
+      ]
+    },
+    {
+      "text": "집 가는 길, 상대가 오늘 만남을 친구에게 한 줄로 설명한다면 더 가까운 쪽은?",
+      "options": [
+        { "text": "편했는데 이상하게 계속 생각나. 무리 안 하는데 자꾸 다시 보고 싶어", "type": "daily-life-bias-wrecker", "value": 1 },
+        { "text": "대화 몇 마디 안 했는데도, 표정 하나가 계속 남아. 괜히 신경 쓰인다", "type": "low-temp-heart-thief", "value": 1 }
+      ]
+    },
+    {
+      "text": "상대가 내 연락을 기다리게 되는 순간은 보통 어느 장면에 가깝나?",
+      "options": [
+        { "text": "방금 같이 웃었던 포인트를 다시 건드리며, 둘만 웃을 핑계를 하나 더 만든다", "type": "inside-joke-dealer", "value": 1 },
+        { "text": "대놓고 티는 안 내는데, 필요한 타이밍에 딱 맞는 말로 마음을 풀어준다", "type": "comfort-zone-flirter", "value": 2 }
+      ]
+    },
+    {
+      "text": "갑자기 비가 와서 우산 하나를 같이 쓰게 됐다. 내가 더 강한 쪽은?",
+      "options": [
+        { "text": "팔짝팔짝 분위기 띄우기보다, 조용히 속도 맞추면서 상대를 편하게 만든다", "type": "comfort-zone-flirter", "value": 1 },
+        { "text": "별말 없어도 거리감이 확 달라진다. 일상 장면을 묘하게 특별하게 만든다", "type": "daily-life-bias-wrecker", "value": 2 }
+      ]
+    },
+    {
+      "text": "썸 상대가 네 쪽으로 다시 걸음을 돌리는 이유가 더 가까운 건?",
+      "options": [
+        { "text": "나랑 있으면 긴장보다 편안함이 먼저 와서, 괜히 더 오래 붙어 있고 싶어진다", "type": "comfort-zone-flirter", "value": 2 },
+        { "text": "짧게 끝난 장면도 혼자 복기하게 돼서, 다시 한번 확인하고 싶어진다", "type": "low-temp-heart-thief", "value": 2 }
+      ]
+    },
+    {
+      "text": "결국 썸 상대가 제일 먼저 중독되는 내 포인트를 고르면?",
+      "options": [
+        { "text": "나랑 있으면 어색한 순간도 둘만 웃는 장면으로 바뀌는 것", "type": "inside-joke-dealer", "value": 2 },
+        { "text": "과한 직진 없이도 생활 속에 슬쩍 스며들어 버리는 것", "type": "daily-life-bias-wrecker", "value": 1 }
+      ]
+    }
+  ]
+}

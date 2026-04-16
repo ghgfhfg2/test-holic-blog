@@ -1,0 +1,79 @@
+{
+  "resultMode": "mbti16",
+  "resultMap": {
+    "ESTJ": "reaction-command-center",
+    "ESTP": "one-shot-viral-face",
+    "ESFJ": "comment-magnet-host",
+    "ESFP": "main-feed-spotlight",
+    "ENTJ": "mood-announcement-boss",
+    "ENTP": "caption-bait-trickster",
+    "ENFJ": "dm-open-thermostat",
+    "ENFP": "save-button-chaos-cutie",
+    "ISTJ": "default-photo-trust-anchor",
+    "ISTP": "lowkey-update-sniper",
+    "ISFJ": "close-friends-comfort-shot",
+    "ISFP": "soft-filter-afterglow",
+    "INTJ": "mysterious-feed-director",
+    "INTP": "one-line-curiosity-hook",
+    "INFJ": "silent-story-whisper",
+    "INFP": "late-night-mood-poet"
+  },
+  "questions": [
+    {
+      "dimension": "EI",
+      "text": "프사 바꾼 직후, 알림창이 슬슬 반응하기 시작한다. 내가 더 가까운 쪽은?",
+      "options": [
+        {
+          "text": "반응 오면 바로 받아친다. 이왕 바꾼 거면 댓글이랑 답장까지 흐름 살리는 게 재밌다",
+          "axis": "E"
+        },
+        {
+          "text": "반응은 천천히 본다. 몇 명이 조용히 느끼고 지나가는지 보는 쪽이 더 좋다",
+          "axis": "I"
+        }
+      ]
+    },
+    {
+      "dimension": "SN",
+      "text": "이번 프사를 고를 때 마지막까지 제일 크게 작동하는 기준은?",
+      "options": [
+        {
+          "text": "얼굴 각도, 색감, 배경, 구도처럼 눈에 바로 들어오는 완성도다. 디테일이 무너지면 못 올린다",
+          "axis": "S"
+        },
+        {
+          "text": "이 사진이 주는 기분과 서사다. 딱 봤을 때 말 안 해도 분위기가 읽혀야 한다",
+          "axis": "N"
+        }
+      ]
+    },
+    {
+      "dimension": "TF",
+      "text": "친구가 프사 바꾼 너를 보고 \"갑자기 느낌 달라졌네?\" 하고 보냈다. 네 반응은?",
+      "options": [
+        {
+          "text": "뭐가 달라 보였는지부터 묻는다. 포인트를 알아야 다음에도 제대로 먹힌다",
+          "axis": "T"
+        },
+        {
+          "text": "그 말에 담긴 온도부터 읽는다. 어울린다는 뜻 같으면 괜히 기분 좋아진다",
+          "axis": "F"
+        }
+      ]
+    },
+    {
+      "dimension": "PJ",
+      "text": "마음에 드는 사진이 생겼다. 내 프사 운영 방식은 보통 어느 쪽에 가깝나?",
+      "options": [
+        {
+          "text": "오늘 올려야 할 타이밍이면 바로 바꾼다. 며칠 뒤에 또 다른 무드로 갈 수도 있다",
+          "axis": "P"
+        },
+        {
+          "text": "한 번 바꾸면 꽤 오래 간다. 지금 내 무드를 대표할 한 장을 신중하게 고른다",
+          "axis": "J"
+        }
+      ]
+    }
+  ]
+}

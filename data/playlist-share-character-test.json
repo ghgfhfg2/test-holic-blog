@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "text": "카페에서 친구가 \"너 플리 한 번만 틀어봐\" 하고 폰을 넘겼다. 첫 곡으로 더 자주 고르는 쪽은?",
+      "options": [
+        { "text": "첫 10초부터 공기 바뀌는 곡으로 간다. 시작은 바로 분위기 잡혀야 재밌다", "type": "opening-scene-stealer", "value": 2 },
+        { "text": "처음엔 잔잔해도 좋다. 대신 들을수록 가사나 결이 오래 남는 곡을 고른다", "type": "lyric-afterglow-collector", "value": 2 },
+        { "text": "다들 몰랐는데 듣자마자 저장하게 되는 숨은 곡을 꺼낸다", "type": "secret-taste-curator", "value": 2 },
+        { "text": "창밖 풍경까지 같이 바뀌는 듯한 드라이브 무드 곡부터 튼다", "type": "night-drive-pilot", "value": 2 }
+      ]
+    },
+    {
+      "text": "플리 커버 사진이나 제목을 정해야 한다. 내 손이 더 먼저 가는 쪽은?",
+      "options": [
+        { "text": "한눈에 기억나는 제목과 센 있는 무드컷으로 바로 시선부터 잡는다", "type": "opening-scene-stealer", "value": 1 },
+        { "text": "조용하지만 문장 하나로 마음 건드리는 제목을 붙인다", "type": "lyric-afterglow-collector", "value": 1 },
+        { "text": "아는 사람만 알아볼 레퍼런스를 숨겨두고 싶다", "type": "secret-taste-curator", "value": 1 },
+        { "text": "시간대나 이동 장면이 바로 떠오르게, 풍경부터 생각한다", "type": "night-drive-pilot", "value": 1 }
+      ]
+    },
+    {
+      "text": "누가 네 플리를 듣다가 갑자기 \"3번 트랙 뭐야?\" 하고 DM을 보냈다. 네가 제일 자주 만드는 반응은?",
+      "options": [
+        { "text": "딱 그 지점에서 판이 열린다. 한 곡으로 대화 텐션까지 같이 올라간다", "type": "opening-scene-stealer", "value": 2 },
+        { "text": "가사 캡처까지 같이 오면 제일 재밌다. 그 사람 감정선이 읽히기 시작한다", "type": "lyric-afterglow-collector", "value": 2 },
+        { "text": "\"이거 어떻게 찾았어?\" 반응이 오면 은근히 제일 짜릿하다", "type": "secret-taste-curator", "value": 2 },
+        { "text": "노래 얘기하다가 어느새 밤 산책이나 드라이브 얘기로 흘러간다", "type": "night-drive-pilot", "value": 2 }
+      ]
+    },
+    {
+      "text": "비 오는 저녁, 이동 중인 차 안에서 한 곡만 더 틀 수 있다. 더 끌리는 장면은?",
+      "options": [
+        { "text": "차분하다가도 후렴에서 확 살아나는 곡. 공기 전환이 선명해야 한다", "type": "opening-scene-stealer", "value": 1 },
+        { "text": "가사 한 줄이 이상하게 지금 마음을 대신 말해주는 곡", "type": "lyric-afterglow-collector", "value": 1 },
+        { "text": "누구 취향에도 안 흔하지만 들으면 바로 빠지는 곡", "type": "secret-taste-curator", "value": 1 },
+        { "text": "창밖 불빛, 속도, 밤 공기랑 너무 잘 맞아서 장면이 완성되는 곡", "type": "night-drive-pilot", "value": 1 }
+      ]
+    },
+    {
+      "text": "친구가 \"너 플리는 듣고 나면 네 성격이 보인다\"고 한다. 가장 가까운 이유는?",
+      "options": [
+        { "text": "사람들 귀를 그냥 지나치게 두지 않는다. 초반부터 존재감이 확실하다", "type": "opening-scene-stealer", "value": 2 },
+        { "text": "설명보다 감정선이 먼저 남는다. 듣고 나면 괜히 한 번 더 생각난다", "type": "lyric-afterglow-collector", "value": 2 },
+        { "text": "취향이 흔하지 않아서, 네 추천만 보면 저장 목록이 달라진다", "type": "secret-taste-curator", "value": 2 },
+        { "text": "노래보다 장면을 같이 건넨다. 듣는 순간 시간대와 공기가 생긴다", "type": "night-drive-pilot", "value": 2 }
+      ]
+    },
+    {
+      "text": "플리가 끝난 뒤 사람들 머릿속에 제일 오래 남는 네 이미지는 결국 어느 쪽일까?",
+      "options": [
+        { "text": "처음 한두 곡만으로도 분위기를 장악해버리는 사람", "type": "opening-scene-stealer", "value": 2 },
+        { "text": "가사 한 줄로 뒤늦게 심장 치는 사람", "type": "lyric-afterglow-collector", "value": 2 },
+        { "text": "숨은 명곡 하나로 취향 판을 바꿔놓는 사람", "type": "secret-taste-curator", "value": 2 },
+        { "text": "밤 공기까지 같이 재생시키는 사람", "type": "night-drive-pilot", "value": 2 }
+      ]
+    }
+  ]
+}

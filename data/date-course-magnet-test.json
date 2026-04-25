@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "text": "썸 분위기 막 생긴 사람과 처음 길게 보기로 했다. 약속 장소를 고를 때 네 손이 제일 먼저 가는 쪽은?",
+      "options": [
+        { "text": "디저트가 예쁜 카페부터 잡는다. 앉자마자 사진도 대화도 자연스럽게 풀리는 공간이 좋다", "type": "dessert-bait-charmer", "value": 2 },
+        { "text": "동네 골목 산책 가능한 곳을 고른다. 걷다 보면 괜히 말이 더 길어진다", "type": "neighborhood-walk-maker", "value": 2 },
+        { "text": "전시, 팝업, 소품샵처럼 같이 구경할 게 있는 곳이 끌린다. 가만히 앉아만 있으면 아쉽다", "type": "activity-plot-starter", "value": 2 },
+        { "text": "야경 예쁜 장소를 염두에 둔다. 끝날 때 한 장면 남는 코스가 이상하게 오래 간다", "type": "night-view-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "약속 시작 10분 전, 상대가 \"나 조금 늦을 것 같아\"라고 보냈다. 네가 분위기를 살리는 방식은?",
+      "options": [
+        { "text": "괜찮다고 하면서 메뉴 후보 사진부터 몇 개 보낸다. 도착하자마자 바로 웃을 포인트를 만든다", "type": "dessert-bait-charmer", "value": 1 },
+        { "text": "천천히 오라고 하고 근처 골목이나 소품 구경 포인트를 공유한다. 조급함보다 편안함이 먼저다", "type": "neighborhood-walk-maker", "value": 1 },
+        { "text": "오히려 좋다며 둘이 할 수 있는 짧은 미션거리를 찾는다. 만났을 때 바로 판이 열린다", "type": "activity-plot-starter", "value": 1 },
+        { "text": "급할 것 없다고 하고, 오늘 마지막 장면만 좋으면 된다고 생각한다. 템포를 길게 본다", "type": "night-view-afterglow", "value": 1 }
+      ]
+    },
+    {
+      "text": "카페에서 대화가 잠깐 끊겼다. 이 어색한 5초를 네가 가장 자주 넘기는 방식은?",
+      "options": [
+        { "text": "메뉴 한입 건네며 \"이거 생각보다 맛있다\" 하고 분위기를 다시 연다. 작은 공유가 제일 빠르다", "type": "dessert-bait-charmer", "value": 2 },
+        { "text": "\"잠깐 밖으로 걸을래?\" 하고 자리에서 공기부터 바꾼다. 움직이면 대화도 따라온다", "type": "neighborhood-walk-maker", "value": 2 },
+        { "text": "근처에 재밌는 거 있다며 새로운 구경거리를 꺼낸다. 정적을 이벤트로 바꿔버린다", "type": "activity-plot-starter", "value": 2 },
+        { "text": "굳이 급하게 메우지 않는다. 그 짧은 정적까지 오늘 분위기의 일부처럼 받아들인다", "type": "night-view-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "갑자기 비가 살짝 내리기 시작했다. 네가 더 끌리는 다음 장면은?",
+      "options": [
+        { "text": "비 피해서 들어간 카페에서 따뜻한 디저트 하나 더 시킨다. 예상 밖 추가 라운드가 은근 강하다", "type": "dessert-bait-charmer", "value": 1 },
+        { "text": "우산 하나 펴고 천천히 같은 속도로 걷는다. 대단한 말 없이도 거리감이 달라진다", "type": "neighborhood-walk-maker", "value": 1 },
+        { "text": "실내로 들어가도 그냥 앉지 않는다. 사진부스든 뽑기든 같이 할 작은 장치를 찾는다", "type": "activity-plot-starter", "value": 1 },
+        { "text": "비 덕분에 밤 공기가 더 살아났다고 느낀다. 오히려 오늘 엔딩 장면이 더 선명해진다", "type": "night-view-afterglow", "value": 1 }
+      ]
+    },
+    {
+      "text": "헤어지기 직전, 상대가 \"오늘 생각보다 금방 갔다\"고 말한다. 이때 네 무드는?",
+      "options": [
+        { "text": "그 말 듣자마자 \"다음엔 여기 디저트 말고 저기 가보자\" 하고 자연스럽게 다음 약속 떡밥을 던진다", "type": "dessert-bait-charmer", "value": 2 },
+        { "text": "집 가는 길 조심히 가라고 보내고, 같이 걸었던 장면 하나를 가볍게 다시 꺼낸다", "type": "neighborhood-walk-maker", "value": 2 },
+        { "text": "오늘 제일 재밌었던 순간을 콕 집어 말한다. 같이 논 장면이 다시 살아나게 만든다", "type": "activity-plot-starter", "value": 2 },
+        { "text": "짧게 잘 들어갔냐고만 남긴다. 대신 오늘 마지막 표정이 오래 남도록 여백을 둔다", "type": "night-view-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "결국 상대가 친구에게 \"그 사람이랑 있으면 이상하게 또 보고 싶다\"고 말하게 되는 이유는?",
+      "options": [
+        { "text": "어색한 시작도 금방 달달한 공기로 바꿔서, 같이 있으면 괜히 기분이 좋아지기 때문이다", "type": "dessert-bait-charmer", "value": 2 },
+        { "text": "같이 걷고 말하던 속도가 편해서, 별일 없어도 자꾸 다시 붙고 싶어지기 때문이다", "type": "neighborhood-walk-maker", "value": 2 },
+        { "text": "평범한 만남도 사건 있는 하루처럼 만들어서, 다음 장면이 기대되기 때문이다", "type": "activity-plot-starter", "value": 2 },
+        { "text": "끝나고 혼자 돌아가는 길에 오늘 분위기가 다시 재생돼서, 여운이 길게 남기 때문이다", "type": "night-view-afterglow", "value": 2 }
+      ]
+    }
+  ]
+}

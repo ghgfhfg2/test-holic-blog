@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "text": "친구들이랑 축제 입구에 도착했다. 아직 본게임도 시작 전인데 네가 제일 먼저 만드는 흐름은?",
+      "options": [
+        { "text": "일단 텐션부터 올린다. 누구 공연 볼지보다 오늘 제대로 놀 분위기부터 붙여야 한다", "type": "opening-hype-starter", "value": 2 },
+        { "text": "부스, 먹거리, 공연 시간표부터 눈에 넣는다. 잘 놀려면 동선이 먼저 살아야 한다", "type": "route-sense-producer", "value": 2 },
+        { "text": "누가 아직 어색한지 먼저 본다. 다 같이 편해져야 오늘 사진도 표정도 산다", "type": "chemistry-collector", "value": 2 },
+        { "text": "낮보다 밤을 본다. 마지막 공연 끝나고 남을 장면까지 벌써 상상해둔다", "type": "finale-afterglow-maker", "value": 2 }
+      ]
+    },
+    {
+      "text": "갑자기 사람이 몰려서 계획이 꼬였다. 이때 네 손이 먼저 가는 쪽은?",
+      "options": [
+        { "text": "에라 모르겠다, 재밌는 쪽으로 질러본다. 예상 밖 변수도 텐션으로 밀어붙이면 추억이 된다", "type": "opening-hype-starter", "value": 1 },
+        { "text": "대체 루트를 바로 짠다. 덜 기다리고 더 많이 즐기는 흐름을 만드는 게 제일 중요하다", "type": "route-sense-producer", "value": 1 },
+        { "text": "누구 하나 지치거나 소외되지 않게 속도를 맞춘다. 같이 온 사람 만족도가 결국 핵심이다", "type": "chemistry-collector", "value": 1 },
+        { "text": "굳이 조급해하지 않는다. 오늘 하이라이트는 아직 안 왔다고 생각하면 마음이 편하다", "type": "finale-afterglow-maker", "value": 1 }
+      ]
+    },
+    {
+      "text": "푸드트럭 앞에서 메뉴를 골라야 한다. 네가 더 자주 만드는 장면은?",
+      "options": [
+        { "text": "일단 지금 제일 당기는 걸 고른다. 먹는 순간까지 신나야 축제다", "type": "opening-hype-starter", "value": 1 },
+        { "text": "줄 길이, 먹기 편한지, 다음 이동까지 계산해서 제일 효율 좋은 선택을 한다", "type": "route-sense-producer", "value": 1 },
+        { "text": "다 같이 한입씩 나눠 먹기 좋은 메뉴로 간다. 같이 반응 터지는 순간이 제일 재밌다", "type": "chemistry-collector", "value": 1 },
+        { "text": "지금보다도 밤공기랑 잘 어울릴 메뉴가 끌린다. 오늘 장면에 맞는 맛이 있다", "type": "finale-afterglow-maker", "value": 1 }
+      ]
+    },
+    {
+      "text": "공연 시작 직전, 다들 폰을 들었는데 분위기가 미묘하게 갈린다. 네 쪽에 더 가까운 건?",
+      "options": [
+        { "text": "앞사람까지 같이 뛰게 만드는 쪽이다. 시작 30초 만에 오늘 텐션 기준을 올려버린다", "type": "opening-hype-starter", "value": 2 },
+        { "text": "어디서 보면 제일 잘 보이고 덜 치이는지 바로 감 잡는다. 잘 즐기는 자리 선정도 실력이다", "type": "route-sense-producer", "value": 2 },
+        { "text": "내가 신나기보다 옆 사람 반응부터 살핀다. 같이 소리 지르게 만드는 순간이 좋다", "type": "chemistry-collector", "value": 2 },
+        { "text": "지금보다 끝나고 더 크게 남을 장면을 기다린다. 떼창이나 앵콜 같은 엔딩컷에 강하다", "type": "finale-afterglow-maker", "value": 2 }
+      ]
+    },
+    {
+      "text": "집 가는 길 단톡방에 오늘 사진과 영상이 쏟아진다. 사람들이 네 이름 옆에 제일 많이 붙일 말은?",
+      "options": [
+        { "text": "\"쟤 때문에 초반부터 텐션 올라간 거 봐\" 같은 말이 붙는다", "type": "opening-hype-starter", "value": 2 },
+        { "text": "\"결국 제일 알차게 논 루트는 쟤가 짠 거였어\" 같은 말이 붙는다", "type": "route-sense-producer", "value": 2 },
+        { "text": "\"같이 있으니까 괜히 오늘 더 재밌었던 것 같아\" 같은 말이 붙는다", "type": "chemistry-collector", "value": 2 },
+        { "text": "\"마지막 장면이 아직도 남아, 오늘 엔딩 좋았다\" 같은 말이 붙는다", "type": "finale-afterglow-maker", "value": 2 }
+      ]
+    },
+    {
+      "text": "결국 축제 같이 갔던 사람들이 다음에도 너를 또 부르는 이유는?",
+      "options": [
+        { "text": "시작부터 공기 자체를 끌어올려서, 같이 가면 하루가 쉽게 밋밋해지지 않기 때문이다", "type": "opening-hype-starter", "value": 2 },
+        { "text": "정신없이 놀아도 결국 제일 잘 즐긴 동선이 남아서, 만족도가 확실히 다르기 때문이다", "type": "route-sense-producer", "value": 2 },
+        { "text": "사진보다 같이 웃은 순간이 더 많이 남을 만큼, 사람들 사이 온도를 잘 맞추기 때문이다", "type": "chemistry-collector", "value": 2 },
+        { "text": "끝난 뒤 집 가는 길에도 오늘 장면이 다시 재생될 만큼, 엔딩 여운이 길게 남기 때문이다", "type": "finale-afterglow-maker", "value": 2 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "resultMode": "mbti16",
+  "resultMap": {
+    "ESTJ": "tempo-command-board",
+    "ESTP": "dopamine-switch-hitter",
+    "ESFJ": "mood-safezone-host",
+    "ESFP": "chat-firework-caster",
+    "ENTJ": "tension-director-chief",
+    "ENTP": "one-line-meme-launcher",
+    "ENFJ": "heart-thermostat-runner",
+    "ENFP": "notification-spark-dealer",
+    "ISTJ": "calm-default-anchor",
+    "ISTP": "lowtemp-twist-sniper",
+    "ISFJ": "quiet-comfort-patch",
+    "ISFP": "afterglow-hook-maker",
+    "INTJ": "flow-blueprint-master",
+    "INTP": "dry-reply-addictor",
+    "INFJ": "silent-heartbeat-editor",
+    "INFP": "midnight-mood-amplifier"
+  },
+  "questions": [
+    {
+      "dimension": "EI",
+      "text": "새벽에 누가 네 스토리에 \"이거 너다 ㅋㅋ\" 하고 답장을 달았다. 손이 먼저 가는 쪽은?",
+      "options": [
+        {
+          "text": "바로 받아친다. 짧게 끝내기보다 다음 드립까지 붙여서 대화 온도를 올린다",
+          "axis": "E"
+        },
+        {
+          "text": "바로 달려들진 않는다. 상대 말투를 한 번 더 읽고, 제일 적은 말로 오래 남길 답장을 고른다",
+          "axis": "I"
+        }
+      ]
+    },
+    {
+      "dimension": "SN",
+      "text": "친구가 \"요즘 너 말투 바뀐 것 같아\"라고 한다. 네가 실제로 더 신경 쓰는 건?",
+      "options": [
+        {
+          "text": "이모지, 띄어쓰기, 답장 속도처럼 화면에 바로 보이는 템포다. 디테일 하나가 인상을 바꾼다",
+          "axis": "S"
+        },
+        {
+          "text": "말 그 자체보다 흐르는 분위기다. 한 줄이어도 \"요즘 무드\"가 읽혀야 한다",
+          "axis": "N"
+        }
+      ]
+    },
+    {
+      "dimension": "TF",
+      "text": "단톡에서 갑자기 공기가 싸해졌다. 네가 먼저 하는 쪽은?",
+      "options": [
+        {
+          "text": "왜 꼬였는지부터 본다. 말 한 줄 정리해서 흐름을 다시 세우는 게 제일 빠르다",
+          "axis": "T"
+        },
+        {
+          "text": "누가 상했는지부터 느낀다. 농도 낮춘 한마디로 체온부터 돌려놓고 싶다",
+          "axis": "F"
+        }
+      ]
+    },
+    {
+      "dimension": "PJ",
+      "text": "썸 타는 사람이 갑자기 \"지금 잠깐 통화할래?\"라고 보냈다. 네 텐션은?",
+      "options": [
+        {
+          "text": "좋아, 이런 변수 좋다. 준비 안 된 순간이라도 생생하게 받아야 진짜 케미가 산다",
+          "axis": "P"
+        },
+        {
+          "text": "심장 뛰어도 바로 받진 않는다. 지금 톤에 맞는 말과 공기를 한 번 정리하고 들어간다",
+          "axis": "J"
+        }
+      ]
+    }
+  ]
+}

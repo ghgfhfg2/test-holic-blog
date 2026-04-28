@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "text": "친구 자취방 문 열자마자 다들 신발 벗고 우르르 들어간다. 너는 제일 먼저 어디로 향해?",
+      "options": [
+        { "text": "조명, 향, 음악부터 본다. 오늘 공기 살려야 진짜 모임이 열린다", "type": "mood-switch-host", "value": 2 },
+        { "text": "냉장고나 배달앱부터 본다. 먹는 흐름이 잡혀야 다들 오래 앉는다", "type": "snack-route-fixer", "value": 2 }
+      ]
+    },
+    {
+      "text": "어색한 친구 한 명이 살짝 조용하다. 이때 네가 더 자주 만드는 장면은?",
+      "options": [
+        { "text": "가볍게 옆에 붙어서 둘만 웃을 얘기부터 연다. 한 명 풀리면 판이 금방 부드러워진다", "type": "secret-chat-puller", "value": 2 },
+        { "text": "다 같이 바로 반응할 주제를 던진다. 모두가 한 번에 터져야 어색함이 사라진다", "type": "mood-switch-host", "value": 1 }
+      ]
+    },
+    {
+      "text": "배달이 늦고, 다들 슬슬 늘어질 때 너의 손이 먼저 가는 쪽은?",
+      "options": [
+        { "text": "남은 과자, 음료, 컵 정리해서 임시 판부터 살린다. 허기보다 흐름 끊기는 게 더 싫다", "type": "snack-route-fixer", "value": 2 },
+        { "text": "사진첩이든 썰이든 하나 꺼내서 갑자기 밤 분위기를 뒤집는다. 이럴 때 레전드가 나온다", "type": "midnight-scene-stealer", "value": 2 }
+      ]
+    },
+    {
+      "text": "집 가는 시간 다 됐는데 다들 소파에서 못 일어난다. 결국 네 쪽에서 더 자주 생기는 결말은?",
+      "options": [
+        { "text": "누가 왜 웃었는지, 무슨 말이 나왔는지 다시 곱씹게 만든다. 이상하게 네 옆에서 얘기가 길어진다", "type": "secret-chat-puller", "value": 1 },
+        { "text": "마지막 한 장면을 남긴다. 단체사진이든 엔딩 멘트든, 집 가는 길까지 여운이 따라온다", "type": "midnight-scene-stealer", "value": 1 }
+      ]
+    }
+  ]
+}

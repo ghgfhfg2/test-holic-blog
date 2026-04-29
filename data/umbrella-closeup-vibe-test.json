@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "text": "비가 갑자기 쏟아져서 한 우산 아래로 붙었다. 너는 첫 10초에 더 자주 어떤 장면을 만들까?",
+      "options": [
+        { "text": "우산 각도부터 바로 맞춘다. 상대 어깨 안 젖게 해놓고 아무 일 아닌 척 걷기 시작한다", "type": "sleeve-tug-safezone", "value": 2 },
+        { "text": "\"뛰지 말고 천천히 가자\" 하고 속도를 먼저 맞춘다. 급한 공기보다 같이 걷는 리듬이 중요하다", "type": "rain-talk-bridge", "value": 2 },
+        { "text": "살짝 붙는 거리감이 어색하지 않게 장난 한마디 던진다. 괜히 심장 뛰는 순간을 웃음으로 넘긴다", "type": "halfstep-heart-puller", "value": 2 },
+        { "text": "비 냄새 좋다고 툭 말한다. 당장 대화보다 지금 장면이 오래 남게 만드는 쪽이다", "type": "last-drop-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "횡단보도 앞에 섰는데 물웅덩이가 크게 퍼져 있다. 네 손이 먼저 가는 쪽은?",
+      "options": [
+        { "text": "말보다 먼저 안쪽 자리로 바꿔준다. 신발 젖는 쪽을 네가 가져가는 편이다", "type": "sleeve-tug-safezone", "value": 1 },
+        { "text": "\"여기 미끄럽다\" 하고 가볍게 알려준다. 작은 한마디로 공기부터 편하게 만든다", "type": "rain-talk-bridge", "value": 1 },
+        { "text": "살짝 팔꿈치 닿는 타이밍에 맞춰 웃긴 포인트를 만든다. 긴장보다 케미가 먼저 살아난다", "type": "halfstep-heart-puller", "value": 1 },
+        { "text": "굳이 호들갑 떨지 않는다. 대신 같이 멈춘 그 몇 초를 이상하게 영화처럼 남긴다", "type": "last-drop-afterglow", "value": 1 }
+      ]
+    },
+    {
+      "text": "편의점 앞에서 잠깐 비를 피하게 됐다. 이때 네가 더 자연스럽게 여는 흐름은?",
+      "options": [
+        { "text": "따뜻한 음료 하나 슬쩍 고르게 한다. 챙김이 티 나지 않게 스며드는 장면에 강하다", "type": "sleeve-tug-safezone", "value": 2 },
+        { "text": "아까 못 한 얘기를 이어붙인다. 빗소리 덕분에 오히려 말이 더 편하게 길어진다", "type": "rain-talk-bridge", "value": 2 },
+        { "text": "젖은 앞머리나 소매 얘기로 서로 놀리며 분위기를 푼다. 어색함을 설렘 쪽으로 밀어버린다", "type": "halfstep-heart-puller", "value": 2 },
+        { "text": "창문에 맺힌 빗방울 보다가 한마디 던진다. 별거 아닌데 돌아가서 계속 생각나는 톤이다", "type": "last-drop-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "우산이 조금 작아서 자꾸 어깨가 닿는다. 너는 이 애매한 순간을 어떻게 넘기는 편이야?",
+      "options": [
+        { "text": "조용히 네 쪽을 더 젖힌다. 상대가 불편하지 않게 만드는 게 먼저다", "type": "sleeve-tug-safezone", "value": 1 },
+        { "text": "\"우리 왜 이렇게 보폭 안 맞냐\" 하고 웃는다. 말문을 트는 쪽으로 자연스럽게 푼다", "type": "rain-talk-bridge", "value": 1 },
+        { "text": "\"이 정도면 거의 팀플인데?\" 같은 말로 거리감 자체를 장난감처럼 다룬다", "type": "halfstep-heart-puller", "value": 1 },
+        { "text": "굳이 설명하지 않는다. 닿았다 멀어지는 그 템포 자체를 오늘의 포인트로 남긴다", "type": "last-drop-afterglow", "value": 1 }
+      ]
+    },
+    {
+      "text": "목적지에 거의 다 왔는데 비가 오히려 더 세졌다. 네 쪽에서 더 자주 나오는 엔딩은?",
+      "options": [
+        { "text": "들어가서 바로 수건이나 티슈 챙길 생각부터 한다. 끝까지 케어가 끊기지 않는다", "type": "sleeve-tug-safezone", "value": 2 },
+        { "text": "문 앞에서도 대화가 한 번 더 붙는다. 헤어지기 직전까지 어색한 틈을 안 남긴다", "type": "rain-talk-bridge", "value": 2 },
+        { "text": "\"다음엔 비 안 오는 날 보자\" 같은 말이 자연스럽게 튀어나온다. 다음 장면 떡밥을 잘 남긴다", "type": "halfstep-heart-puller", "value": 2 },
+        { "text": "짧게 잘 들어가라고 하고 끝낸다. 대신 오늘 우산 아래 공기가 집 가는 길까지 따라가게 만든다", "type": "last-drop-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "결국 상대가 친구에게 \"그날 비 와서 오히려 좋았어\"라고 말하게 되는 이유는?",
+      "options": [
+        { "text": "사소한 순간마다 챙김이 자연스럽게 붙어서, 같이 있으면 이상하게 보호받는 느낌이 들기 때문이다", "type": "sleeve-tug-safezone", "value": 2 },
+        { "text": "어색할 법한 장면도 대화가 끊기지 않게 이어줘서, 비 오는 날 특유의 불편함이 거의 기억나지 않기 때문이다", "type": "rain-talk-bridge", "value": 2 },
+        { "text": "가까워질 타이밍을 무겁지 않게 살려서, 웃다가도 괜히 심장 뛰는 순간을 남기기 때문이다", "type": "halfstep-heart-puller", "value": 2 },
+        { "text": "크게 뭘 하지 않아도 마지막 공기가 오래 남아서, 집에 가서도 그 장면이 계속 다시 재생되기 때문이다", "type": "last-drop-afterglow", "value": 2 }
+      ]
+    }
+  ]
+}

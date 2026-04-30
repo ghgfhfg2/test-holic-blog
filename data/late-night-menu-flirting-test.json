@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "text": "새벽 11시 40분, 단톡에 \"야식 시킬 사람?\"이 올라왔다. 네가 제일 먼저 누르는 메뉴는?",
+      "options": [
+        { "text": "반반 치킨. 취향 갈려도 결국 다 같이 신나게 먹을 수 있는 쪽이 좋다", "type": "crispy-chaos-sparker", "value": 2 },
+        { "text": "국물 떡볶이. 매콤한데 이상하게 마음까지 풀리는 메뉴가 끌린다", "type": "warm-broth-safezone", "value": 2 },
+        { "text": "수육이나 보쌈. 한입 먹는 순간 분위기 자체가 부드러워지는 메뉴가 좋다", "type": "midnight-sauce-charmer", "value": 2 },
+        { "text": "숨은 맛집 파스타나 야키소바. 흔한 메뉴보다 \"어디서 찾았어?\" 반응이 오는 게 짜릿하다", "type": "secret-menu-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "배달앱 최소주문 금액이 살짝 모자란다. 이때 네 손이 더 자주 가는 쪽은?",
+      "options": [
+        { "text": "사이드 하나 더 넣자고 바로 밀어붙인다. 이왕 먹는 거 분위기까지 크게 가야 한다", "type": "crispy-chaos-sparker", "value": 1 },
+        { "text": "누가 지금 제일 당길지 생각해서 무난하게 다 좋아할 메뉴를 추가한다", "type": "warm-broth-safezone", "value": 1 },
+        { "text": "소스나 토핑 하나를 센스 있게 바꿔서 만족도를 올린다. 작은 디테일이 기억에 남는다", "type": "midnight-sauce-charmer", "value": 1 },
+        { "text": "이럴 때만 시킬 수 있는 비밀 메뉴를 슬쩍 꺼낸다. 판이 갑자기 재밌어진다", "type": "secret-menu-afterglow", "value": 1 }
+      ]
+    },
+    {
+      "text": "야식이 도착했고, 다들 첫 입 먹기 직전이다. 네가 더 자주 만드는 첫 장면은?",
+      "options": [
+        { "text": "\"이건 뜨거울 때 먹어야 돼\" 하면서 바로 텐션 올린다. 시작부터 판이 살아야 한다", "type": "crispy-chaos-sparker", "value": 2 },
+        { "text": "앞접시, 물, 휴지부터 은근히 챙긴다. 편해야 오래 웃는다", "type": "warm-broth-safezone", "value": 2 },
+        { "text": "제일 맛있는 조합부터 한입 영업한다. 사람들 반응 끌어내는 맛포인트를 잘 안다", "type": "midnight-sauce-charmer", "value": 2 },
+        { "text": "말보다 표정으로 먼저 먹인다. 한입 먹고 조용히 고개 끄덕이는 순간이 더 세다", "type": "secret-menu-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "누가 \"이거 생각보다 맛있다\" 하고 놀란다. 네 반응으로 더 가까운 건?",
+      "options": [
+        { "text": "그럴 줄 알았다며 바로 다음 추천까지 이어간다. 한 번 오르면 텐션을 더 키운다", "type": "crispy-chaos-sparker", "value": 1 },
+        { "text": "입맛 맞는 사람 찾은 것처럼 괜히 반갑다. 그 사람 쪽으로 슬쩍 더 챙겨주게 된다", "type": "warm-broth-safezone", "value": 1 },
+        { "text": "\"이 소스랑 같이 먹어봐\" 하면서 취향을 딱 맞춰준다. 은근히 플러팅처럼 스민다", "type": "midnight-sauce-charmer", "value": 1 },
+        { "text": "괜히 많이 설명 안 한다. 대신 \"이 집 또 생각날걸\" 같은 말 한 줄로 여운을 남긴다", "type": "secret-menu-afterglow", "value": 1 }
+      ]
+    },
+    {
+      "text": "거의 다 먹어갈 때쯤, 갑자기 한 메뉴만 남았다. 네가 더 자주 택하는 엔딩은?",
+      "options": [
+        { "text": "마지막 한입 이벤트처럼 분위기를 띄운다. 끝까지 웃긴 포인트가 있어야 재밌다", "type": "crispy-chaos-sparker", "value": 2 },
+        { "text": "배고픈 사람 먼저 먹으라고 자연스럽게 넘긴다. 이상하게 이런 장면에서 진짜 결이 나온다", "type": "warm-broth-safezone", "value": 2 },
+        { "text": "반 갈라서 같이 먹자고 한다. 맛보다도 같이 나누는 장면이 더 좋다", "type": "midnight-sauce-charmer", "value": 2 },
+        { "text": "굳이 티 안 내고 양보한다. 대신 그 장면이 집 가는 길에 더 오래 남는다", "type": "secret-menu-afterglow", "value": 2 }
+      ]
+    },
+    {
+      "text": "결국 사람들이 \"야식은 너랑 먹어야 돼\"라고 말하게 되는 이유는?",
+      "options": [
+        { "text": "평범한 메뉴도 이상하게 더 신나는 밤으로 만들어서, 같이 있으면 기분 자체가 올라가기 때문이다", "type": "crispy-chaos-sparker", "value": 2 },
+        { "text": "사소하게 챙기는 결이 자연스러워서, 늦은 밤에도 괜히 마음이 편해지기 때문이다", "type": "warm-broth-safezone", "value": 2 },
+        { "text": "한입 권하는 방식까지 센스 있어서, 다정한 플러팅을 당한 것 같은 느낌이 남기 때문이다", "type": "midnight-sauce-charmer", "value": 2 },
+        { "text": "흔하지 않은 취향과 잔상이 세서, 다 끝난 뒤에도 그 메뉴랑 네 분위기가 같이 떠오르기 때문이다", "type": "secret-menu-afterglow", "value": 2 }
+      ]
+    }
+  ]
+}

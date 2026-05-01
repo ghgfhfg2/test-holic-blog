@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "text": "술자리 시작 5분, 아직 잔도 다 안 돌았는데 누가 네 옆자리부터 슬쩍 차지했다. 이때 네가 더 자주 만드는 공기는?",
+      "options": [
+        { "text": "일단 한마디 던져서 테이블 텐션부터 푼다. 첫 웃음이 터져야 오늘 밤이 열린다", "type": "first-toast-hype-charger", "value": 2 },
+        { "text": "잔, 물, 앞접시부터 챙긴다. 옆에 있으면 괜히 마음이 편해야 오래 붙는다", "type": "glass-side-safezone", "value": 2 }
+      ]
+    },
+    {
+      "text": "갑자기 누가 썸 얘기 꺼내자 테이블이 술렁인다. 네 손이 먼저 가는 쪽은?",
+      "options": [
+        { "text": "제일 웃긴 포인트만 콕 집어 살린다. 민망함을 웃음으로 바꾸는 데 강하다", "type": "first-toast-hype-charger", "value": 1 },
+        { "text": "그 사람 표정부터 보고 수위 조절한다. 괜히 선 넘지 않게 중심을 잡아준다", "type": "glass-side-safezone", "value": 1 }
+      ]
+    },
+    {
+      "text": "옆자리에 앉은 사람이 갑자기 속마음 얘기를 길게 꺼낸다. 너는 더 자주 어떻게 반응해?",
+      "options": [
+        { "text": "분위기 안 무겁게, 근데 은근 정확하게 받아준다. 이상하게 너한테만 말이 더 나오게 된다", "type": "midnight-secret-magnet", "value": 2 },
+        { "text": "진지한 얘기 끝에도 다음 장면을 남긴다. 집 가는 길에 다시 생각나는 한마디가 있다", "type": "last-train-afterglow-dealer", "value": 2 }
+      ]
+    },
+    {
+      "text": "거의 마무리 분위기인데 다들 아직 못 일어난다. 결국 네 옆자리가 기억되는 이유는?",
+      "options": [
+        { "text": "별말 안 한 것 같은데도 이상하게 속 얘기까지 털어놓게 돼서, 자꾸 다시 앉고 싶어진다", "type": "midnight-secret-magnet", "value": 1 },
+        { "text": "마지막 건배나 짧은 멘트 하나가 세다. 헤어진 뒤에도 오늘 밤 장면이 길게 남는다", "type": "last-train-afterglow-dealer", "value": 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구가 새벽에 썸 상대 DM 캡처를 보내며 \"이거 무슨 뜻 같아?\"라고 왔다. 너는 둘 중 어디부터 간다?",
+      "options": [
+        {"text": "문장 확대부터 한다. 느낌표, 말줄임표, 답장 간격까지 다 단서다", "type": "screenshot-forensic-reader", "value": 2},
+        {"text": "친구 상태부터 본다. 지금은 해석보다 멘탈 정리가 먼저다", "type": "mood-blanket-coach", "value": 2}
+      ]
+    },
+    {
+      "text": "상대가 이모티콘 하나만 남기고 사라졌다. 네 본능은 어느 쪽에 더 가깝나?",
+      "options": [
+        {"text": "지금 바로 보낼 다음 한 줄을 짠다. 흐름 안 끊기게 이어붙이는 게 중요하다", "type": "one-line-shot-crafter", "value": 2},
+        {"text": "애매하면 애매한 거라고 말한다. 억지로 호감 신호로 번역하진 않는다", "type": "signal-brake-editor", "value": 2}
+      ]
+    },
+    {
+      "text": "단톡에 친구들이 몰려와서 \"어때 보여?\" 하고 묻는다. 이때 더 자주 맡는 역할은?",
+      "options": [
+        {"text": "캡처 속 키워드를 짚으며 브리핑한다. 다들 네 해설 듣고 판단한다", "type": "screenshot-forensic-reader", "value": 2},
+        {"text": "바로 보낼 멘트 후보를 던진다. 회의보다 실행이 빠른 편이다", "type": "one-line-shot-crafter", "value": 2}
+      ]
+    },
+    {
+      "text": "답장이 3시간째 안 와서 친구가 멘붕이다. 네 입에서 먼저 나오는 말은?",
+      "options": [
+        {"text": "지금은 답장보다 네 기분이 먼저라고 한다. 같이 다른 얘기 하며 텐션을 내려준다", "type": "mood-blanket-coach", "value": 2},
+        {"text": "3시간 공백 하나로 결론 내리지 말자고 한다. 기다릴 줄 아는 것도 전략이다", "type": "signal-brake-editor", "value": 2}
+      ]
+    },
+    {
+      "text": "며칠 뒤 애프터 문자 캡처까지 또 도착했다. 둘 중 네가 더 먼저 하는 건?",
+      "options": [
+        {"text": "처음 DM부터 지금까지 온도 변화를 연결해본다. 머릿속에 이미 타임라인이 있다", "type": "screenshot-forensic-reader", "value": 2},
+        {"text": "좋아 보여도 급발진은 막는다. 초반일수록 여백이 중요하다고 본다", "type": "signal-brake-editor", "value": 2}
+      ]
+    },
+    {
+      "text": "결국 친구가 \"그래서 지금 뭐라고 보내?\" 하고 폰을 내민다. 마지막 순간의 너는?",
+      "options": [
+        {"text": "상대 마음보다 친구 마음이 먼저 안 다쳤으면 해서, 톤부터 부드럽게 잡아준다", "type": "mood-blanket-coach", "value": 2},
+        {"text": "짧고 센 한 줄을 바로 뽑아준다. 애매한 썸도 네 멘트 하나로 다음 장면이 열린다", "type": "one-line-shot-crafter", "value": 2}
+      ]
+    }
+  ]
+}

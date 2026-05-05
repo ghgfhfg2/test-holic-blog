@@ -1,0 +1,61 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구 생일이 3일 남았다. 다들 아직 못 골랐는데, 너는 먼저 어느 쪽부터 움직여?",
+      "options": [
+        {"text": "걔가 전에 지나가듯 말했던 위시를 복기한다. " ,"type": "wishlist-sniper", "value": 2},
+        {"text": "받는 순간 표정 터질 장면부터 상상한다.", "type": "moment-firestarter", "value": 2}
+      ]
+    },
+    {
+      "text": "예산 안에서 하나만 골라야 한다. 더 끌리는 선택은?",
+      "options": [
+        {"text": "당장 매일 쓰게 될 실전템. 오래 남는 게 진짜다.", "type": "daily-life-saver", "value": 2},
+        {"text": "쓸모보다도 \"어떻게 이걸 골랐지?\" 싶은 취향 저격템.", "type": "wishlist-sniper", "value": 1}
+      ]
+    },
+    {
+      "text": "포장 직전 마지막 한 번 더 고민이 왔다. 너를 더 흔드는 건?",
+      "options": [
+        {"text": "리본, 카드 한 줄, 전달 타이밍까지 맞춰야 완성이다.", "type": "moment-firestarter", "value": 1},
+        {"text": "조용해도 된다. 받는 사람이 \"이거 진짜 필요했어\" 하면 끝이다.", "type": "steady-pocket-comfort", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 \"나 진짜 필요한 건 없는데?\"라고 말한다. 이때 네 반응은?",
+      "options": [
+        {"text": "그래도 분명 있다. 평소 습관이랑 말버릇에서 힌트를 다시 찾는다.", "type": "wishlist-sniper", "value": 2},
+        {"text": "그럴수록 부담 없는 생활템으로 간다. 없어서 아쉬운 걸 채워준다.", "type": "daily-life-saver", "value": 1}
+      ]
+    },
+    {
+      "text": "선물 주는 자리 분위기를 고른다면 어느 쪽이 네 스타일이야?",
+      "options": [
+        {"text": "다 같이 있을 때 빵 터지게. 열어보는 순간 공기까지 바뀌는 쪽.", "type": "moment-firestarter", "value": 2},
+        {"text": "집 가서 다시 꺼내볼 때까지 여운 남는, 조용한 정확함.", "type": "steady-pocket-comfort", "value": 1}
+      ]
+    },
+    {
+      "text": "선물 받고 친구가 제일 많이 남길 후기는 뭐라고 생각해?",
+      "options": [
+        {"text": "\"이걸 내가 원한 건 어떻게 알았지?\" 하고 진짜 놀란다.", "type": "wishlist-sniper", "value": 2},
+        {"text": "\"네 덕분에 이 날 자체가 기억나\" 하고 장면째 저장한다.", "type": "moment-firestarter", "value": 2}
+      ]
+    },
+    {
+      "text": "같이 고르던 친구가 갑자기 \"너는 선물 고를 때 제일 뭐가 중요해?\"라고 묻는다.",
+      "options": [
+        {"text": "계속 쓸수록 나 생각나는 것. 생활에 스며드는 게 세다.", "type": "daily-life-saver", "value": 2},
+        {"text": "필요보다 마음. 크게 티 안 나도 딱 맞는 온도가 중요하다.", "type": "steady-pocket-comfort", "value": 2}
+      ]
+    },
+    {
+      "text": "생일이 지나고 한참 뒤, 너 선물의 진가가 더 드러나는 순간은?",
+      "options": [
+        {"text": "친구가 일상에서 계속 잘 쓰는 걸 볼 때. 네 선택은 은근 오래 간다.", "type": "daily-life-saver", "value": 2},
+        {"text": "문득 꺼내보며 \"이거 받을 때 기분 좋았지\"가 다시 살아날 때.", "type": "steady-pocket-comfort", "value": 2}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "text": "친구가 소개팅 전날 프로필 사진 4장을 보내며 \"하나만 골라줘\" 했다. 네가 제일 먼저 보는 포인트는?",
+      "options": [
+        {
+          "text": "첫 3초에 제일 밝고 편하게 보여야 한다. 상대가 부담 없이 클릭할 얼굴이 중요하다",
+          "type": "first-impression-buff-fairy",
+          "value": 2
+        },
+        {
+          "text": "너무 꾸민 느낌보다 본인 텐션이 잘 살아야 한다. 실제 만나서 안 어색한 게 우선이다",
+          "type": "tension-melt-safezone",
+          "value": 2
+        },
+        {
+          "text": "배경, 각도, 표정 톤까지 다 본다. 작은 디테일 하나가 인상을 확 바꾼다",
+          "type": "detail-radar-manager",
+          "value": 2
+        },
+        {
+          "text": "사진만으론 부족하다. 소개 문구 한 줄까지 붙어야 매력이 완성된다",
+          "type": "last-line-shotmaker",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "약속 당일 친구가 옷 갈아입은 사진을 또 보냈다. \"이거 너무 힘줬나?\"라는 말에 네가 더 자주 하는 반응은?",
+      "options": [
+        {
+          "text": "살짝만 정리하면 된다며 과한 긴장을 눌러준다. 편한 표정이 결국 제일 잘 먹힌다",
+          "type": "tension-melt-safezone",
+          "value": 1
+        },
+        {
+          "text": "신발, 가방, 겉옷 밸런스까지 다시 본다. 묘하게 어긋나는 포인트를 잘 잡아낸다",
+          "type": "detail-radar-manager",
+          "value": 1
+        },
+        {
+          "text": "오늘 상대가 처음 볼 장면을 상상한다. 문 열고 들어왔을 때 인상이 살아야 한다",
+          "type": "first-impression-buff-fairy",
+          "value": 1
+        },
+        {
+          "text": "옷보다 첫 멘트까지 같이 잡아준다. 결국 사람이 기억하는 건 장면과 한 줄이다",
+          "type": "last-line-shotmaker",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "소개팅 장소 가는 길, 친구가 \"나 벌써 어색해\"라고 톡했다. 이때 네 손이 먼저 가는 쪽은?",
+      "options": [
+        {
+          "text": "긴장 푸는 드립 하나 던져서 심박수부터 낮춘다. 마음이 편해야 대화도 산다",
+          "type": "tension-melt-safezone",
+          "value": 2
+        },
+        {
+          "text": "입장할 때 인사 톤이랑 첫 질문 하나만 정리해준다. 초반 공기만 잡으면 반은 간다",
+          "type": "first-impression-buff-fairy",
+          "value": 2
+        },
+        {
+          "text": "시간, 자리, 동선 같은 변수부터 다시 체크한다. 사소한 삐끗을 줄여야 덜 흔들린다",
+          "type": "detail-radar-manager",
+          "value": 2
+        },
+        {
+          "text": "애매하면 나중에 쓸 후속 멘트까지 미리 짜둔다. 오늘은 흐름 관리가 핵심이다",
+          "type": "last-line-shotmaker",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "소개팅이 끝나고 친구한테 바로 전화가 왔다. 네가 제일 먼저 캐치하는 건?",
+      "options": [
+        {
+          "text": "친구 목소리 톤부터 듣는다. 잘됐든 아니든 지금 필요한 공기가 먼저 있다",
+          "type": "tension-melt-safezone",
+          "value": 2
+        },
+        {
+          "text": "상대가 어떤 장면에서 반응했는지 묻는다. 다음에 먹히는 포인트를 빨리 잡는다",
+          "type": "first-impression-buff-fairy",
+          "value": 1
+        },
+        {
+          "text": "답장 시간, 계산 타이밍, 눈치 봤던 포인트를 쭉 복기한다. 단서 수집이 빠르다",
+          "type": "detail-radar-manager",
+          "value": 2
+        },
+        {
+          "text": "그래서 애프터 가능성 남길 한 줄을 바로 고민한다. 끝난 뒤 멘트가 판을 바꾼다",
+          "type": "last-line-shotmaker",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "상대에게 보낼 애프터 메시지를 두고 친구가 마지막 결정을 못 한다. 여기서 네 캐릭터가 제일 선명해지는 순간은?",
+      "options": [
+        {
+          "text": "부담 없는데 호감은 남는 톤을 골라준다. 읽는 사람이 편해야 답도 잘 온다",
+          "type": "first-impression-buff-fairy",
+          "value": 2
+        },
+        {
+          "text": "너무 잘 보이려 하지 말라고 잡아준다. 무리한 멘트보다 자연스러운 온도가 낫다",
+          "type": "tension-melt-safezone",
+          "value": 1
+        },
+        {
+          "text": "문장 길이, 이모지, 끝맺음까지 본다. 사소해 보여도 여기서 결이 갈린다",
+          "type": "detail-radar-manager",
+          "value": 1
+        },
+        {
+          "text": "짧지만 다음 장면이 열리는 한 줄을 만든다. 네가 붙으면 대화가 끊기지 않는다",
+          "type": "last-line-shotmaker",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "결국 친구들이 소개팅 전날마다 너를 다시 찾는 이유는 뭐라고 생각해?",
+      "options": [
+        {
+          "text": "나한테 맡기면 첫인상이 확실히 덜 손해 본다는 믿음이 있다",
+          "type": "first-impression-buff-fairy",
+          "value": 2
+        },
+        {
+          "text": "내가 붙으면 괜한 긴장이 풀린다. 망상 폭주 대신 사람다운 텐션을 되찾게 된다",
+          "type": "tension-melt-safezone",
+          "value": 2
+        },
+        {
+          "text": "다들 못 보는 작은 포인트를 내가 먼저 잡아내서, 실전에서 시행착오가 줄어든다",
+          "type": "detail-radar-manager",
+          "value": 2
+        },
+        {
+          "text": "애매하게 끝날 판도 내가 마지막 한 줄로 다음 장면까지 연결해버리는 편이다",
+          "type": "last-line-shotmaker",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

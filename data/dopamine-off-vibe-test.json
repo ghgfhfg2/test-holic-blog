@@ -1,0 +1,47 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "잠깐 쉬려고 폰을 뒤집어놨는데, 3분 만에 화면이 한 번 번쩍였다. 네 손은 어디로 가?",
+      "options": [
+        {"text": "무슨 알림인지 확인만 하고 바로 다시 뒤집는다. 흐름은 내가 끊지 않는다", "type": "focus-locker", "value": 2},
+        {"text": "이미 봤으니 답장까지 짧게 끝낸다. 밀린 알림이 쌓이는 꼴을 못 본다", "type": "notification-firefighter", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 단톡방에 웃긴 숏폼 링크를 던졌다. 다들 하나씩 보기 시작한 순간, 너는?",
+      "options": [
+        {"text": "일단 저장만 해두고 지금 하던 걸 끝낸다. 보고 싶어도 타이밍은 내가 정한다", "type": "focus-locker", "value": 2},
+        {"text": "보고 나서 바로 한 줄 평을 남긴다. 네 반응 때문에 톡방이 더 살아난다", "type": "meme-sparkler", "value": 2}
+      ]
+    },
+    {
+      "text": "주말 아침, 침대에서 아무것도 안 하는 시간이 생겼다. 이상하게 더 끌리는 장면은?",
+      "options": [
+        {"text": "음악 하나 틀어두고 천장 보면서 멍하게 있는다. 이 시간까지 효율로 만들고 싶진 않다", "type": "slow-mood-collector", "value": 2},
+        {"text": "커피 내려놓고 오늘 할 일 두세 개만 정리한다. 쉬어도 하루의 리듬은 잡고 싶다", "type": "focus-locker", "value": 2}
+      ]
+    },
+    {
+      "text": "알림을 잠깐 꺼두자마자 친구가 \"왜 안 봐ㅋㅋ\" 하고 장난친다. 네 반응은 어느 쪽에 가까워?",
+      "options": [
+        {"text": "\"나 지금 인간 업데이트 중\" 같은 말로 웃기게 넘긴다. 끊어도 분위기는 안 끊긴다", "type": "meme-sparkler", "value": 2},
+        {"text": "\"급한 거면 전화해\" 하고 기준을 깔끔히 정한다. 연락 규칙이 흐려지는 게 더 피곤하다", "type": "notification-firefighter", "value": 2}
+      ]
+    },
+    {
+      "text": "카페에서 기다리는 15분, 예전 같으면 바로 숏폼을 켰을 시간이다. 오늘의 너는?",
+      "options": [
+        {"text": "창밖 사람 구경하다가 이상한 상상까지 한다. 그냥 흘러가는 장면이 은근 재밌다", "type": "slow-mood-collector", "value": 2},
+        {"text": "사진첩, 메모, 밀린 답장 중 하나를 정리한다. 자극은 줄여도 손은 야무지게 움직인다", "type": "notification-firefighter", "value": 2}
+      ]
+    },
+    {
+      "text": "하루 끝, 폰 사용 시간이 평소보다 줄었다는 알림이 떴다. 네가 제일 먼저 느끼는 건?",
+      "options": [
+        {"text": "\"오, 나 좀 괜찮은데?\" 싶다. 괜히 작은 승리처럼 캡처하고 싶어진다", "type": "focus-locker", "value": 2},
+        {"text": "조용했던 장면들이 더 기억난다. 오늘은 이상하게 남는 시간이 있었다", "type": "slow-mood-collector", "value": 2}
+      ]
+    }
+  ]
+}

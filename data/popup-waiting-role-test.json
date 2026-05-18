@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구가 갑자기 \"이번 주말에 그 팝업 갈래?\" 링크를 던졌다. 네 손이 먼저 가는 쪽은?",
+      "options": [
+        {"text": "운영 시간, 예약 여부, 웨이팅 후기를 먼저 캡처한다. 가려면 헛걸음은 없어야 한다", "type": "route-captain", "value": 2},
+        {"text": "\"가자ㅋㅋ 근데 줄 서다 늙는 거 아님?\" 하고 바로 분위기를 띄운다", "type": "waiting-moodmaker", "value": 2},
+        {"text": "공식 계정 사진부터 훑는다. 여기서 찍으면 예쁠 포인트가 이미 보인다", "type": "photo-scene-director", "value": 2},
+        {"text": "한정 굿즈랑 메뉴 구성을 본다. 진짜 살 만한지 먼저 감이 와야 한다", "type": "taste-curator", "value": 2}
+      ]
+    },
+    {
+      "text": "도착했더니 앞에 대기 48팀. 친구들이 동시에 네 얼굴을 본다. 이때 너는?",
+      "options": [
+        {"text": "근처 카페, 화장실, 예상 입장 시간을 빠르게 계산해서 플랜 B를 만든다", "type": "route-captain", "value": 2},
+        {"text": "대기표 들고 인증샷부터 찍으며 \"우리 이제 공식 웨이팅 멤버\"라고 한다", "type": "waiting-moodmaker", "value": 2},
+        {"text": "줄이 예쁘게 보이는 벽, 간판, 빛 방향을 찾아 친구들을 살짝 옮긴다", "type": "photo-scene-director", "value": 2},
+        {"text": "대기하면서 살 것/안 살 것 리스트를 정한다. 들어가서 흔들리지 않으려고 한다", "type": "taste-curator", "value": 2}
+      ]
+    },
+    {
+      "text": "드디어 입장 직전, 직원이 \"10분만 둘러볼 수 있어요\"라고 말한다. 네 안에서 켜지는 모드는?",
+      "options": [
+        {"text": "입구부터 출구까지 동선을 눈으로 훑고 친구들에게 순서를 짧게 공유한다", "type": "route-captain", "value": 2},
+        {"text": "\"10분이면 우리 영화 예고편처럼 움직여야 됨\" 하며 긴장을 웃음으로 바꾼다", "type": "waiting-moodmaker", "value": 2},
+        {"text": "사진존 위치부터 확인한다. 놓치면 집 가서 제일 아쉬운 건 그 컷이다", "type": "photo-scene-director", "value": 2},
+        {"text": "제일 유명한 굿즈보다 내 취향에 오래 남을 걸 먼저 찾는다", "type": "taste-curator", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 한정 굿즈 앞에서 \"이거 살까 말까\" 30초째 얼어 있다. 네 반응은?",
+      "options": [
+        {"text": "가격, 사용 빈도, 들고 갈 짐까지 현실적으로 정리해준다", "type": "route-captain", "value": 2},
+        {"text": "\"지금 네 눈빛은 이미 결제 완료임\" 하고 웃기게 등을 떠민다", "type": "waiting-moodmaker", "value": 2},
+        {"text": "들고 찍으면 예쁜지, 집에 두면 분위기가 사는지 그림을 같이 봐준다", "type": "photo-scene-director", "value": 2},
+        {"text": "비슷한 것 중 제일 후회 없을 디테일을 짚어준다. 예쁜데 애매한 건 바로 걸러낸다", "type": "taste-curator", "value": 2}
+      ]
+    },
+    {
+      "text": "마지막 포토존에 사람이 몰렸다. 뒤에서는 다음 팀이 기다리는 중. 네가 더 자주 하는 행동은?",
+      "options": [
+        {"text": "각자 한 컷씩 빠르게 찍고 빠질 수 있게 순서를 잡는다", "type": "route-captain", "value": 2},
+        {"text": "어색해진 친구에게 \"방금 완전 팝업 주인공임\" 하며 표정을 풀어준다", "type": "waiting-moodmaker", "value": 2},
+        {"text": "폰을 받아 들고 3초 안에 구도와 손 위치를 잡아준다", "type": "photo-scene-director", "value": 2},
+        {"text": "무리해서 다 찍기보다 가장 마음에 드는 한 컷만 남기자고 한다", "type": "taste-curator", "value": 2}
+      ]
+    },
+    {
+      "text": "나와서 카페에 앉자마자 단톡방에 오늘 사진이 올라오기 시작했다. 네가 남기는 흔적은?",
+      "options": [
+        {"text": "오늘 동선과 대기 꿀팁을 정리해 다음에 갈 친구에게 바로 보낼 수 있게 한다", "type": "route-captain", "value": 2},
+        {"text": "사진마다 한 줄 드립을 달아서 단톡방을 2차 팝업처럼 살린다", "type": "waiting-moodmaker", "value": 2},
+        {"text": "베스트컷을 골라 보정 톤까지 맞춰준다. 오늘의 피드는 네 손에서 완성된다", "type": "photo-scene-director", "value": 2},
+        {"text": "산 것 중 진짜 마음에 드는 포인트를 조용히 말한다. 취향 후기가 은근 설득력 있다", "type": "taste-curator", "value": 2}
+      ]
+    }
+  ]
+}

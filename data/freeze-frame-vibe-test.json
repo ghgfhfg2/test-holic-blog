@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구가 갑자기 \"오늘 너 진짜 저장각이었음\" 하고 사진 한 장을 보냈다. 네가 제일 먼저 신경 쓰는 포인트는?",
+      "options": [
+        {"text": "내 표정보다 그때 다 같이 터진 웃음이 더 잘 담겼는지 본다", "type": "laugh-save-button", "value": 2},
+        {"text": "사진 속 공기랑 조명이 그날 분위기를 제대로 살렸는지 본다", "type": "mood-temperature-keeper", "value": 2},
+        {"text": "내가 누군가 챙기고 있던 장면이 너무 티 나지 않았는지 본다", "type": "soft-care-keepsake", "value": 2},
+        {"text": "이 사진이 오늘의 엔딩컷으로 딱인지 먼저 감이 온다", "type": "scene-ending-fairy", "value": 2}
+      ]
+    },
+    {
+      "text": "단톡방에서 친구들이 \"아까 그 순간 다시 보고 싶다\"고 말한다. 네가 기억하는 장면은 어느 쪽에 가까워?",
+      "options": [
+        {"text": "별말 아닌데 네 한마디 때문에 분위기가 갑자기 빵 터진 순간", "type": "laugh-save-button", "value": 2},
+        {"text": "다들 말은 안 했지만 묘하게 마음이 풀리던 조용한 순간", "type": "mood-temperature-keeper", "value": 2},
+        {"text": "누가 불편해 보이자 자연스럽게 챙겨서 아무 일 없게 만든 순간", "type": "soft-care-keepsake", "value": 2},
+        {"text": "헤어지기 직전 딱 맞는 말이나 포즈로 하루를 예쁘게 닫은 순간", "type": "scene-ending-fairy", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 릴스처럼 오늘 하루를 5초로 편집한다면, 네 장면은 어디에 들어갈 것 같아?",
+      "options": [
+        {"text": "중간에 분위기 전환되는 드립 컷. 댓글에 제일 많이 언급될 장면", "type": "laugh-save-button", "value": 2},
+        {"text": "배경음악이 살짝 커지는 감성 컷. 말보다 표정이 오래 남는 장면", "type": "mood-temperature-keeper", "value": 2},
+        {"text": "누군가의 소매를 잡아주거나 물건을 챙겨주는 0.5초짜리 다정 컷", "type": "soft-care-keepsake", "value": 2},
+        {"text": "마지막에 딱 박히는 엔딩 컷. 보고 나면 하루가 완성되는 장면", "type": "scene-ending-fairy", "value": 2}
+      ]
+    },
+    {
+      "text": "오랜만에 만난 친구가 \"너는 변한 듯 안 변했다\"고 한다. 그 말에서 제일 너다운 부분은?",
+      "options": [
+        {"text": "어색함을 못 견디고 결국 모두를 웃게 만드는 타이밍", "type": "laugh-save-button", "value": 2},
+        {"text": "별말 없이도 같이 있으면 예전 공기가 돌아오는 느낌", "type": "mood-temperature-keeper", "value": 2},
+        {"text": "상대가 필요한 걸 묻기도 전에 조용히 챙기는 습관", "type": "soft-care-keepsake", "value": 2},
+        {"text": "만남 끝에 꼭 기억에 남을 한 장면을 만들어두는 센스", "type": "scene-ending-fairy", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 네 사진에 짧은 문구를 붙여 스토리에 올린다면, 제일 잘 어울리는 건?",
+      "options": [
+        {"text": "오늘의 웃음 지분 70%", "type": "laugh-save-button", "value": 2},
+        {"text": "이 사람 있으면 공기가 달라짐", "type": "mood-temperature-keeper", "value": 2},
+        {"text": "말없이 다 챙겨놓는 사람", "type": "soft-care-keepsake", "value": 2},
+        {"text": "마지막 컷까지 완벽하게 가져감", "type": "scene-ending-fairy", "value": 2}
+      ]
+    },
+    {
+      "text": "하루가 끝나고 집에 가는 길, 친구들이 너를 떠올리는 방식은 어느 쪽일까?",
+      "options": [
+        {"text": "\"아까 걔 때문에 진짜 웃겼다\" 하며 다시 웃는다", "type": "laugh-save-button", "value": 2},
+        {"text": "\"오늘 이상하게 편했다\"는 기분으로 조용히 저장한다", "type": "mood-temperature-keeper", "value": 2},
+        {"text": "\"생각해보니 걔가 다 챙겨줬네\" 하고 뒤늦게 고마워한다", "type": "soft-care-keepsake", "value": 2},
+        {"text": "\"오늘 마지막 장면 너무 좋았다\"며 사진첩을 한 번 더 연다", "type": "scene-ending-fairy", "value": 2}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "약속 장소에 도착하자마자 친구가 \"혹시 이거 있어?\" 하고 묻는다. 네 가방에서 제일 먼저 나올 것 같은 건?",
+      "options": [
+        {"text": "밴드, 충전기, 물티슈처럼 누가 찾으면 바로 구원되는 현실템", "type": "human-convenience-store", "value": 2},
+        {"text": "립밤, 향, 작은 거울처럼 꺼내는 순간 분위기가 정돈되는 감각템", "type": "mood-item-curator", "value": 2},
+        {"text": "필요한 건 거의 없지만 손이 가벼워서 바로 다음 장소로 움직일 수 있는 여유", "type": "light-step-runner", "value": 2},
+        {"text": "영수증, 티켓, 작은 메모처럼 오늘의 장면이 묻어 있는 물건", "type": "memory-pocket-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "카페 테이블에 앉았는데 친구들이 자연스럽게 네 가방 쪽을 본다. 그 이유에 가까운 건?",
+      "options": [
+        {"text": "뭐가 부족해도 네가 하나쯤은 갖고 있을 것 같아서", "type": "human-convenience-store", "value": 2},
+        {"text": "꺼내는 물건마다 묘하게 네 분위기가 있어서 구경하는 재미가 있어서", "type": "mood-item-curator", "value": 2},
+        {"text": "가방이 작거나 가벼운데도 네가 제일 먼저 움직일 준비가 되어 있어서", "type": "light-step-runner", "value": 2},
+        {"text": "별것 아닌 물건에도 \"이거 그때 거잖아\" 하는 이야기가 붙어 있어서", "type": "memory-pocket-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "갑자기 비가 오고, 배터리는 12%, 누군가는 입술이 텄다. 이 난장판에서 네 역할은?",
+      "options": [
+        {"text": "가방을 열고 필요한 걸 하나씩 꺼낸다. 이상하게 작은 위기엔 강하다", "type": "human-convenience-store", "value": 2},
+        {"text": "흐트러진 분위기를 향이나 립밤 같은 사소한 걸로 다시 정돈한다", "type": "mood-item-curator", "value": 2},
+        {"text": "\"일단 뛰자\" 하고 가장 빠른 탈출 동선을 잡는다. 짐이 적어서 판단도 빠르다", "type": "light-step-runner", "value": 2},
+        {"text": "이 상황마저 나중에 웃길 장면으로 기억될 것 같아 은근히 저장해둔다", "type": "memory-pocket-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 장난으로 네 가방 검사를 한다면, 제일 먼저 나올 반응은?",
+      "options": [
+        {"text": "\"너 진짜 없는 게 없네\" 하며 누가 봐도 실용성에 감탄한다", "type": "human-convenience-store", "value": 2},
+        {"text": "\"이거 어디서 샀어?\" 하고 물건 취향을 따라 하고 싶어 한다", "type": "mood-item-curator", "value": 2},
+        {"text": "\"이걸로 하루가 돼?\" 하고 가벼움에 놀라면서도 부러워한다", "type": "light-step-runner", "value": 2},
+        {"text": "\"이건 왜 아직 있어?\" 하고 오래된 흔적 하나에 다 같이 웃는다", "type": "memory-pocket-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "하루 종일 돌아다니다가 마지막 장소를 정해야 한다. 네 가방 상태가 말해주는 건?",
+      "options": [
+        {"text": "조금 무겁지만 다들 편하게 다닌 이유가 여기에 들어 있다", "type": "human-convenience-store", "value": 2},
+        {"text": "작은 파우치 하나까지 오늘 룩과 기분을 은근히 완성하고 있다", "type": "mood-item-curator", "value": 2},
+        {"text": "언제든 계획을 바꿀 수 있을 만큼 몸도 마음도 가볍다", "type": "light-step-runner", "value": 2},
+        {"text": "처음보다 물건은 늘었는데, 그만큼 오늘 이야기도 같이 쌓였다", "type": "memory-pocket-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "집에 와서 가방을 비우는 순간, 오늘의 네 매력이 가장 선명해지는 장면은?",
+      "options": [
+        {"text": "누군가에게 빌려주고 남은 빈자리까지 뿌듯하게 보이는 순간", "type": "human-convenience-store", "value": 2},
+        {"text": "작은 물건들이 모여서 네 취향의 색과 결을 또렷하게 보여주는 순간", "type": "mood-item-curator", "value": 2},
+        {"text": "별로 꺼낼 게 없어서 오늘을 가볍게 통과했다는 느낌이 드는 순간", "type": "light-step-runner", "value": 2},
+        {"text": "주머니 속 종이 한 장 때문에 하루의 한 장면이 다시 살아나는 순간", "type": "memory-pocket-keeper", "value": 2}
+      ]
+    }
+  ]
+}

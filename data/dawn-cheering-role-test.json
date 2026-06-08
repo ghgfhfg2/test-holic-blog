@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "새벽 경기 보자고 단톡방이 열렸다. 아직 킥오프 30분 전인데, 네가 제일 먼저 하는 쪽은?",
+      "options": [
+        {"text": "\"오늘 이기면 잠 다 깬다\" 같은 한 줄로 조용한 방에 불을 붙인다", "type": "first-whistle-hype-caster", "value": 2},
+        {"text": "야식, 음료, 충전기, 담요까지 챙겨서 오래 버틸 판을 만든다", "type": "snack-table-quartermaster", "value": 2},
+        {"text": "라인업과 최근 분위기를 훑고 오늘 볼 포인트를 짧게 정리한다", "type": "replay-angle-analyst", "value": 2},
+        {"text": "늦게 들어온 친구도 자연스럽게 끼게 해주며 방 온도를 맞춘다", "type": "final-whistle-heart-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "전반 7분, 갑자기 결정적인 찬스가 왔다. 모두가 동시에 소리를 지르는 순간 너는?",
+      "options": [
+        {"text": "가장 먼저 리액션을 터뜨려서 단톡방 알림을 폭발시킨다", "type": "first-whistle-hype-caster", "value": 2},
+        {"text": "흥분한 와중에도 컵 쏟은 친구, 잠든 가족, 볼륨부터 챙긴다", "type": "snack-table-quartermaster", "value": 2},
+        {"text": "\"방금 오른쪽 빈 거 봤어?\" 하며 장면을 다시 읽는다", "type": "replay-angle-analyst", "value": 2},
+        {"text": "아쉬운 친구들 반응을 받아주며 분위기가 식지 않게 붙잡는다", "type": "final-whistle-heart-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "골인지 아닌지 애매한 장면이 나오고 화면은 리플레이로 넘어갔다. 이때 네 존재감은?",
+      "options": [
+        {"text": "\"제발 제발 제발\" 같은 실시간 주문으로 모두를 한 화면에 묶는다", "type": "first-whistle-hype-caster", "value": 2},
+        {"text": "다들 숨죽인 틈에 간식 리필 타이밍을 잡는다. 긴장도 체력전이다", "type": "snack-table-quartermaster", "value": 2},
+        {"text": "각도, 발끝, 수비 위치를 보며 제일 먼저 판정을 예측한다", "type": "replay-angle-analyst", "value": 2},
+        {"text": "누가 과몰입해서 예민해지기 전에 말투를 부드럽게 돌린다", "type": "final-whistle-heart-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "하프타임. 다들 잠깐 말이 없어졌고 화면에는 광고만 흐른다. 네가 방을 살리는 방식은?",
+      "options": [
+        {"text": "전반전 웃긴 장면을 바로 밈처럼 만들어 다시 불을 켠다", "type": "first-whistle-hype-caster", "value": 2},
+        {"text": "화장실 타임, 물 리필, 다음 간식 오픈 순서를 현실적으로 챙긴다", "type": "snack-table-quartermaster", "value": 2},
+        {"text": "후반에 바뀔 흐름을 짚으며 다들 다시 볼 이유를 만들어준다", "type": "replay-angle-analyst", "value": 2},
+        {"text": "졸린 친구한테 무리하지 말라고 하면서도 같이 보는 느낌은 남겨둔다", "type": "final-whistle-heart-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "후반 막판, 단톡방 의견이 갈리기 시작했다. 누군가는 심판 탓, 누군가는 선수 탓을 한다. 너는?",
+      "options": [
+        {"text": "과열된 말을 웃긴 한 줄로 받아쳐 분위기를 다시 응원 쪽으로 돌린다", "type": "first-whistle-hype-caster", "value": 2},
+        {"text": "\"일단 물 마셔\" 같은 말로 모두의 새벽 체력을 먼저 수습한다", "type": "snack-table-quartermaster", "value": 2},
+        {"text": "감정은 잠깐 접고 장면별로 뭐가 아쉬웠는지 차분히 정리한다", "type": "replay-angle-analyst", "value": 2},
+        {"text": "누구 말도 무안하지 않게 받아주며 단톡방을 싸움판으로 안 만든다", "type": "final-whistle-heart-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "경기가 끝났다. 밖은 아직 어둡고 단톡방에는 마지막 메시지가 쌓인다. 네가 남기는 엔딩은?",
+      "options": [
+        {"text": "오늘의 명장면과 드립을 묶어 단톡방이 한 번 더 터지게 만든다", "type": "first-whistle-hype-caster", "value": 2},
+        {"text": "다들 자러 가기 전 알람, 속 쓰림, 남은 간식까지 챙기는 마무리를 한다", "type": "snack-table-quartermaster", "value": 2},
+        {"text": "경기 한 줄 평을 남긴다. 아쉬워도 다음 경기를 보게 만드는 정리다", "type": "replay-angle-analyst", "value": 2},
+        {"text": "\"같이 봐서 재밌었다\"는 말을 남겨 새벽의 기분을 오래 좋게 닫는다", "type": "final-whistle-heart-keeper", "value": 2}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구들이랑 걷다가 형광등만 윙윙거리는 노란 복도에 떨어졌다. 다들 말이 없어지는 순간, 네가 먼저 하는 쪽은?",
+      "options": [
+        {"text": "문, 환풍구, 꺾이는 길부터 눈으로 찍는다. 무서워도 나갈 길은 찾아야 한다", "type": "exit-signal-scout", "value": 2},
+        {"text": "\"일단 우리 단체사진 각도 아님?\" 같은 말로 굳은 얼굴을 풀어준다", "type": "yellow-light-moodmaker", "value": 2},
+        {"text": "벽 얼룩, 안내판, 바닥 자국을 하나씩 기억해둔다. 반복되는 공간에도 힌트는 있다", "type": "clue-wall-archivist", "value": 2},
+        {"text": "뒤처진 친구 손목을 잡고 다 같이 붙어 있게 만든다. 흩어지는 게 제일 위험하다", "type": "handhold-safezone", "value": 2}
+      ]
+    },
+    {
+      "text": "모퉁이 너머에서 멀리 웅얼거리는 소리가 들린다. 친구들이 동시에 네 표정을 본다. 이때 너는?",
+      "options": [
+        {"text": "소리 방향과 반대편 동선을 바로 비교한다. 움직일지 숨을지 빠르게 정한다", "type": "exit-signal-scout", "value": 2},
+        {"text": "작게 웃으며 \"저쪽은 오늘 우리랑 안 맞는 방인가 봄\" 하고 공포를 농담으로 낮춘다", "type": "yellow-light-moodmaker", "value": 2},
+        {"text": "소리 간격을 세어본다. 가까워지는지, 같은 자리를 도는지부터 확인한다", "type": "clue-wall-archivist", "value": 2},
+        {"text": "겁먹은 친구가 숨소리 커지지 않게 눈을 맞추고 천천히 숨 쉬게 한다", "type": "handhold-safezone", "value": 2}
+      ]
+    },
+    {
+      "text": "벽에 누가 남긴 듯한 화살표가 보인다. 그런데 방향이 두 번 덧칠되어 있다. 네 판단은?",
+      "options": [
+        {"text": "화살표만 믿지 않고 주변 문 손잡이와 바닥 흔적까지 봐서 안전한 길을 고른다", "type": "exit-signal-scout", "value": 2},
+        {"text": "\"이거 방도 우리처럼 갈팡질팡했네\" 하고 긴장한 친구들을 웃게 만든다", "type": "yellow-light-moodmaker", "value": 2},
+        {"text": "덧칠 순서와 색 차이를 본다. 누가 나중에 남긴 표시인지가 더 중요하다", "type": "clue-wall-archivist", "value": 2},
+        {"text": "어느 쪽이든 혼자 앞서가지 못하게 사람 수부터 다시 확인한다", "type": "handhold-safezone", "value": 2}
+      ]
+    },
+    {
+      "text": "끝없는 사무실 같은 방에 들어왔고, 테이블 위에는 물 반 병과 꺼진 손전등 하나가 있다. 네 손이 먼저 가는 건?",
+      "options": [
+        {"text": "손전등 배터리와 출입구 위치를 확인한다. 다음 이동에 쓸 수 있는지부터 본다", "type": "exit-signal-scout", "value": 2},
+        {"text": "물병에 이름 붙여서 \"우리 파티 공식 생존템\"으로 만든다. 분위기가 조금 풀린다", "type": "yellow-light-moodmaker", "value": 2},
+        {"text": "물병 위치와 먼지 자국을 본다. 누가 최근에 있었는지 알아낼 단서다", "type": "clue-wall-archivist", "value": 2},
+        {"text": "목마른 사람부터 묻는다. 작은 자원일수록 마음 상하지 않게 나눠야 한다", "type": "handhold-safezone", "value": 2}
+      ]
+    },
+    {
+      "text": "한 친구가 \"우리 아까 여기 지나오지 않았어?\" 하고 거의 울먹인다. 이 장면에서 네 존재감은?",
+      "options": [
+        {"text": "방금 지나온 문 개수와 꺾은 방향을 다시 짚어서 새로운 루트를 잡는다", "type": "exit-signal-scout", "value": 2},
+        {"text": "\"그래도 우리 이제 이 방 단골임\" 하고 웃긴 이름을 붙여 공황을 끊어낸다", "type": "yellow-light-moodmaker", "value": 2},
+        {"text": "처음 봤던 얼룩, 조명 깜빡임, 물건 위치가 정말 같은지 차분히 대조한다", "type": "clue-wall-archivist", "value": 2},
+        {"text": "그 친구 옆에 붙어서 지금 같은 방인지보다 같이 있다는 느낌을 먼저 준다", "type": "handhold-safezone", "value": 2}
+      ]
+    },
+    {
+      "text": "멀리 희미한 출구 표지판이 보인다. 그런데 그 앞 복도는 유난히 조용하다. 마지막으로 네가 남기는 말은?",
+      "options": [
+        {"text": "\"천천히, 벽 따라, 돌아갈 길 남기고 가자\" 하며 이동 순서를 정한다", "type": "exit-signal-scout", "value": 2},
+        {"text": "\"나가면 이 얘기 평생 써먹는다\" 하고 다들 한 번 웃고 움직이게 한다", "type": "yellow-light-moodmaker", "value": 2},
+        {"text": "\"표지판 글자랑 빛 방향 이상한지 먼저 보자\" 하며 마지막 함정을 의심한다", "type": "clue-wall-archivist", "value": 2},
+        {"text": "\"뛰지 말고 서로 보이는 거리로 가자\" 하며 가장 불안한 사람 속도에 맞춘다", "type": "handhold-safezone", "value": 2}
+      ]
+    }
+  ]
+}

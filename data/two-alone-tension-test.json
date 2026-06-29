@@ -1,0 +1,47 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "모임 끝나고 어쩌다 둘만 엘리베이터 앞에 남았다. 어색한 5초가 생긴 순간, 네 쪽에 더 가까운 건?",
+      "options": [
+        {"text": "먼저 가벼운 한마디를 던진다. 공기가 멈추면 네가 살짝 밀어준다", "type": "spark-first-line", "value": 2},
+        {"text": "말보다 표정으로 먼저 반응한다. 상대가 말을 꺼낼 틈을 남겨둔다", "type": "quiet-afterimage", "value": 2}
+      ]
+    },
+    {
+      "text": "갑자기 비가 와서 한 우산 아래 잠깐 서게 됐다. 어깨가 가까워지는 장면에서 너는?",
+      "options": [
+        {"text": "\"너 쪽 더 젖는 거 아님?\" 하며 자연스럽게 자리를 맞춰준다", "type": "warm-distance-keeper", "value": 2},
+        {"text": "\"이 정도면 우리 꽤 드라마 찍는데?\" 하고 긴장을 웃음으로 바꾼다", "type": "teasing-tension-maker", "value": 2}
+      ]
+    },
+    {
+      "text": "카페에서 친구들이 하나둘 빠지고, 테이블에 너랑 그 사람만 남았다. 메뉴판도 이미 덮인 상태라면?",
+      "options": [
+        {"text": "방금 다 같이 웃었던 얘기를 이어받아 둘만의 대화로 부드럽게 넘긴다", "type": "spark-first-line", "value": 2},
+        {"text": "급하게 채우지 않고 컵 만지는 소리까지 그냥 둔다. 조용한 쪽이 더 선명할 때가 있다", "type": "quiet-afterimage", "value": 2}
+      ]
+    },
+    {
+      "text": "상대가 \"오늘 너 좀 다르게 보인다\"고 장난처럼 말한다. 네 입에서 더 먼저 나올 답은?",
+      "options": [
+        {"text": "\"이제야 알아봤어?\" 하고 받아쳐서 분위기를 한 단계 올린다", "type": "teasing-tension-maker", "value": 2},
+        {"text": "\"좋게 보인 거면 다행이고\" 하고 웃으며 상대가 편하게 대답하게 둔다", "type": "warm-distance-keeper", "value": 2}
+      ]
+    },
+    {
+      "text": "둘이 같은 방향으로 걸어가는데, 상대가 일부러 조금 천천히 걷는 것 같다. 너는?",
+      "options": [
+        {"text": "속도를 맞추며 오늘 있었던 작은 장면 하나를 다시 꺼낸다", "type": "warm-distance-keeper", "value": 2},
+        {"text": "눈치챈 티를 살짝 내고 \"왜 이렇게 천천히 가?\" 하고 웃는다", "type": "teasing-tension-maker", "value": 2}
+      ]
+    },
+    {
+      "text": "헤어지기 직전, 상대가 \"조심히 가\" 말하고도 바로 돌아서지 않는다. 마지막으로 네가 남기는 쪽은?",
+      "options": [
+        {"text": "\"도착하면 연락해\"처럼 짧지만 다음 장면을 열어두는 말을 남긴다", "type": "spark-first-line", "value": 2},
+        {"text": "크게 붙잡지 않고 한 번 더 웃어준다. 집 가는 길에 계속 생각날 정도로만 남긴다", "type": "quiet-afterimage", "value": 2}
+      ]
+    }
+  ]
+}

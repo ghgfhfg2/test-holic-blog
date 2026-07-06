@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구들이 장난으로 '사람 별점 앱'을 열었다. 네 페이지에 제일 먼저 올라올 사진은?",
+      "options": [
+        {"text": "웃다가 흔들린 단체사진. 완벽하진 않아도 그날 분위기는 제일 잘 살아 있다", "type": "highlight-first-line", "value": 2},
+        {"text": "누가 힘들어할 때 옆에 조용히 앉아 있던 컷. 크게 티 안 나도 오래 남는다", "type": "quiet-five-star", "value": 2},
+        {"text": "테이블 세팅, 색감, 작은 소품까지 묘하게 맞아떨어진 컷. 보는 맛이 있다", "type": "detail-taste-pick", "value": 2},
+        {"text": "길 잃은 친구들 사이에서 바로 판단 내리던 컷. 이 사람 있으면 일이 굴러간다", "type": "fact-shield-captain", "value": 2}
+      ]
+    },
+    {
+      "text": "누군가 네 리뷰에 '첫인상은 좀 어려움'이라고 남겼다. 친구들이 바로 반박하는 말은?",
+      "options": [
+        {"text": "\"어려운 게 아니라 웃기기 시작하면 제일 먼저 터짐. 초반만 지나면 끝남\"", "type": "highlight-first-line", "value": 2},
+        {"text": "\"조용해서 그렇지 옆에 있으면 제일 덜 불안한 사람임. 겪어봐야 앎\"", "type": "quiet-five-star", "value": 2},
+        {"text": "\"어려운 게 아니라 기준이 선명한 거임. 취향 맞으면 바로 인정하게 됨\"", "type": "detail-taste-pick", "value": 2},
+        {"text": "\"괜히 말 안 하는 거지, 필요할 때는 제일 정확하게 정리해줌\"", "type": "fact-shield-captain", "value": 2}
+      ]
+    },
+    {
+      "text": "모임 끝나고 단톡방에 '오늘의 MVP 리뷰'가 올라왔다. 네 이름 옆에 붙을 한 줄은?",
+      "options": [
+        {"text": "초반엔 조용한데 중간부터 판을 뒤집는 웃음 버튼", "type": "highlight-first-line", "value": 2},
+        {"text": "누구 하나 민망하지 않게 분위기 온도 맞춰준 사람", "type": "quiet-five-star", "value": 2},
+        {"text": "장소, 메뉴, 사진 각도까지 오늘의 결을 살린 사람", "type": "detail-taste-pick", "value": 2},
+        {"text": "복잡해질 때마다 선택지를 줄여준 현실 구원자", "type": "fact-shield-captain", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 네 장점을 너무 짧게 적어서 아쉽다며 리뷰를 수정한다. 새로 추가될 문장은?",
+      "options": [
+        {"text": "같이 있으면 별거 아닌 장면도 나중에 다시 얘기하게 만든다", "type": "highlight-first-line", "value": 2},
+        {"text": "크게 챙긴 척 안 하는데 돌아보면 제일 많이 배려받고 있었다", "type": "quiet-five-star", "value": 2},
+        {"text": "사소한 걸 고르는 감각이 좋아서 하루 전체가 은근 예뻐진다", "type": "detail-taste-pick", "value": 2},
+        {"text": "감정이 올라와도 핵심을 놓치지 않아서 결국 다들 믿게 된다", "type": "fact-shield-captain", "value": 2}
+      ]
+    },
+    {
+      "text": "낯선 사람이 네 리뷰를 보고 '근데 뭐가 그렇게 좋다는 거야?'라고 묻는다. 친구의 답은?",
+      "options": [
+        {"text": "\"같이 있어보면 알아. 제일 평범한 순간을 하이라이트로 만들어\"", "type": "highlight-first-line", "value": 2},
+        {"text": "\"막 튀진 않는데, 힘든 날엔 결국 이 사람부터 생각남\"", "type": "quiet-five-star", "value": 2},
+        {"text": "\"취향이 과하지 않은데 정확해. 그래서 따라 하고 싶어짐\"", "type": "detail-taste-pick", "value": 2},
+        {"text": "\"말보다 결과가 빠름. 옆에 있으면 이상하게 문제가 줄어\"", "type": "fact-shield-captain", "value": 2}
+      ]
+    },
+    {
+      "text": "마지막으로 친구들이 네 리뷰 제목을 하나만 고른다. 제일 네 쪽에 가까운 건?",
+      "options": [
+        {"text": "처음엔 몰라도 결국 저장되는 인간 명장면", "type": "highlight-first-line", "value": 2},
+        {"text": "시끄럽지 않은데 재방문하게 되는 마음 안전지대", "type": "quiet-five-star", "value": 2},
+        {"text": "작은 디테일로 별점 올리는 취향 추천템", "type": "detail-taste-pick", "value": 2},
+        {"text": "낮은 별점 달 틈을 없애는 현실 해결픽", "type": "fact-shield-captain", "value": 2}
+      ]
+    }
+  ]
+}

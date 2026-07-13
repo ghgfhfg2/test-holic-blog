@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구들이 노래방 방에 들어가자마자 리모컨이 테이블 위에 놓였다. 다들 눈치만 보는 첫 10초, 네 손은 어디로 가?",
+      "options": [
+        {"text": "첫 곡으로 바로 분위기 켜지는 곡을 넣는다. 시작이 어색하면 하루가 길어진다", "type": "first-song-spark", "value": 2},
+        {"text": "다 같이 아는 후렴 센 곡을 찾는다. 한 명만 부르는 방보다 같이 터지는 방이 좋다", "type": "chorus-rescue-captain", "value": 2},
+        {"text": "예약창을 보며 앞뒤 흐름을 맞춘다. 너무 센 곡 뒤엔 숨 쉴 곡도 필요하다", "type": "playlist-flow-curator", "value": 2},
+        {"text": "초반엔 분위기를 본다. 마지막에 오래 남을 한 곡을 아껴두는 쪽이다", "type": "last-song-afterglow", "value": 2}
+      ]
+    },
+    {
+      "text": "한 친구가 마이크를 잡고도 첫 소절에서 민망해한다. 이때 네가 제일 자연스럽게 하는 건?",
+      "options": [
+        {"text": "박수와 추임새로 바로 밀어준다. 민망함은 소리로 덮어야 풀린다", "type": "first-song-spark", "value": 2},
+        {"text": "후렴 들어가기 전에 같이 불러준다. 혼자 두지 않는 게 제일 빠른 구출이다", "type": "chorus-rescue-captain", "value": 2},
+        {"text": "다음 곡을 그 친구가 편하게 이어갈 수 있는 톤으로 골라둔다", "type": "playlist-flow-curator", "value": 2},
+        {"text": "눈 마주치면 작게 웃어준다. 괜히 과하게 띄우기보다 편하게 해주는 편이다", "type": "last-song-afterglow", "value": 2}
+      ]
+    },
+    {
+      "text": "방 분위기가 갑자기 너무 조용해졌다. 화면엔 전주만 흐르고, 누가 부를지 애매한 곡이 예약돼 있다면?",
+      "options": [
+        {"text": "\"이거 내가 간다\" 하고 먼저 일어난다. 빈 공기 오래 두는 걸 못 본다", "type": "first-song-spark", "value": 2},
+        {"text": "마이크 하나 더 들고 친구들을 끌어들인다. 다 같이 부르면 애매함도 이벤트가 된다", "type": "chorus-rescue-captain", "value": 2},
+        {"text": "예약 순서를 살짝 정리해서 다음 곡부터 다시 흐름을 살린다", "type": "playlist-flow-curator", "value": 2},
+        {"text": "조용한 틈을 굳이 깨지 않고, 노래 끝난 뒤 남는 분위기를 챙긴다", "type": "last-song-afterglow", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 네 취향 아닌 곡을 예약했는데, 방 안 사람들은 은근 신나 보인다. 네 반응은?",
+      "options": [
+        {"text": "취향 아니어도 몸부터 흔든다. 방이 살아나면 일단 이긴 거다", "type": "first-song-spark", "value": 2},
+        {"text": "아는 부분만 크게 같이 불러준다. 포인트만 잡아도 분위기는 충분히 오른다", "type": "chorus-rescue-captain", "value": 2},
+        {"text": "이 곡 다음에 이어지면 좋을 곡을 떠올린다. 흐름만 맞으면 취향도 섞인다", "type": "playlist-flow-curator", "value": 2},
+        {"text": "웃으면서 지켜보다가 친구가 제일 신난 순간을 기억해둔다", "type": "last-song-afterglow", "value": 2}
+      ]
+    },
+    {
+      "text": "시간이 10분 남았다는 알림이 떴다. 친구들이 마지막 곡을 두고 우왕좌왕할 때, 네 쪽에 가까운 선택은?",
+      "options": [
+        {"text": "끝까지 뛰는 곡을 넣는다. 나갈 때까지 심장이 좀 빨라야 오늘 기억난다", "type": "first-song-spark", "value": 2},
+        {"text": "다 같이 떼창 가능한 곡으로 정리한다. 마지막은 목소리가 겹쳐야 맛이다", "type": "chorus-rescue-captain", "value": 2},
+        {"text": "오늘 불렀던 곡들을 보고 가장 자연스럽게 닫히는 곡을 고른다", "type": "playlist-flow-curator", "value": 2},
+        {"text": "시끄럽게 끝내기보다 집 가는 길에 계속 맴돌 곡을 고른다", "type": "last-song-afterglow", "value": 2}
+      ]
+    },
+    {
+      "text": "노래방을 나와 단톡방에 오늘의 한 줄 후기가 올라온다. 네 이름 옆에 붙을 말은?",
+      "options": [
+        {"text": "첫 곡부터 방 온도 올려버린 인간 스타트 버튼", "type": "first-song-spark", "value": 2},
+        {"text": "어색한 사람도 후렴에 합류시키는 떼창 구원자", "type": "chorus-rescue-captain", "value": 2},
+        {"text": "예약창만 봐도 흐름 잡히는 선곡 큐레이터", "type": "playlist-flow-curator", "value": 2},
+        {"text": "마지막 곡 하나로 하루를 오래 남기는 엔딩 감성 담당", "type": "last-song-afterglow", "value": 2}
+      ]
+    }
+  ]
+}

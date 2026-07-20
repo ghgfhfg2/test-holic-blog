@@ -1,0 +1,47 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "며칠 조용하던 단톡방에 네 이름이 갑자기 뜬다. 친구들이 \"어디 갔다 이제 옴?\" 하고 몰려오는 순간, 네 첫 반응은?",
+      "options": [
+        {"text": "\"나 왔다. 오늘 알림창 책임짐\" 하고 바로 밈 하나 던져서 방을 깨운다", "type": "notification-comeback-firework", "value": 2},
+        {"text": "일단 밀린 대화를 훑고, 놓친 사람 없게 조용히 리액션부터 붙인다", "type": "quiet-return-safezone", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 \"너 없는 동안 우리끼리 난리였음\"이라며 긴 썰을 풀기 시작했다. 네 손이 먼저 가는 쪽은?",
+      "options": [
+        {"text": "제일 웃긴 포인트를 바로 잡아 \"아 이건 제목부터 미쳤다\"고 한 줄로 살린다", "type": "one-line-return-legend", "value": 2},
+        {"text": "누가 언제 뭘 말했는지 이어 붙인다. 흩어진 썰을 다시 볼 만한 서사로 만든다", "type": "missed-story-collector", "value": 2}
+      ]
+    },
+    {
+      "text": "네가 들어오자마자 단톡방이 다시 빨라졌다. 누군가 \"그럼 오늘 볼까?\" 하고 던졌을 때 너는?",
+      "options": [
+        {"text": "\"지금 잡자\" 하고 장소, 시간, 메뉴까지 텐션으로 밀어붙인다", "type": "notification-comeback-firework", "value": 2},
+        {"text": "갑자기 과열되지 않게 되는 사람부터 묻고, 빠질 사람도 편하게 해준다", "type": "quiet-return-safezone", "value": 2}
+      ]
+    },
+    {
+      "text": "단톡방에 예전 드립이 다시 올라왔다. 다들 반쯤 기억하고 반쯤 까먹은 분위기라면?",
+      "options": [
+        {"text": "그 드립을 지금 버전으로 바꿔서 다시 굴린다. 오래된 농담도 네 손에서 새 알림이 된다", "type": "one-line-return-legend", "value": 2},
+        {"text": "\"그때 이 말 다음에 이 사진 올라왔잖아\" 하며 잊힌 장면까지 소환한다", "type": "missed-story-collector", "value": 2}
+      ]
+    },
+    {
+      "text": "친구들이 네 복귀를 놀리며 \"오늘 왜 이렇게 존재감 있냐\"고 한다. 너한테 더 가까운 엔딩은?",
+      "options": [
+        {"text": "\"잠깐 충전하고 온 거임\" 하고 더 큰 리액션으로 방 분위기를 끝까지 끌고 간다", "type": "notification-comeback-firework", "value": 2},
+        {"text": "\"그래도 나 없을 때도 잘 놀았네\" 하고 웃으며 다시 편한 온도로 섞인다", "type": "quiet-return-safezone", "value": 2}
+      ]
+    },
+    {
+      "text": "밤이 깊어지고 단톡방이 다시 조용해지기 직전, 네 이름 옆에 남을 장면은?",
+      "options": [
+        {"text": "마지막에 딱 한 줄을 남겨서 친구들이 캡처하고 싶게 만든다", "type": "one-line-return-legend", "value": 2},
+        {"text": "오늘 나온 말들을 엮어 \"근데 이 흐름 웃겼다\"며 하루의 복귀 서사를 닫아준다", "type": "missed-story-collector", "value": 2}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구들이 테이블에 게임판을 펼쳤고, 아무도 설명서를 제대로 읽지 않았다. 첫 판 시작 전 네 손이 먼저 가는 쪽은?",
+      "options": [
+        {"text": "설명서 핵심만 빠르게 훑고 \"이것만 알면 됨\" 하고 판을 바로 굴린다", "type": "rulebook-navigator", "value": 2},
+        {"text": "\"일단 해보면 알겠지\" 하고 말부터 던져 어색한 첫 턴을 밀어준다", "type": "first-turn-spark", "value": 2}
+      ]
+    },
+    {
+      "text": "첫 라운드부터 친구 한 명이 말도 안 되는 실수를 했다. 방 안이 잠깐 정적이 된 순간, 너는?",
+      "options": [
+        {"text": "그 실수를 웃긴 장면으로 살려서 벌써 오늘의 명대사처럼 만든다", "type": "penalty-laugh-maker", "value": 2},
+        {"text": "실수한 척인지 진짜인지 표정을 본다. 이 판은 이미 심리전이 시작됐다", "type": "silent-mind-reader", "value": 2}
+      ]
+    },
+    {
+      "text": "친구들이 \"이거 누구부터 견제해야 돼?\" 하고 서로 눈치를 본다. 네가 은근히 하는 행동은?",
+      "options": [
+        {"text": "점수판과 남은 카드만 보고 지금 위험한 사람을 조용히 찍어둔다", "type": "silent-mind-reader", "value": 2},
+        {"text": "\"나 아니야, 저쪽 봐\" 하며 웃는 얼굴로 판의 시선을 돌린다", "type": "first-turn-spark", "value": 2}
+      ]
+    },
+    {
+      "text": "갑자기 규칙 해석이 갈렸다. 한 명은 다시 읽자고 하고, 한 명은 그냥 넘어가자고 한다. 네 쪽에 가까운 건?",
+      "options": [
+        {"text": "딱 필요한 줄만 찾아서 모두가 납득할 수 있게 정리한다", "type": "rulebook-navigator", "value": 2},
+        {"text": "\"그럼 진 사람 벌칙 두 배 콜?\" 하고 논쟁을 이벤트로 바꾼다", "type": "penalty-laugh-maker", "value": 2}
+      ]
+    },
+    {
+      "text": "게임 중반, 네가 가진 카드 하나로 판을 뒤집을 수 있다. 친구들은 아직 눈치 못 챈 분위기라면?",
+      "options": [
+        {"text": "너무 티 내지 않고 기다린다. 제일 맛있는 순간에 꺼내야 오래 남는다", "type": "silent-mind-reader", "value": 2},
+        {"text": "\"곧 재밌어질 듯\" 하고 예고편만 흘려서 방 전체를 긴장시킨다", "type": "first-turn-spark", "value": 2}
+      ]
+    },
+    {
+      "text": "마지막 턴 직전, 모두가 거의 동시에 말이 많아졌다. 네가 판을 마무리하는 방식은?",
+      "options": [
+        {"text": "누가 뭘 할 수 있는지 차분히 정리해 마지막 턴이 깔끔하게 굴러가게 한다", "type": "rulebook-navigator", "value": 2},
+        {"text": "승패와 상관없이 마지막 벌칙, 리액션, 인증샷 각도까지 챙긴다", "type": "penalty-laugh-maker", "value": 2}
+      ]
+    }
+  ]
+}

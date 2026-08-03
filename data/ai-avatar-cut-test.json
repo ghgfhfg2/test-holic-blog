@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구가 단톡방에 \"요즘 유행하는 AI 프사 해보자\"며 네 사진 한 장을 고르라고 한다. 네가 제일 먼저 고르는 컷은?",
+      "options": [
+        {"text": "햇빛 좋은 창가에서 옆얼굴이 살짝 나온 사진", "type": "cinema-main-cut", "value": 2},
+        {"text": "웃다가 흔들렸는데 이상하게 제일 나다운 사진", "type": "doodle-soft-face", "value": 2},
+        {"text": "밤거리 조명 아래 표정이 또렷하게 남은 사진", "type": "neon-cool-aura", "value": 2},
+        {"text": "카페 테이블, 책, 이어폰 같은 물건이 같이 보이는 사진", "type": "moodboard-collector", "value": 2}
+      ]
+    },
+    {
+      "text": "AI에게 배경을 하나만 맡길 수 있다면, 네 프사 뒤에 깔렸으면 하는 장면은?",
+      "options": [
+        {"text": "영화 포스터처럼 바람 부는 골목과 낮은 햇살", "type": "cinema-main-cut", "value": 2},
+        {"text": "손그림 스티커와 낙서가 둥둥 떠 있는 방", "type": "doodle-soft-face", "value": 2},
+        {"text": "네온 간판과 빗물 반사가 있는 도시 밤", "type": "neon-cool-aura", "value": 2},
+        {"text": "잡지 스크랩처럼 색감 좋은 소품이 놓인 테이블", "type": "moodboard-collector", "value": 2}
+      ]
+    },
+    {
+      "text": "결과물이 완성됐는데 친구들이 \"이거 진짜 너 같다\"고 한다. 제일 듣고 싶은 반응은?",
+      "options": [
+        {"text": "\"왜 혼자 청춘영화 찍고 있음?\"라는 장난 섞인 감탄", "type": "cinema-main-cut", "value": 2},
+        {"text": "\"이건 그냥 네 말투가 그림이 된 느낌\"이라는 말", "type": "doodle-soft-face", "value": 2},
+        {"text": "\"분위기 미쳤다, 갑자기 접근하기 어려움\"이라는 반응", "type": "neon-cool-aura", "value": 2},
+        {"text": "\"너 취향 한 장에 다 들어갔다\"는 저장각 코멘트", "type": "moodboard-collector", "value": 2}
+      ]
+    },
+    {
+      "text": "AI가 네 사진에 작은 디테일 하나를 더 넣어준다면, 가장 마음이 가는 건?",
+      "options": [
+        {"text": "옷자락이나 머리카락에 살짝 잡힌 움직임", "type": "cinema-main-cut", "value": 2},
+        {"text": "볼 옆에 붙은 작은 하트 낙서나 별표", "type": "doodle-soft-face", "value": 2},
+        {"text": "눈빛을 더 선명하게 만드는 차가운 조명", "type": "neon-cool-aura", "value": 2},
+        {"text": "네가 좋아하는 색의 컵, 책, 향수 같은 오브젝트", "type": "moodboard-collector", "value": 2}
+      ]
+    },
+    {
+      "text": "프사를 바꾼 지 10분 만에 DM이 왔다. 제일 네가 답장하고 싶은 메시지는?",
+      "options": [
+        {"text": "\"이 사진 무슨 영화 스틸컷 같아\"", "type": "cinema-main-cut", "value": 2},
+        {"text": "\"귀여운데 묘하게 킹받아, 딱 너임\"", "type": "doodle-soft-face", "value": 2},
+        {"text": "\"갑자기 분위기 너무 세진 거 아니야?\"", "type": "neon-cool-aura", "value": 2},
+        {"text": "\"이거 배경이랑 색감 정보 좀 줘\"", "type": "moodboard-collector", "value": 2}
+      ]
+    },
+    {
+      "text": "마지막으로 AI 프롬프트 맨 끝에 한 줄을 붙일 수 있다면, 네 쪽에 가까운 문장은?",
+      "options": [
+        {"text": "평범한 하루가 예고편처럼 보이게", "type": "cinema-main-cut", "value": 2},
+        {"text": "사람이 편해지는 장난기와 말랑한 표정", "type": "doodle-soft-face", "value": 2},
+        {"text": "말 걸기 전 한 번 더 보게 되는 선명한 존재감", "type": "neon-cool-aura", "value": 2},
+        {"text": "취향 좋은 사람이 아끼는 물건들 사이의 온도", "type": "moodboard-collector", "value": 2}
+      ]
+    }
+  ]
+}

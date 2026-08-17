@@ -1,0 +1,47 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구가 어제 모임 영상을 릴스로 올리기 직전, \"첫 줄 뭐라고 쓰지?\" 하고 휴대폰을 내민다. 네 손이 더 먼저 가는 쪽은?",
+      "options": [
+        {"text": "보자마자 멈칫하게 만드는 짧은 한 줄을 꽂는다. 첫 댓글이 붙어야 영상이 산다", "type": "first-comment-sparker", "value": 2},
+        {"text": "그날 공기까지 떠오르는 말로 바꾼다. 그냥 웃긴 것보다 저장하고 싶어야 한다", "type": "saveable-mood-cut", "value": 2}
+      ]
+    },
+    {
+      "text": "영상이 올라가고 3분 뒤, 친구들이 댓글창을 보며 웃기 시작했다. 네가 은근히 기다리는 반응은?",
+      "options": [
+        {"text": "\"아 이거 나도 겪음\" 같은 공감 댓글이 줄줄이 달리는 순간", "type": "relatable-translation-pro", "value": 2},
+        {"text": "\"근데 저 사람 누구야?\" 하고 조용히 네 존재를 묻는 DM이 오는 순간", "type": "quiet-algorithm-pick", "value": 2}
+      ]
+    },
+    {
+      "text": "댓글창에 누가 살짝 어색한 농담을 남겼다. 분위기가 이상해지기 전, 네가 더 잘하는 건?",
+      "options": [
+        {"text": "그 농담을 받아서 더 웃긴 흐름으로 바꾼다. 댓글창 온도는 초반에 잡아야 한다", "type": "first-comment-sparker", "value": 2},
+        {"text": "무리하게 키우지 않고 좋아요나 짧은 답글로 부드럽게 넘긴다", "type": "quiet-algorithm-pick", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 \"이 장면 왜 이렇게 계속 보게 되지?\" 하고 묻는다. 네가 고르는 이유는?",
+      "options": [
+        {"text": "표정, 배경, 음악 타이밍이 묘하게 맞아서 한 장면처럼 남는다", "type": "saveable-mood-cut", "value": 2},
+        {"text": "다들 말은 안 해도 속으로 아는 감정을 정확히 찔렀기 때문이다", "type": "relatable-translation-pro", "value": 2}
+      ]
+    },
+    {
+      "text": "갑자기 조회수가 튀기 시작했다. 친구들이 \"이거 왜 터진 거야?\" 하고 묻는다면, 네 답은?",
+      "options": [
+        {"text": "\"첫 반응이 너무 빨랐어. 사람들이 들어오자마자 말 얹고 싶어졌잖아\"", "type": "first-comment-sparker", "value": 2},
+        {"text": "\"크게 설명 안 해도 보는 사람이 자기 장면으로 착각하게 만들었어\"", "type": "relatable-translation-pro", "value": 2}
+      ]
+    },
+    {
+      "text": "릴스가 친구들 사이에서 계속 돌고, 누가 너를 캡처해서 \"이 사람 뭐냐\"고 보냈다. 제일 네 쪽에 가까운 엔딩은?",
+      "options": [
+        {"text": "얼굴보다 분위기가 먼저 기억난다. 그래서 다음 게시물에도 네 장면을 찾게 된다", "type": "saveable-mood-cut", "value": 2},
+        {"text": "많이 말하지 않았는데 이상하게 알고리즘이 다시 데려오는 사람처럼 남는다", "type": "quiet-algorithm-pick", "value": 2}
+      ]
+    }
+  ]
+}

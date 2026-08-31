@@ -1,0 +1,59 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구들이 모인 자리에서 누가 \"오늘 분위기 왜 이렇게 조용함?\" 하고 말한다. 모두가 서로 눈치 보는 첫 5초, 네 손이 먼저 가는 쪽은?",
+      "options": [
+        {"text": "\"그럼 지금부터 이상한 사람 대회 시작\" 하고 바로 웃음 버튼을 누른다", "type": "laugh-trigger-ringmaster", "value": 2},
+        {"text": "제일 민망해하는 사람 표정을 보고, 그 사람이 웃을 만큼만 가볍게 판을 연다", "type": "awkwardness-rescue-clown", "value": 2},
+        {"text": "말없이 컵을 들고 건배 각을 만든다. 조용한 장면도 조명만 바꾸면 살아난다", "type": "twist-spotlight-player", "value": 2},
+        {"text": "다들 웃기 시작할 때까지 기다렸다가 마지막에 딱 한 마디로 흐름을 가져간다", "type": "ending-applause-thief", "value": 2}
+      ]
+    },
+    {
+      "text": "친구가 별생각 없이 던진 농담이 예상보다 반응이 없다. 방 안에 아주 얇은 정적이 깔린 순간, 너는?",
+      "options": [
+        {"text": "그 농담을 더 크게 부풀려서 아예 오늘의 콘셉트로 만들어버린다", "type": "laugh-trigger-ringmaster", "value": 2},
+        {"text": "친구가 무안하지 않게 \"아니 이건 타이밍이 너무 고급이었음\" 하고 살짝 받쳐준다", "type": "awkwardness-rescue-clown", "value": 2},
+        {"text": "다른 이야기로 튀는 척하다가 방금 농담을 예상 밖의 위치에서 다시 살린다", "type": "twist-spotlight-player", "value": 2},
+        {"text": "조금 지나고 모두가 방심했을 때 그 농담을 회수해서 제일 크게 웃긴다", "type": "ending-applause-thief", "value": 2}
+      ]
+    },
+    {
+      "text": "단체 사진을 찍는데 다들 포즈가 어색하다. 셔터 누르기 직전 네가 만드는 장면은?",
+      "options": [
+        {"text": "갑자기 말도 안 되는 포즈를 해서 모두의 표정을 한 번에 풀어버린다", "type": "laugh-trigger-ringmaster", "value": 2},
+        {"text": "뒤에 숨은 친구를 앞으로 부르고, 표정 굳은 사람에게 작게 웃긴 말을 건넨다", "type": "awkwardness-rescue-clown", "value": 2},
+        {"text": "평범한 사진은 아깝다며 소품, 각도, 표정까지 한 번 비틀어본다", "type": "twist-spotlight-player", "value": 2},
+        {"text": "처음엔 얌전히 있다가 마지막 컷에서만 모두가 기억할 표정을 남긴다", "type": "ending-applause-thief", "value": 2}
+      ]
+    },
+    {
+      "text": "누가 네 얘기를 꺼내며 \"너는 웃기려는 건지 진심인지 모르겠어\"라고 한다. 네가 더 듣고 싶은 뉘앙스는?",
+      "options": [
+        {"text": "\"근데 너 없으면 시작이 안 됨. 일단 네가 판을 열어야 해\"", "type": "laugh-trigger-ringmaster", "value": 2},
+        {"text": "\"장난처럼 하는데 사람 안 다치게 선을 진짜 잘 봄\"", "type": "awkwardness-rescue-clown", "value": 2},
+        {"text": "\"예상 못 한 쪽으로 틀어서 평범한 얘기도 갑자기 장면 됨\"", "type": "twist-spotlight-player", "value": 2},
+        {"text": "\"초반엔 조용한데 마지막에 꼭 네가 가져가는 한 방이 있음\"", "type": "ending-applause-thief", "value": 2}
+      ]
+    },
+    {
+      "text": "모임 중간에 갑자기 누군가 진지한 고민을 꺼냈다. 너무 가볍게 넘기면 안 되는 분위기라면, 네 역할은?",
+      "options": [
+        {"text": "무거운 공기를 조금 낮춘 뒤, 다들 말할 수 있게 첫 반응을 열어준다", "type": "laugh-trigger-ringmaster", "value": 2},
+        {"text": "고민한 사람이 창피하지 않게 농담과 진심 사이의 쿠션을 깔아준다", "type": "awkwardness-rescue-clown", "value": 2},
+        {"text": "생각을 다른 각도로 돌려준다. 같은 고민도 장면을 바꾸면 숨통이 트인다", "type": "twist-spotlight-player", "value": 2},
+        {"text": "한참 듣다가 끝에 오래 남는 말 한 줄로 그 사람 마음을 붙잡아준다", "type": "ending-applause-thief", "value": 2}
+      ]
+    },
+    {
+      "text": "집에 가는 길, 친구들이 오늘을 한 줄로 정리하며 네 이름을 붙인다. 제일 네 쪽에 가까운 엔딩은?",
+      "options": [
+        {"text": "정적도 오프닝으로 바꾸는 인간 웃음 방아쇠", "type": "laugh-trigger-ringmaster", "value": 2},
+        {"text": "민망한 순간을 다치지 않게 넘기는 인간 완충 무대", "type": "awkwardness-rescue-clown", "value": 2},
+        {"text": "평범한 장면을 갑자기 명장면으로 트는 인간 반전 조명", "type": "twist-spotlight-player", "value": 2},
+        {"text": "끝날 때쯤 제일 오래 남는 한 방을 가져가는 인간 커튼콜", "type": "ending-applause-thief", "value": 2}
+      ]
+    }
+  ]
+}

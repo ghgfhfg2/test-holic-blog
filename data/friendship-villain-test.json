@@ -1,0 +1,77 @@
+{
+  "resultMode": "score",
+  "questions": [
+    {
+      "text": "친구가 카페에 앉자마자 ‘오늘 회사에서 진짜 힘들었어’라고 한다. 아직 주문도 안 했는데 내 첫 반응은?",
+      "options": [
+        {"text": "‘일단 팀장한테 이렇게 말해봐.’ 머릿속 해결책부터 꺼낸다", "type": "fix-first-villain", "value": 1},
+        {"text": "‘얘기할까, 맛있는 거 먹을까? 네가 원하는 대로 하자’라며 결정을 맡긴다", "type": "anything-but-villain", "value": 1},
+        {"text": "분위기를 풀어주려고 ‘또 퇴사 시즌 왔네’ 하고 농담한다", "type": "just-joking-villain", "value": 1},
+        {"text": "잘 듣고 싶은데 급한 알림에 눈이 간다. 잠깐만 확인하려던 건데…", "type": "selective-ghost-villain", "value": 1}
+      ]
+    },
+    {
+      "text": "단톡에서 저녁 메뉴를 고르는 중. ‘너 뭐 먹고 싶어?’라는 질문에 가장 나다운 답은?",
+      "options": [
+        {"text": "‘어제도 그거 먹지 않았냐ㅋㅋ’ 하고 친구 취향부터 놀린다", "type": "just-joking-villain", "value": 1},
+        {"text": "‘다 괜찮아!’라고 했는데 올라오는 후보마다 안 당기는 이유가 있다", "type": "anything-but-villain", "value": 1},
+        {"text": "읽기는 했는데 일단 하던 것부터. 메뉴가 정해질 때쯤 다시 나타난다", "type": "selective-ghost-villain", "value": 1},
+        {"text": "거리·평점·가격을 비교해서 ‘여기가 맞아’ 하고 결론을 낸다", "type": "fix-first-villain", "value": 1}
+      ]
+    },
+    {
+      "text": "친구에게 ‘토요일 몇 시에 볼까?’라는 메시지가 왔다. 약속은 잡고 싶은데, 실제 내 휴대폰에서는?",
+      "options": [
+        {"text": "답장할 시간은 나중에 내고, 방금 찍은 사진은 스토리에 먼저 올린다", "type": "selective-ghost-villain", "value": 1},
+        {"text": "‘시간 약속 지키실 수 있는 분이 정하시죠ㅋㅋ’ 하고 지난 지각을 소환한다", "type": "just-joking-villain", "value": 1},
+        {"text": "친구 일정까지 짐작해서 시간과 동선을 한 번에 정리해 보낸다", "type": "fix-first-villain", "value": 1},
+        {"text": "‘네가 편한 시간!’이라고 보내고, 제안받은 시간에는 조건을 덧붙인다", "type": "anything-but-villain", "value": 1}
+      ]
+    },
+    {
+      "text": "친구가 새 프로필 사진 후보 세 장을 보내며 ‘뭐가 나아?’라고 묻는다. 내 답장은?",
+      "options": [
+        {"text": "‘다 괜찮은데 두 번째는 배경이, 세 번째는 표정이…’ 정작 하나는 못 고른다", "type": "anything-but-villain", "value": 1},
+        {"text": "하나 고르기 전에 밝기랑 구도부터 손봐서 보낸다", "type": "fix-first-villain", "value": 1},
+        {"text": "제일 웃긴 표정부터 확대해서 ‘이건 평생 소장’이라고 보낸다", "type": "just-joking-villain", "value": 1},
+        {"text": "제대로 비교해서 답하려다 미룬다. 나중에 보니 이미 바꿨다", "type": "selective-ghost-villain", "value": 1}
+      ]
+    },
+    {
+      "text": "친구 생일 선물을 같이 사기로 했다. 누군가 후보 링크를 잔뜩 올렸을 때 나는?",
+      "options": [
+        {"text": "수고했다는 말보다 ‘근데 이건 실용성이 좀…’이라는 검토부터 한다", "type": "fix-first-villain", "value": 1},
+        {"text": "일단 보고 나중에 의견을 보태려는데, 어느새 결제까지 끝나 있다", "type": "selective-ghost-villain", "value": 1},
+        {"text": "‘맡길게!’라고 했다가 최종 후보를 보고 다른 스타일은 없냐고 묻는다", "type": "anything-but-villain", "value": 1},
+        {"text": "‘우리 우정 예산 이 정도였어?’ 하며 가격으로 드립을 친다", "type": "just-joking-villain", "value": 1}
+      ]
+    },
+    {
+      "text": "보드게임 설명을 놓친 친구가 같은 규칙을 세 번째 묻는다. 나도 모르게 나오는 말은?",
+      "options": [
+        {"text": "‘우리 오늘 룰 설명회 시즌 3임?’ 하고 다 같이 웃을 말을 찾는다", "type": "just-joking-villain", "value": 1},
+        {"text": "‘아 잠깐만.’ 휴대폰 보던 걸 마저 끝내느라 대답이 늦어진다", "type": "selective-ghost-villain", "value": 1},
+        {"text": "‘원하는 방식으로 해.’라고 해놓고 진행되면 원래 규칙이 신경 쓰인다", "type": "anything-but-villain", "value": 1},
+        {"text": "‘그냥 내가 대신 한 턴 해줄게.’ 이해보다 진행부터 해결한다", "type": "fix-first-villain", "value": 1}
+      ]
+    },
+    {
+      "text": "여행 숙소를 예약하기 직전, ‘이제 여기로 확정해도 돼?’라고 묻는다. 가장 익숙한 내 모습은?",
+      "options": [
+        {"text": "확인하고 답해야지 싶어서 알림만 내려둔다. 답장 재촉이 한 번 더 온다", "type": "selective-ghost-villain", "value": 1},
+        {"text": "‘좋아!’라고 했지만 결제 직전에 더 조용한 곳은 없는지 물어본다", "type": "anything-but-villain", "value": 1},
+        {"text": "리뷰를 더 찾아서 친구가 고른 곳의 단점과 대안을 정리한다", "type": "fix-first-villain", "value": 1},
+        {"text": "‘네 코골이만 방음되면 어디든’ 하고 친구 얘기로 웃음을 만든다", "type": "just-joking-villain", "value": 1}
+      ]
+    },
+    {
+      "text": "집에 와서 친구에게 ‘아까 그 말은 조금 서운했어’라는 메시지를 받았다. 가장 먼저 하고 싶어지는 반응은?",
+      "options": [
+        {"text": "‘그럼 다음부터 이렇게 하면 되겠네.’ 바로 재발 방지안을 설명한다", "type": "fix-first-villain", "value": 1},
+        {"text": "답장을 쓰고 지우다가 멈춘다. 생각을 정리할수록 답장은 늦어진다", "type": "selective-ghost-villain", "value": 1},
+        {"text": "‘친하니까 장난친 건데…’ 내 의도가 달랐다는 말부터 나온다", "type": "just-joking-villain", "value": 1},
+        {"text": "‘네가 원하는 대로 할게.’ 구체적으로 뭘 바꿀지는 친구에게 묻는다", "type": "anything-but-villain", "value": 1}
+      ]
+    }
+  ]
+}

@@ -18,8 +18,14 @@ description: 내 안의 진짜 모습을 발견하는 다양한 성격/심리 �
 
     <div class="test-list">
       {% for test in featured_tests %}
-      <a href="{{ test.url | relative_url }}" class="test-card">
-        <div class="test-thumb">{{ test.landing_emoji | default: '🧠' }}</div>
+      <a href="{{ test.url | relative_url }}" class="test-card{% if test.thumbnail %} has-thumbnail{% endif %}">
+        <div class="test-thumb">
+          {% if test.thumbnail %}
+            <img src="{{ test.thumbnail | relative_url }}" alt="" width="1536" height="1024" loading="lazy">
+          {% else %}
+            {{ test.landing_emoji | default: '🧠' }}
+          {% endif %}
+        </div>
         <div class="test-info">
           <div class="test-meta-row">
             {% if forloop.first %}<span class="chip chip-primary">NEW</span>{% endif %}

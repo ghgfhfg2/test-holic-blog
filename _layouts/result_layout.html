@@ -9,8 +9,9 @@ noindex: true
   </div>
   
   <div class="result-image">
-    <img src="{{ page.result_image | relative_url }}" alt="{{ page.result_name }}" onerror="this.style.display='none';">
-    {% if page.result_emoji %}
+    {% if page.result_image and page.result_image != '' %}
+      <img src="{{ page.result_image | relative_url }}" alt="{{ page.image_alt | default: page.result_name | escape }}">
+    {% elsif page.result_emoji %}
       <div style="font-size: 6rem; margin: 20px 0;">{{ page.result_emoji }}</div>
     {% endif %}
   </div>
@@ -21,21 +22,39 @@ noindex: true
 
   <div class="result-actions">
     <button class="btn btn-primary" onclick="shareResult()">결과 공유하기</button>
+    {% if page.result_image and page.result_image != '' %}
+      <a href="{{ page.result_image | relative_url }}" download class="btn btn-secondary">결과 이미지 저장</a>
+    {% endif %}
+    {% if page.retry_url %}
+      <a href="{{ page.retry_url | relative_url }}" class="btn btn-secondary">다시 테스트하기</a>
+    {% endif %}
     <a href="{{ '/' | relative_url }}" class="btn btn-secondary">다른 테스트 하기</a>
   </div>
+  <p id="share-status" role="status" aria-live="polite"></p>
 </div>
 
 <script>
-function shareResult() {
+async function shareResult() {
+  const status = document.getElementById('share-status');
+  const shareData = {
+    title: document.title,
+    text: {{ page.share_text | default: page.description | default: page.title | jsonify }},
+    url: window.location.href
+  };
   if (navigator.share) {
-    navigator.share({
-      title: document.title,
-      url: window.location.href
-    }).catch(console.error);
-  } else {
-    navigator.clipboard.writeText(window.location.href)
-      .then(() => alert("결과 링크가 복사되었습니다!"))
-      .catch(() => alert("링크 복사에 실패했습니다."));
+    try {
+      await navigator.share(shareData);
+      status.textContent = '공유했습니다!';
+      return;
+    } catch (error) {
+      if (error.name === 'AbortError') return;
+    }
+  }
+  try {
+    await navigator.clipboard.writeText(shareData.url);
+    status.textContent = '결과 링크가 복사되었습니다! 친구에게 보내보세요.';
+  } catch (error) {
+    status.textContent = '자동 복사를 사용할 수 없어요. 주소창의 결과 링크를 복사해주세요.';
   }
 }
 </script>

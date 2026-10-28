@@ -4,8 +4,12 @@ layout: default
 <div class="landing-container">
   <h1>{{ page.title }}</h1>
   
-  <div class="landing-image">
-    {{ page.landing_emoji | default: "✨" }}
+  <div class="landing-image{% if page.thumbnail %} has-art{% endif %}">
+    {% if page.thumbnail %}
+      <img src="{{ page.thumbnail | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" width="1536" height="1024" fetchpriority="high">
+    {% else %}
+      {{ page.landing_emoji | default: "✨" }}
+    {% endif %}
   </div>
   
   <div class="landing-desc content-area">

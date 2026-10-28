@@ -20,7 +20,11 @@ permalink: /tests/
     <div class="archive-list">
       {% for test in all_tests %}
       <a href="{{ test.url | relative_url }}" class="archive-item archive-item-detailed">
-        <span class="archive-emoji">{{ test.landing_emoji | default: '🧠' }}</span>
+        {% if test.thumbnail %}
+          <img class="archive-thumbnail" src="{{ test.thumbnail | relative_url }}" alt="" width="72" height="48" loading="lazy">
+        {% else %}
+          <span class="archive-emoji">{{ test.landing_emoji | default: '🧠' }}</span>
+        {% endif %}
         <span class="archive-body">
           <strong>{{ test.title }}</strong>
           <small>{{ test.summary | default: test.description }}</small>

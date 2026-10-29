@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let resultMap = {};
   let axisSelections = {};
   let answerHistory = [];
+  let profileConfig = null;
+  let isFinishing = false;
 
   const qText = document.getElementById("question-text");
   const optionsContainer = document.getElementById("options-container");
@@ -29,6 +31,13 @@ document.addEventListener("DOMContentLoaded", () => {
       questions = data.questions || [];
       resultMode = data.resultMode || "score";
       resultMap = data.resultMap || {};
+      if (resultMode === "relationshipProfile16") {
+        profileConfig = {
+          axisOrder: data.axisOrder,
+          resultMap,
+          questionCount: questions.length,
+        };
+      }
       if (totalQSpan) totalQSpan.textContent = questions.length;
       renderQuestion();
     })
@@ -41,7 +50,8 @@ document.addEventListener("DOMContentLoaded", () => {
     backButton.addEventListener("click", goBack);
   }
 
-  window.selectOption = function (option) {
+  window.selectOption = function (option, expectedIndex = currentQIdx) {
+    if (isFinishing || expectedIndex !== currentQIdx || !questions[currentQIdx]) return;
     const historyItem = {
       questionIndex: currentQIdx,
       resultMode,
@@ -50,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         value: option.value || 1,
         axis: option.axis,
         dimension: option.dimension || questions[currentQIdx]?.dimension,
+        scores: option.scores,
       },
     };
 
@@ -60,12 +71,18 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentQIdx < questions.length) {
       renderQuestion();
     } else {
+      isFinishing = true;
+      optionsContainer.querySelectorAll('button').forEach(button => button.disabled = true);
+      if (backButton) backButton.disabled = true;
       calculateResult();
     }
   };
 
   function applyOption(option) {
-    if (resultMode === "mbti16") {
+    if (resultMode === "relationshipProfile16") {
+      // Calculated from the current answer history only, including back edits.
+      return;
+    } else if (resultMode === "mbti16") {
       if (option.dimension && option.axis) {
         axisSelections[option.dimension] = option.axis;
       }
@@ -80,7 +97,9 @@ document.addEventListener("DOMContentLoaded", () => {
   function rollbackOption(historyItem) {
     const option = historyItem.payload;
 
-    if (historyItem.resultMode === "mbti16") {
+    if (historyItem.resultMode === "relationshipProfile16") {
+      return;
+    } else if (historyItem.resultMode === "mbti16") {
       if (option.dimension) {
         delete axisSelections[option.dimension];
         const previousForDimension = [...answerHistory]
@@ -107,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function goBack() {
-    if (currentQIdx === 0 || answerHistory.length === 0) return;
+    if (isFinishing || currentQIdx === 0 || answerHistory.length === 0) return;
 
     const lastAnswer = answerHistory.pop();
     rollbackOption(lastAnswer);
@@ -132,21 +151,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     optionsContainer.innerHTML = "";
+    const renderedQuestionIndex = currentQIdx;
     q.options.forEach((opt, idx) => {
       const btn = document.createElement("button");
       btn.className = "option-btn";
       btn.textContent = opt.text;
       btn.style.animationDelay = `${idx * 0.05}s`;
       btn.onclick = () =>
-        selectOption({
+        window.selectOption({
           type: opt.type,
           value: opt.value,
           axis: opt.axis,
           dimension: opt.dimension || q.dimension,
-        });
+          scores: opt.scores,
+        }, renderedQuestionIndex);
 
       optionsContainer.appendChild(btn);
     });
+    if (resultMode === "relationshipProfile16" && currentQIdx > 0) {
+      document.querySelector('.test-header').scrollIntoView({ block: 'start' });
+    }
   }
 
   function calculateResult() {
@@ -154,7 +178,17 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
       let resultSlug = null;
 
-      if (resultMode === "mbti16") {
+      if (resultMode === "relationshipProfile16") {
+        try {
+          resultSlug = window.RelationshipProfile.calculate(
+            profileConfig, answerHistory.map(item => item.payload)
+          ).slug;
+        } catch (error) {
+          console.error('결과를 계산하지 못했습니다.', error);
+          qText.textContent = '결과를 계산하지 못했어요. 페이지를 새로 열고 다시 시도해주세요.';
+          return;
+        }
+      } else if (resultMode === "mbti16") {
         const code = ["EI", "SN", "TF", "PJ"]
           .map((dimension) => axisSelections[dimension] || dimension[0])
           .join("");

@@ -333,6 +333,8 @@ footer {
 .result-image img { max-width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); }
 .result-image img { display: block; width: 100%; height: auto; }
 #share-status { color: var(--text-light); font-size: 0.9rem; }
+.legacy-result-notice { padding: 14px; margin-bottom: 24px; border-radius: 12px; background: #fff6d5; font-size: 0.9rem; }
+.legacy-result-notice a { display: block; margin-top: 6px; color: var(--primary); font-weight: 700; }
 
 .content-area {
   background: #f8f9fa; padding: 24px; border-radius: var(--radius);

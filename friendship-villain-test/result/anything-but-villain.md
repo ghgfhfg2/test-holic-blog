@@ -1,5 +1,6 @@
 ---
 layout: result_layout
+legacy_result: true
 test_title: 인간관계 빌런력 테스트
 result_name: 선택권 반납 빌런
 result_emoji: 🍽️

@@ -30,4 +30,7 @@ noindex: true
   window.RESULTS_PATH = "{{ page.results_path | default: page.test_id | prepend: '/' | append: '/result/' | relative_url }}";
   window.DATA_PATH = "{{ '/data/' | relative_url }}";
 </script>
+{% if page.profile_engine %}
+<script src="{{ '/assets/js/relationship_profile.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+{% endif %}
 <script src="{{ '/assets/js/test_engine.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

@@ -3,6 +3,12 @@ layout: default
 noindex: true
 ---
 <div class="result-container">
+  {% if page.legacy_result %}
+  <aside class="legacy-result-notice">
+    이 페이지는 초기 8문항 버전의 결과예요.
+    <a href="{{ '/friendship-villain-test/' | relative_url }}">새로운 12문항 테스트 해보기 →</a>
+  </aside>
+  {% endif %}
   <div class="result-header">
     <h2>{{ page.test_title | default: "심리테스트" }} 결과</h2>
     <h1 class="result-type">{{ page.result_name }}</h1>

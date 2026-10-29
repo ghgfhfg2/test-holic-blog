@@ -1,0 +1,426 @@
+{
+  "resultMode": "relationshipProfile16",
+  "version": 2,
+  "axisOrder": [
+    "initiative",
+    "expression",
+    "boundary",
+    "reconnect"
+  ],
+  "resultMap": {
+    "1111": "friendship-overmanager",
+    "1110": "fact-drop-exit",
+    "1101": "boundary-negotiator",
+    "1100": "exit-notice",
+    "1011": "silent-friendship-treasurer",
+    "1010": "silent-scorekeeper",
+    "1001": "quiet-relationship-mechanic",
+    "1000": "silent-distance-planner",
+    "0111": "emotion-live-streamer",
+    "0110": "hurt-notification-bot",
+    "0101": "peace-treaty-messenger",
+    "0100": "say-it-log-out",
+    "0011": "unlimited-friendship-refill",
+    "0010": "heart-ledger-collector",
+    "0001": "low-noise-peacekeeper",
+    "0000": "auto-logout-friend"
+  },
+  "questions": [
+    {
+      "text": "내가 준비하던 회사에 친구가 먼저 합격했다. 축하하는 마음도 있지만, 솔직히 속이 조금 쓰리다. 단톡에 합격 소식이 올라오면?",
+      "options": [
+        {
+          "text": "‘축하해! 솔직히 좀 부럽다.’ 마음은 말하되, 오늘은 친구 축하에 집중한다",
+          "scores": {
+            "expression": 2,
+            "boundary": -1
+          }
+        },
+        {
+          "text": "축하부터 보내고, 내 복잡한 마음은 숨긴 채 친구의 준비 과정과 후기를 계속 살펴본다",
+          "scores": {
+            "expression": -2,
+            "boundary": 1
+          }
+        },
+        {
+          "text": "‘축하해! 나도 준비 중인데 부럽다.’ 내 상황도 꺼내며 준비 과정을 길게 물어본다",
+          "scores": {
+            "expression": 2,
+            "boundary": 1
+          }
+        },
+        {
+          "text": "짧게 축하하고 단톡을 잠깐 닫는다. 비교하는 마음은 내 계획을 정리하며 다룬다",
+          "scores": {
+            "expression": -2,
+            "boundary": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "친구가 생활비 20만 원을 한 달만 빌려달라고 한다. 내가 전부 빌려주기에는 부담스럽지만, 그냥 넘기기도 마음에 걸린다. 어떻게 답할까?",
+      "options": [
+        {
+          "text": "빌려주기는 어렵다고 말하고, 이후 돈을 마련하는 방법은 친구 판단에 맡긴다",
+          "scores": {
+            "boundary": -2,
+            "initiative": -1
+          }
+        },
+        {
+          "text": "가능한 금액을 말하고, 필요한 돈과 갚을 일정을 친구와 함께 정리한다",
+          "scores": {
+            "boundary": 2,
+            "initiative": 1
+          }
+        },
+        {
+          "text": "돈을 빌려주지는 않되, 친구가 원한다면 지출이나 다른 대안을 같이 정리해준다",
+          "scores": {
+            "boundary": -2,
+            "initiative": 1
+          }
+        },
+        {
+          "text": "내가 감당할 수 있는 만큼 보내고, 갚는 일정은 친구가 형편에 맞춰 알려주게 한다",
+          "scores": {
+            "boundary": 2,
+            "initiative": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "친한 친구에게만 말한 내 이야기가 모임에서 나왔다. 그 친구가 말한 건지 아직 확실하지 않다. 모임이 끝난 뒤 나는?",
+      "options": [
+        {
+          "text": "당장은 아무 말 하지 않는다. 마음이 가라앉을 때까지 개인적인 이야기와 만남을 줄인다",
+          "scores": {
+            "reconnect": -2,
+            "expression": -1
+          }
+        },
+        {
+          "text": "‘오늘 그 얘기가 나와서 당황했어.’ 따로 확인하고, 오해인지 함께 풀어본다",
+          "scores": {
+            "reconnect": 2,
+            "expression": 1
+          }
+        },
+        {
+          "text": "‘아직 정리가 안 돼서 시간이 필요해.’ 불편함을 알리고 당분간 거리를 둔다",
+          "scores": {
+            "reconnect": -2,
+            "expression": 1
+          }
+        },
+        {
+          "text": "오늘은 티 내지 않는다. 관계가 멀어지지 않게 다음에 둘이 볼 자리를 먼저 잡는다",
+          "scores": {
+            "reconnect": 2,
+            "expression": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "내가 맡은 회식 정산에서 실수로 친구에게 돈을 더 받았다. 친구가 단톡에서 알려줬다. 확인해보니 정말 내 실수다. 그다음은?",
+      "options": [
+        {
+          "text": "내역을 다시 올리고 바로 환불한다. 어색해지지 않게 친구에게 먼저 따로 연락한다",
+          "scores": {
+            "initiative": 2,
+            "reconnect": 1
+          }
+        },
+        {
+          "text": "친구가 정정해준 금액을 확인해 돌려준다. 민망해서 당분간 단톡에서는 조용히 있는다",
+          "scores": {
+            "initiative": -2,
+            "reconnect": -1
+          }
+        },
+        {
+          "text": "친구의 수정 내역에 맞춰 송금한다. 친구가 괜히 눈치 보지 않게 먼저 평소처럼 말을 건다",
+          "scores": {
+            "initiative": -2,
+            "reconnect": 1
+          }
+        },
+        {
+          "text": "정산표를 고쳐 환불하고 사과한다. 다음 모임은 한 번 쉬며 민망한 마음을 정리한다",
+          "scores": {
+            "initiative": 2,
+            "reconnect": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "여행에서 내가 찾은 카페가 대성공했다. 그런데 친구들이 예약을 맡은 다른 친구에게만 ‘이런 데 어떻게 찾았어?’라며 칭찬한다. 나는?",
+      "options": [
+        {
+          "text": "굳이 정정하지 않고 넘어간다. 다른 친구가 내 역할도 소개해주기를 기다린다",
+          "scores": {
+            "expression": -2,
+            "initiative": -1
+          }
+        },
+        {
+          "text": "‘찾은 건 나야, 예약은 얘가 했고!’라고 말하고 다음 코스 정리는 원래 맡은 친구에게 맡긴다",
+          "scores": {
+            "expression": 2,
+            "initiative": -1
+          }
+        },
+        {
+          "text": "말은 보태지 않지만 다음 일정은 내가 직접 정리해 공유한다. 내 역할이 드러나게 한다",
+          "scores": {
+            "expression": -2,
+            "initiative": 1
+          }
+        },
+        {
+          "text": "‘이 카페 내가 찾았지!’라고 말한다. 신이 나서 다음 코스도 내가 제안한다",
+          "scores": {
+            "expression": 2,
+            "initiative": 1
+          }
+        }
+      ]
+    },
+    {
+      "text": "둘이 다니던 취미 모임에 친구가 요즘 다른 친구를 자주 데려온다. 새 친구가 싫지는 않지만, 둘만의 시간이 없어진 게 아쉽다. 나는?",
+      "options": [
+        {
+          "text": "셋이 만나는 날과 둘이 보는 날을 나누자고 제안하고, 둘이 만날 날을 먼저 잡는다",
+          "scores": {
+            "boundary": -2,
+            "reconnect": 1
+          }
+        },
+        {
+          "text": "새 친구까지 더 알아가고 싶지만 일단 기다린다. 섭섭함이 가라앉으면 다시 초대에 응한다",
+          "scores": {
+            "boundary": 2,
+            "reconnect": -1
+          }
+        },
+        {
+          "text": "셋이 친해질 자리를 먼저 만든다. 새 친구의 취향도 알아두고 함께할 계획을 짠다",
+          "scores": {
+            "boundary": 2,
+            "reconnect": 1
+          }
+        },
+        {
+          "text": "모든 모임을 함께할 필요는 없다고 생각한다. 당분간 다른 사람이나 혼자 하는 일정에 집중한다",
+          "scores": {
+            "boundary": -2,
+            "reconnect": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "친구가 피곤하다며 내 약속을 당일 취소했다. 그런데 그날 밤 다른 모임 사진이 올라왔다. 이미 외출 준비까지 했던 나는?",
+      "options": [
+        {
+          "text": "서운하다고 말하고 친구에게 사정이 있었는지 묻는다. 다음에 볼 자리도 먼저 제안한다",
+          "scores": {
+            "reconnect": 2,
+            "boundary": 1
+          }
+        },
+        {
+          "text": "지금은 내 일정부터 챙긴다. 다음 약속은 내가 먼저 잡지 않고 시간을 둔다",
+          "scores": {
+            "reconnect": -2,
+            "boundary": -1
+          }
+        },
+        {
+          "text": "왜 내 약속만 취소했는지 자꾸 궁금하다. 근황은 살펴보지만 먼저 연락하지는 않는다",
+          "scores": {
+            "reconnect": -2,
+            "boundary": 1
+          }
+        },
+        {
+          "text": "다시 볼 수 있는 날을 두 개 보낸다. 대신 이번에는 일정 확정과 예약을 친구에게 부탁한다",
+          "scores": {
+            "reconnect": 2,
+            "boundary": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "오래 준비한 야외 모임 날에 비가 온다. 다들 ‘그냥 취소할까?’라고 하는데, 나는 준비한 시간이 아깝다. 단톡에서 나는?",
+      "options": [
+        {
+          "text": "아쉽다는 말은 삼키고, 실내 대체 장소와 예약 가능 시간을 찾아 조용히 올린다",
+          "scores": {
+            "initiative": 2,
+            "expression": -1
+          }
+        },
+        {
+          "text": "‘준비 많이 해서 솔직히 아쉽다.’ 마음은 알리되, 취소 여부는 다른 사람들 의견에 맞춘다",
+          "scores": {
+            "initiative": -2,
+            "expression": 1
+          }
+        },
+        {
+          "text": "마음은 아쉽지만 더 말하지 않는다. 사람들이 정한 안에 투표하고 따라간다",
+          "scores": {
+            "initiative": -2,
+            "expression": -1
+          }
+        },
+        {
+          "text": "‘여기까지 준비했는데 취소는 아깝다.’ 실내 대안을 제안하고 내가 변경을 조율한다",
+          "scores": {
+            "initiative": 2,
+            "expression": 1
+          }
+        }
+      ]
+    },
+    {
+      "text": "친구가 사람들 앞에서 내 실수를 웃긴 일화로 꺼냈다. 다들 웃었지만 나는 불편했다. 그날 이후 나는?",
+      "options": [
+        {
+          "text": "그 자리에서는 웃고 넘긴다. 그래도 멀어지고 싶지는 않아서 다음 만남은 먼저 잡는다",
+          "scores": {
+            "expression": -2,
+            "reconnect": 1
+          }
+        },
+        {
+          "text": "‘그 얘기는 불편했어.’ 분명히 말하고, 다음 모임은 쉬면서 마음을 가라앉힌다",
+          "scores": {
+            "expression": 2,
+            "reconnect": -1
+          }
+        },
+        {
+          "text": "‘아까 그 말은 조금 불편했어.’ 따로 얘기해서 오늘 안에 서로의 생각을 확인한다",
+          "scores": {
+            "expression": 2,
+            "reconnect": 1
+          }
+        },
+        {
+          "text": "괜찮은 척 넘어간다. 다만 당분간 대화와 만남을 조금 줄인다",
+          "scores": {
+            "expression": -2,
+            "reconnect": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "친구가 내가 요즘 연락하는 사람과의 대화를 보여달라고 한다. 내가 망설이자 ‘우리 사이에 뭘 숨겨?’라며 장난친다. 나는?",
+      "options": [
+        {
+          "text": "불편한 마음은 말하지 않고 다른 사진을 보여주며 화제를 돌린다. 휴대폰은 내가 쥔다",
+          "scores": {
+            "boundary": -2,
+            "expression": -1
+          }
+        },
+        {
+          "text": "‘다 보여주기는 좀 그래.’ 대신 함께 봐도 괜찮은 대화만 골라 같이 보며 이야기한다",
+          "scores": {
+            "boundary": 2,
+            "expression": 1
+          }
+        },
+        {
+          "text": "‘친해도 개인 대화는 안 보여줘.’ 이유를 설명하고 휴대폰 화면을 닫는다",
+          "scores": {
+            "boundary": -2,
+            "expression": 1
+          }
+        },
+        {
+          "text": "조금 신경 쓰이지만 말은 하지 않는다. 친구가 궁금해하는 대화 부분을 잠깐 보여준다",
+          "scores": {
+            "boundary": 2,
+            "expression": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "반년 동안 연락 없던 친구가 갑자기 이사를 도와달라고 한다. 반갑기도 하고, 필요할 때만 찾는 건가 싶기도 하다. 나는?",
+      "options": [
+        {
+          "text": "이번에는 어렵다고 답한다. 다시 가까워질지는 친구가 다음에 어떻게 연락하는지 보고 생각한다",
+          "scores": {
+            "reconnect": -2,
+            "initiative": -1
+          }
+        },
+        {
+          "text": "갈 수 있는 시간과 필요한 일을 먼저 정리한다. 오랜만이니 끝나고 같이 밥도 먹자고 한다",
+          "scores": {
+            "reconnect": 2,
+            "initiative": 1
+          }
+        },
+        {
+          "text": "필요한 도움을 물어보고 업체나 운반 방법을 정리해준다. 직접 만나기는 다음으로 미룬다",
+          "scores": {
+            "reconnect": -2,
+            "initiative": 1
+          }
+        },
+        {
+          "text": "일정을 알려달라고 한다. 가능한 만큼 맞춰 도와주고, 오랜만에 친구 이야기도 듣는다",
+          "scores": {
+            "reconnect": 2,
+            "initiative": -1
+          }
+        }
+      ]
+    },
+    {
+      "text": "친구들과 만드는 영상의 제출 마감은 내일. 내 부분은 끝났지만 다른 친구의 작업이 늦어지고 있다. 오늘 밤 나는?",
+      "options": [
+        {
+          "text": "내 파일과 작업 범위를 정리해 보낸다. 남은 진행 방식은 담당 친구가 결정하게 한다",
+          "scores": {
+            "initiative": -2,
+            "boundary": -1
+          }
+        },
+        {
+          "text": "남은 일을 나누고 마감까지 진행을 조율한다. 내가 추가로 할 수 있는 범위도 분명히 말한다",
+          "scores": {
+            "initiative": 2,
+            "boundary": -1
+          }
+        },
+        {
+          "text": "친구에게 필요한 게 뭔지 물어본다. 친구가 부탁하는 순서에 맞춰 내 작업 밖의 일도 돕는다",
+          "scores": {
+            "initiative": -2,
+            "boundary": 1
+          }
+        },
+        {
+          "text": "친구 작업까지 함께 붙잡고, 전체 파일과 제출 순서를 내가 정리해서 끝까지 챙긴다",
+          "scores": {
+            "initiative": 2,
+            "boundary": 1
+          }
+        }
+      ]
+    }
+  ]
+}

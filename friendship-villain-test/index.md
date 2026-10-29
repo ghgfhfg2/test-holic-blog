@@ -7,6 +7,7 @@ published_at: 2026-10-28
 description: "질투, 돈 부탁, 비밀과 내 실수까지. 서로 다른 12가지 장면으로 알아보는 내 인간관계의 은근한 킹받음 포인트."
 summary: "질투부터 비밀까지, 12가지 장면 속 내 관계 캐릭터"
 last_modified_at: 2026-10-29
+play_url: /friendship-villain-test/play-v2.html
 thumbnail: /assets/images/friendship-villain-test/cover.jpg
 image: /assets/images/friendship-villain-test/cover.jpg
 image_alt: "천사 같은 표정 뒤로 휴대폰을 숨긴 작은 빌런과 눈치챈 친구들"

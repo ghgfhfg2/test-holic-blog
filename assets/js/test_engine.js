@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!testId) return;
 
+  // Old cached play pages must not start a new run with the retired 8-question data.
+  if (testId === 'friendship-villain-test') {
+    window.location.replace(`${resultsPath.replace(/result\/$/, '')}play-v2.html`);
+    return;
+  }
+
   let questions = [];
   let currentQIdx = 0;
   let scores = {};

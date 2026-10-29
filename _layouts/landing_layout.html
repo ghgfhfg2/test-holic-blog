@@ -17,5 +17,5 @@ layout: default
   </div>
   
   <!-- We assume the active test engine file is play.html relative to this dir -->
-  <a href="play.html" class="btn btn-primary">테스트 시작하기</a>
+  <a href="{% if page.play_url %}{{ page.play_url | relative_url }}{% else %}play.html{% endif %}" class="btn btn-primary">테스트 시작하기</a>
 </div>

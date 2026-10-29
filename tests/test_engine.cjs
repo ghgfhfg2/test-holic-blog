@@ -8,6 +8,22 @@ const root = path.resolve(__dirname, '..');
 const source = fs.readFileSync(path.join(root, 'assets/js/test_engine.js'), 'utf8');
 const data = JSON.parse(fs.readFileSync(path.join(root, 'data/friendship-villain-test-v2.json')));
 
+test('cached v1 play page redirects before fetching retired questions', () => {
+  let ready;
+  let destination;
+  vm.runInNewContext(source, {
+    document: { addEventListener(name, callback) { ready = callback; } },
+    window: {
+      TEST_ID: 'friendship-villain-test',
+      RESULTS_PATH: '/friendship-villain-test/result/',
+      location: { replace(url) { destination = url; } },
+    },
+    fetch() { throw new Error('Retired quiz data must not be fetched'); },
+  });
+  ready();
+  assert.equal(destination, '/friendship-villain-test/play-v2.html');
+});
+
 async function harness(quiz) {
   class Element {
     constructor() { this.style = {}; this.children = []; this.disabled = false; this.textContent = ''; }

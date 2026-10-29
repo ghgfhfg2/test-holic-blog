@@ -5,6 +5,7 @@ noindex: true
 <div class="test-container" id="test-app">
   <div class="test-header">
     <h1 class="test-title">{{ page.title }}</h1>
+    {% if page.test_version_label %}<p>{{ page.test_version_label }}</p>{% endif %}
     <div class="progress-bar-container">
       <div class="progress-bar" id="progress-bar"></div>
     </div>

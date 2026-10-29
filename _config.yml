@@ -16,4 +16,4 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  - tests
+  - tests/test_engine.cjs
